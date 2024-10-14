@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AD8334ACPZ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "AD8334ACPZ" (!) = "", "QFN50P900X900X100-65N-D", "Quad Flat No-Lead", "584-AD8334ACPZ", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8334ACPZ?qs=%2FtpEQrCGXCzTJzxDI2lL6w%3D%3D", "AD8334ACPZ, Programmable Gain Amplifier 4, 64-Pin LFCSP VQ", "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00084955.pdf", "1 mm"
+END_PART
+
+END.

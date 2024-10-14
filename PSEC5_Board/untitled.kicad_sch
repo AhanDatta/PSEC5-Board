@@ -845,7 +845,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 107.95) (xy 100.33 107.95)
+			(xy 31.75 63.5) (xy 39.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230faf22-fdf1-4bc0-905a-0d37ffd17928")
+	)
+	(wire
+		(pts
+			(xy 33.02 88.9) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 62.23) (xy 140.97 62.23)
+			(xy 74.93 43.18) (xy 80.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +875,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 100.33 110.49)
+			(xy 31.75 68.58) (xy 39.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b409ec35-f3b4-46c3-9cdf-41f9db09c24c")
+	)
+	(wire
+		(pts
+			(xy 33.02 91.44) (xy 39.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 59.69) (xy 156.21 59.69)
+			(xy 87.63 40.64) (xy 95.25 40.64)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 156.21 62.23)
+			(xy 87.63 43.18) (xy 95.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 140.97 59.69)
+			(xy 74.93 40.64) (xy 80.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -903,8 +923,28 @@
 		)
 		(uuid "fe2f4177-537c-40f2-b13d-656133ca3e11")
 	)
+	(text "Check AD9228's Datasheet Page 22 for a similar block diagram\n"
+		(exclude_from_sim no)
+		(at 67.818 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39878f89-741f-4bbe-9d75-1ea212198e62")
+	)
+	(text "Ask about the 19 dB amplifier: LOP, LON, INH, LMD"
+		(exclude_from_sim no)
+		(at 64.77 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6084c97-11fd-4932-9e65-364a9319cc4e")
+	)
 	(label "LOP2"
-		(at 93.98 110.49 0)
+		(at 33.02 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -915,7 +955,7 @@
 		(uuid "35680086-6186-4e15-a258-0999f5051697")
 	)
 	(label "LOP1"
-		(at 156.21 59.69 0)
+		(at 95.25 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -925,8 +965,19 @@
 		)
 		(uuid "471ae9b4-c6df-42f7-ba35-d7aa43284405")
 	)
+	(label "To FPGA"
+		(at 31.75 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4abe33ea-dc2c-434c-9d98-b118870e34f3")
+	)
 	(label "LOP1"
-		(at 93.98 107.95 0)
+		(at 33.02 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -936,8 +987,19 @@
 		)
 		(uuid "9d510610-3b32-41c1-93c4-04c9898e893b")
 	)
+	(label "VDD?FPGA"
+		(at 31.75 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a184cc91-3aae-423d-a039-6ca89e61c20e")
+	)
 	(label "LOP2"
-		(at 156.21 62.23 0)
+		(at 95.25 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -949,16 +1011,16 @@
 	)
 	(symbol
 		(lib_id "AD8332ARU:AD8332ARU")
-		(at 118.11 85.09 0)
+		(at 194.31 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82d2ea7b-a7b3-407a-98a0-8fd298cba07b")
-		(property "Reference" "U1"
-			(at 118.11 44.45 0)
+		(uuid "30ecee1d-4bfd-4fd3-a6c5-4f702f884602")
+		(property "Reference" "U9"
+			(at 194.31 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1028,7 @@
 			)
 		)
 		(property "Value" "AD8332ARU"
-			(at 118.11 46.99 0)
+			(at 194.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1036,7 @@
 			)
 		)
 		(property "Footprint" "AD8332ARU:SOP65P640X120-28N"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1064,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1074,7 @@
 			)
 		)
 		(property "Description_1" "\nVariable Gain Amplifier IC Signal Processing 28-TSSOP\n"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1084,7 @@
 			)
 		)
 		(property "PACKAGE" "TSSOP-28"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1094,7 @@
 			)
 		)
 		(property "MPN" "AD8332ARU"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1104,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1114,7 @@
 			)
 		)
 		(property "Package" "TSSOP-28 Analog Devices"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1124,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1498693"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1134,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=snap"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1144,7 @@
 			)
 		)
 		(property "MP" "AD8332ARU"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1154,7 @@
 			)
 		)
 		(property "SUPPLIER" "Analog Devices"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1164,7 @@
 			)
 		)
 		(property "OC_NEWARK" "59K6622"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1174,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1184,284 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=eda"
-			(at 118.11 85.09 0)
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e0db6eda-0afb-42e5-b89d-354ba5842623")
+		)
+		(pin "9"
+			(uuid "a697bca6-8f8c-42b3-80ca-3d2d37991d0b")
+		)
+		(pin "19"
+			(uuid "bf2d1283-efba-4f98-a2fb-f3afb4e5b8b0")
+		)
+		(pin "13"
+			(uuid "b802b26e-9b9f-4d70-9590-e4734c9d5a7e")
+		)
+		(pin "3"
+			(uuid "29bc10f6-fda3-4c6a-b05b-152d66e110eb")
+		)
+		(pin "1"
+			(uuid "f9902615-f215-4998-b945-dc3a908bd074")
+		)
+		(pin "2"
+			(uuid "acf9b494-e8b1-4707-8854-2e76cb9422dd")
+		)
+		(pin "20"
+			(uuid "0c388615-024b-4011-9410-f9896e6f669a")
+		)
+		(pin "21"
+			(uuid "00a5c884-f1f4-4c26-95de-49bca23ac97d")
+		)
+		(pin "15"
+			(uuid "778e948d-ec6c-4427-a43f-f213bd7e17f4")
+		)
+		(pin "26"
+			(uuid "109d7766-a4e5-4905-891b-59e3dadf268a")
+		)
+		(pin "28"
+			(uuid "75560d76-7565-4529-a7d9-972438176068")
+		)
+		(pin "12"
+			(uuid "8ec70061-4188-442f-8a84-69e8451f3d13")
+		)
+		(pin "24"
+			(uuid "a03a400b-efaa-41f5-a052-8edc00485dc1")
+		)
+		(pin "4"
+			(uuid "fbae59b0-77ae-45a7-b7c8-5dffc6406e99")
+		)
+		(pin "6"
+			(uuid "9ec47990-8cf3-4f2b-991f-1fd6842b6ac3")
+		)
+		(pin "7"
+			(uuid "eb5ff7c2-58a5-42dd-829d-c3b9ce747623")
+		)
+		(pin "14"
+			(uuid "80194708-a95b-476b-8752-9c1aca652285")
+		)
+		(pin "27"
+			(uuid "007e7ba5-8c74-4391-bf3b-e938442efd09")
+		)
+		(pin "8"
+			(uuid "a0f34959-8be5-41e9-aea1-2a192192e2fc")
+		)
+		(pin "22"
+			(uuid "02a39ec2-0184-41e5-9595-42341f1f99fe")
+		)
+		(pin "23"
+			(uuid "d6ea9577-6aa9-4112-b801-79019266beae")
+		)
+		(pin "10"
+			(uuid "a6142186-1e16-4dfb-bd5b-896e2c2ea41a")
+		)
+		(pin "16"
+			(uuid "26467a5a-7207-4e0f-90e7-076f7f44e51c")
+		)
+		(pin "25"
+			(uuid "73ba1a45-c276-42dd-bb67-af9a99984518")
+		)
+		(pin "11"
+			(uuid "4920fdb9-2faf-4254-8d06-882a1688631c")
+		)
+		(pin "18"
+			(uuid "526bf5fb-b457-478a-b3c7-67887f77b29a")
+		)
+		(pin "17"
+			(uuid "9e3c8daa-c840-4552-847b-37d503ec891a")
+		)
+		(instances
+			(project "PSEC5_Board"
+				(path "/af906810-6e6b-406e-b884-20eae48a7386/f2158dd3-914f-45d6-9eba-febaf35f8e38"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AD8332ARU:AD8332ARU")
+		(at 57.15 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d2ea7b-a7b3-407a-98a0-8fd298cba07b")
+		(property "Reference" "U1"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8332ARU"
+			(at 57.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8332ARU:SOP65P640X120-28N"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nVariable Gain Amplifier IC Signal Processing 28-TSSOP\n"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-28"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8332ARU"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-28 Analog Devices"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1498693"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=snap"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8332ARU"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "59K6622"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=eda"
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,8 +1564,562 @@
 		)
 	)
 	(symbol
+		(lib_id "AD8332ARU:AD8332ARU")
+		(at 133.35 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83852552-fd0b-45c5-ab11-105917621055")
+		(property "Reference" "U5"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8332ARU"
+			(at 133.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8332ARU:SOP65P640X120-28N"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nVariable Gain Amplifier IC Signal Processing 28-TSSOP\n"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-28"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8332ARU"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-28 Analog Devices"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1498693"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=snap"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8332ARU"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "59K6622"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=eda"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccb4aeca-fc78-4cd9-b82a-385ed7c182a6")
+		)
+		(pin "9"
+			(uuid "b645cbaf-e2c7-46a2-92d3-442f2ee9b15c")
+		)
+		(pin "19"
+			(uuid "1f8ae951-f938-4804-bed8-6d11a0ce7ec3")
+		)
+		(pin "13"
+			(uuid "a45a46f2-92d8-4cd2-9346-e32f49a3369f")
+		)
+		(pin "3"
+			(uuid "f99f83e1-d4b6-4815-b99b-09dc2e95b74a")
+		)
+		(pin "1"
+			(uuid "cbd66668-55fe-4aff-bbe1-3b50b6bcdd0c")
+		)
+		(pin "2"
+			(uuid "eab1d52d-14f5-410b-9f1f-2e0d0ee6caed")
+		)
+		(pin "20"
+			(uuid "fce36bb7-5a1d-436e-8a15-bff8117da770")
+		)
+		(pin "21"
+			(uuid "bdaef8fe-95cb-453b-93cd-e84331f0f5ce")
+		)
+		(pin "15"
+			(uuid "6ad9679a-6fba-46c4-9a6b-aafcecd9c8d1")
+		)
+		(pin "26"
+			(uuid "f493e9e3-dbc1-499e-87b6-079ceb12a5b1")
+		)
+		(pin "28"
+			(uuid "34c8b565-099c-4e76-a23c-f1b08bdf34ee")
+		)
+		(pin "12"
+			(uuid "5809c39a-97d6-4de8-bc77-91135b33d915")
+		)
+		(pin "24"
+			(uuid "be4b893b-0153-4a9c-9c00-b4b6fbb5c59d")
+		)
+		(pin "4"
+			(uuid "9c1ae750-6dad-4000-9dcc-0cca17d5529f")
+		)
+		(pin "6"
+			(uuid "27d6bce1-b508-4cdd-ba6f-98be291fcbe8")
+		)
+		(pin "7"
+			(uuid "f7bd64e6-a2d9-4bc6-9a32-c24640697b0c")
+		)
+		(pin "14"
+			(uuid "dfb5eadc-c99a-45d7-bf67-e437d86ab97b")
+		)
+		(pin "27"
+			(uuid "b0fc4c6c-a887-437b-a9f1-8f49d0f3ff48")
+		)
+		(pin "8"
+			(uuid "c0364de4-4045-4698-9dcf-f7d733954e29")
+		)
+		(pin "22"
+			(uuid "5640c602-9739-4f0e-8319-687fd550b60a")
+		)
+		(pin "23"
+			(uuid "499526ac-30f2-40f4-bfaa-f92bc17efa93")
+		)
+		(pin "10"
+			(uuid "c156fe51-34f5-40ce-b827-53ab297bf900")
+		)
+		(pin "16"
+			(uuid "10903404-d2c9-4a5b-a972-5e0e4166a0b0")
+		)
+		(pin "25"
+			(uuid "498f90b9-c2d9-46ff-ae5b-6062331c1afb")
+		)
+		(pin "11"
+			(uuid "abf4d294-30f8-42af-b1f1-c3786d526957")
+		)
+		(pin "18"
+			(uuid "dfe600f1-9d58-4e93-8b84-dcffee196db8")
+		)
+		(pin "17"
+			(uuid "a0960ea8-1296-439c-a6c6-ecc477ef8f8b")
+		)
+		(instances
+			(project "PSEC5_Board"
+				(path "/af906810-6e6b-406e-b884-20eae48a7386/f2158dd3-914f-45d6-9eba-febaf35f8e38"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AD8332ARU:AD8332ARU")
+		(at 241.3 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d389a5-c9aa-4b73-ac10-693e04868b20")
+		(property "Reference" "U10"
+			(at 241.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8332ARU"
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8332ARU:SOP65P640X120-28N"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nVariable Gain Amplifier IC Signal Processing 28-TSSOP\n"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-28"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8332ARU"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-28 Analog Devices"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1498693"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=snap"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8332ARU"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "59K6622"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8332ARU/Analog+Devices/view-part/?ref=eda"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ab7c063a-47fe-49f8-94aa-3c0db48a018d")
+		)
+		(pin "9"
+			(uuid "57f90cfe-7e71-4a6c-84c6-38c4670581c4")
+		)
+		(pin "19"
+			(uuid "4588f87c-2da6-4fa6-b0fc-e9c74e274fd0")
+		)
+		(pin "13"
+			(uuid "7be62719-ad94-4a15-a838-3c76bf46aace")
+		)
+		(pin "3"
+			(uuid "ac1683d0-9c32-4736-a61a-c6caf22f41ba")
+		)
+		(pin "1"
+			(uuid "48ea24d8-ab44-47fe-b5da-9eeaf0a5089b")
+		)
+		(pin "2"
+			(uuid "729f9ff5-62a3-450c-872a-63cf6cf54e94")
+		)
+		(pin "20"
+			(uuid "33b957fe-9618-42c8-8351-bf34001dff8b")
+		)
+		(pin "21"
+			(uuid "17348087-682b-460e-8e9c-c48e2577b4b1")
+		)
+		(pin "15"
+			(uuid "01b5d8e1-60a9-4a63-8eca-7fcc0f4f1c1d")
+		)
+		(pin "26"
+			(uuid "7a3bcfc6-810b-42e6-ba5a-35277fdbd885")
+		)
+		(pin "28"
+			(uuid "fc97570e-0269-46e7-b5bf-290e8d8280ec")
+		)
+		(pin "12"
+			(uuid "f75d2c41-ef49-462f-8fa2-737e58db51d8")
+		)
+		(pin "24"
+			(uuid "4d81262d-fa1f-4cb1-a2de-98668fa295ed")
+		)
+		(pin "4"
+			(uuid "34c234a7-d94d-45a2-b432-88fbf13e5613")
+		)
+		(pin "6"
+			(uuid "5d2a7be9-2008-4cb5-b391-821bfab3ddb2")
+		)
+		(pin "7"
+			(uuid "fa23cccf-8f23-47d8-9c42-dff5866d737d")
+		)
+		(pin "14"
+			(uuid "e7604ae2-6438-4f6f-a3e0-232e96efeea4")
+		)
+		(pin "27"
+			(uuid "5627bb92-897a-452d-8627-de241014fdfd")
+		)
+		(pin "8"
+			(uuid "96ae1f78-0f46-4ff9-95d0-a33c96937395")
+		)
+		(pin "22"
+			(uuid "f05bac8e-e3ac-4529-b275-74647f174227")
+		)
+		(pin "23"
+			(uuid "abb42365-0f0c-432c-84c3-4e838bde48fd")
+		)
+		(pin "10"
+			(uuid "d1d8309d-ed9b-4ae4-baac-1fa2aacc1cca")
+		)
+		(pin "16"
+			(uuid "f87068b8-b884-4f1d-9ad4-f1a60f9dbb02")
+		)
+		(pin "25"
+			(uuid "9901dd4a-7630-42fc-be8c-1fa5cfe29f36")
+		)
+		(pin "11"
+			(uuid "04504127-e218-4aec-8bad-ac05064e0303")
+		)
+		(pin "18"
+			(uuid "a5414acb-e815-4010-8b7a-3971a46e43c5")
+		)
+		(pin "17"
+			(uuid "e97fea52-3e31-465d-9fbf-1492a44b2466")
+		)
+		(instances
+			(project "PSEC5_Board"
+				(path "/af906810-6e6b-406e-b884-20eae48a7386/f2158dd3-914f-45d6-9eba-febaf35f8e38"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 144.78 62.23 270)
+		(at 83.82 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,7 +2128,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c8ed5b8-6b94-4d5d-b1bf-b4408a4b5a88")
 		(property "Reference" "C3"
-			(at 144.78 54.61 90)
+			(at 83.82 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +2136,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 144.78 57.15 90)
+			(at 83.82 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 63.1952 0)
+			(at 80.01 44.1452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 62.23 0)
+			(at 83.82 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +2162,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 62.23 0)
+			(at 83.82 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +2187,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 59.69 270)
+		(at 83.82 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1303,7 +2196,7 @@
 		(fields_autoplaced yes)
 		(uuid "c57d40b5-11cd-412f-b9cc-8c47fc7b6de2")
 		(property "Reference" "C2"
-			(at 144.78 52.07 90)
+			(at 83.82 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +2204,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 144.78 54.61 90)
+			(at 83.82 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +2212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 60.6552 0)
+			(at 80.01 41.6052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +2221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 59.69 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +2230,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 59.69 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
