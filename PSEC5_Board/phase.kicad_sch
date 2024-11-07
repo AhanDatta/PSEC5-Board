@@ -1631,16 +1631,28 @@
 		(uuid "3e4a53ad-3c05-461b-9e55-da6d1d4953df")
 	)
 	(junction
-		(at 240.03 91.44)
+		(at 262.89 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60961b54-bbe1-4020-967e-9114603f106e")
+		(uuid "4e66131d-6393-45bb-9119-abf6949ba3fe")
 	)
 	(junction
 		(at 76.2 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b5a222d-a373-4775-9796-bfa2f3166901")
+	)
+	(junction
+		(at 251.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b96b38bb-1fab-48f6-8e6b-cef955f10c0e")
+	)
+	(junction
+		(at 240.03 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb0d20a-2946-4210-8184-f4ec255d6317")
 	)
 	(junction
 		(at 78.74 106.68)
@@ -1660,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 86.36) (xy 242.57 86.36)
+			(xy 231.14 86.36) (xy 240.03 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1690,6 +1702,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 91.44) (xy 262.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb34f4b-e36a-4c22-a3ec-b44b3c65a038")
+	)
+	(wire
+		(pts
 			(xy 76.2 106.68) (xy 78.74 106.68)
 		)
 		(stroke
@@ -1710,16 +1732,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 88.9) (xy 240.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1652b16c-623e-4a0a-a82e-6e035291907c")
-	)
-	(wire
-		(pts
 			(xy 102.87 27.94) (xy 110.49 27.94)
 		)
 		(stroke
@@ -1727,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "166f65fe-7904-4439-a3f4-8c4f1e7ff074")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178382c6-8de0-433a-a0cf-442fe36a10d4")
 	)
 	(wire
 		(pts
@@ -1800,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 91.44) (xy 262.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3714651b-f60b-4d86-90fd-09d90afe654c")
+	)
+	(wire
+		(pts
 			(xy 106.68 147.32) (xy 109.22 147.32)
 		)
 		(stroke
@@ -1820,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 93.98) (xy 240.03 93.98)
+			(xy 231.14 93.98) (xy 251.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1950,13 +1982,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 93.98) (xy 240.03 91.44)
+			(xy 262.89 91.44) (xy 262.89 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bbb633f-5f95-4617-bba2-8faf944fc671")
+		(uuid "83cdcf65-ab2c-45cc-a207-edd45d4ecc92")
 	)
 	(wire
 		(pts
@@ -1967,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "8c7c2e75-4207-4d45-b33a-d4f14ab9752a")
+	)
+	(wire
+		(pts
+			(xy 251.46 101.6) (xy 251.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b35fa9-513e-40b9-9b18-373238921f6a")
 	)
 	(wire
 		(pts
@@ -2000,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 88.9) (xy 240.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0759dc1-f414-463c-9c23-812913675789")
+	)
+	(wire
+		(pts
 			(xy 62.23 106.68) (xy 68.58 106.68)
 		)
 		(stroke
@@ -2017,6 +2069,16 @@
 			(type default)
 		)
 		(uuid "b551b6c0-cf68-4f1b-a2af-1bde23d752cd")
+	)
+	(wire
+		(pts
+			(xy 240.03 86.36) (xy 242.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62d66a0-e175-4e48-8c8d-74d10d22e6f0")
 	)
 	(wire
 		(pts
@@ -2057,16 +2119,6 @@
 			(type default)
 		)
 		(uuid "d96e5558-40f3-4c53-a56a-0fbb3e5985de")
-	)
-	(wire
-		(pts
-			(xy 231.14 91.44) (xy 240.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e133b9df-e65d-4702-b6d2-730cd04b024c")
 	)
 	(wire
 		(pts
@@ -2254,6 +2306,17 @@
 			(justify left bottom)
 		)
 		(uuid "4944d290-fc1f-400f-a1a8-54de91d54e59")
+	)
+	(label "VDD25"
+		(at 251.46 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4af04dae-e491-4e83-9bce-991bef4e6035")
 	)
 	(label "VDD18?"
 		(at 182.88 86.36 0)
@@ -2487,7 +2550,7 @@
 		(uuid "f9c60d37-fd9d-4777-a119-f0d3c08ab7bf")
 	)
 	(label "To FPGA***"
-		(at 240.03 91.44 0)
+		(at 264.16 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2496,6 +2559,76 @@
 			(justify left bottom)
 		)
 		(uuid "fe2a94c7-297c-41df-873a-88aaaa9e9561")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 251.46 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1186bad1-3046-4397-961e-3b0d87bce3db")
+		(property "Reference" "R25"
+			(at 254 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_US"
+			(at 254 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.444 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e5cd853-56b3-4b7f-894c-4a92a45cfd23")
+		)
+		(pin "1"
+			(uuid "fe9b29a9-2f57-4b09-91ea-51f0b5ed53b9")
+		)
+		(instances
+			(project ""
+				(path "/af906810-6e6b-406e-b884-20eae48a7386/342f9d5e-3615-4623-a80b-f03a940e5896"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ASE2-40.000MHZ-ET:ASE2-40.000MHZ-ET")
