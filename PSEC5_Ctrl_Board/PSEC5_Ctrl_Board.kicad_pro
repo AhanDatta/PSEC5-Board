@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -398,6 +398,26 @@
     [
       "fbf72b83-3438-48d6-962d-3a9c35dd6213",
       "JTAG"
+    ],
+    [
+      "f41e5bd8-5251-4d80-8b31-5735eb57379f",
+      "USB-UART"
+    ],
+    [
+      "b41ea9d3-013e-45f7-840d-25a4a40a6601",
+      "SDcard"
+    ],
+    [
+      "96bd3111-3765-438a-8e1f-0c7d4e79c4da",
+      "ethernet"
+    ],
+    [
+      "7f8209d2-4c0c-4014-a327-54471b9e4269",
+      "adcdac"
+    ],
+    [
+      "1d22407e-1d72-4499-9788-88140f2a1ad3",
+      "samtectest"
     ]
   ],
   "text_variables": {}
