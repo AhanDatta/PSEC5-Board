@@ -4,5 +4,1253 @@
 	(generator_version "8.0")
 	(uuid "7a390416-404b-4b41-873b-f4fedb1889a4")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "PSEC5_ctrlbd:LTC2600CGN_PBF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 28.2956 9.1186 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTC2600CGN_PBF"
+				(at 27.6606 6.5786 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LTC2600CGN_PBF:SSOP-16_GN"
+				(at 29.21 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Analog Devices"
+				(at 71.12 23.876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VENDOR" "Linear Technology"
+				(at 2.032 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nLinear Technology Ltc2600cgn#Pbf / Ic Dac Octal r-r 16bit 16ssop\n"
+				(at 45.212 19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SSOP-16 Linear Technology"
+				(at -0.254 27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 67.564 26.924 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LTC2600CGN%23PBF/Analog+Devices/view-part/?ref=eda"
+				(at 32.258 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTC2600CGN%23PBF/Analog+Devices/view-part/?ref=snap"
+				(at 13.462 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LTC2600CGN#PBF"
+				(at 25.908 27.178 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 42.418 27.432 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "ltc2600cgn"
+				(at 54.356 27.432 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTC2600CGN_PBF_0_0"
+				(rectangle
+					(start 7.62 -22.86)
+					(end 58.42 5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -15.24 180)
+					(length 7.62)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -12.7 180)
+					(length 7.62)
+					(name "*CLR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -10.16 180)
+					(length 7.62)
+					(name "VOUTE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -7.62 180)
+					(length 7.62)
+					(name "VOUTF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -5.08 180)
+					(length 7.62)
+					(name "VOUTG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -2.54 180)
+					(length 7.62)
+					(name "VOUTH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VOUTA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VOUTB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VOUTC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VOUTD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "REF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "*CS/LD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -17.78 180)
+					(length 7.62)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 104.14 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 647af0fe-eb7c-47cc-a130-f93eaeb0e928)
+	)
+	(text "From FPGA"
+		(exclude_from_sim no)
+		(at 24.13 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fc905e7-d897-44ec-8dc4-3bc4b754dbcd")
+	)
+	(text "DAC 2\n"
+		(exclude_from_sim no)
+		(at 24.13 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d80700a-9a64-4b7b-93f2-6babfd64ee30")
+	)
+	(text "DAC 1"
+		(exclude_from_sim no)
+		(at 82.804 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72d08dd1-cf0e-46ca-9c2a-2665ebcd5b3d")
+	)
+	(text "To Samtec"
+		(exclude_from_sim no)
+		(at 84.836 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b87b6745-1c79-48b5-8f1a-b5b4e6da163a")
+	)
+	(text "DAC"
+		(exclude_from_sim no)
+		(at 58.928 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2dc03db-dbe3-40cf-8397-36743dfebfac")
+	)
+	(text "DAC 2\n"
+		(exclude_from_sim no)
+		(at 83.82 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de39f416-8775-4fbf-8e9d-93b8108209ee")
+	)
+	(text "DAC 1"
+		(exclude_from_sim no)
+		(at 25.146 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4f220a9-bc72-471c-91d2-d9239bb4256c")
+	)
+	(hierarchical_label "DAC_THRES8_OUT"
+		(shape output)
+		(at 74.93 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18275abd-f4ab-4c29-a56e-b44cb104eb6d")
+	)
+	(hierarchical_label "DAC_THRES7_IN"
+		(shape input)
+		(at 15.24 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1defc61c-4809-4727-b900-b4da69d5e621")
+	)
+	(hierarchical_label "DAC_THRES8_IN"
+		(shape input)
+		(at 15.24 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a0401ac-4e6e-4a5b-8a9d-e6d20bb10db8")
+	)
+	(hierarchical_label "DAC_THRES3_IN"
+		(shape input)
+		(at 15.24 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37946120-0344-47aa-ae38-cabd57765c01")
+	)
+	(hierarchical_label "DAC_THRES2_IN"
+		(shape input)
+		(at 15.24 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9bca8e-c885-4f6f-859d-31bd92c22d04")
+	)
+	(hierarchical_label "DAC_WBUFBIAS_OUT"
+		(shape output)
+		(at 73.66 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5438edfd-fd69-4386-b0a8-b142f4194e03")
+	)
+	(hierarchical_label "DAC_THRES4_OUT"
+		(shape output)
+		(at 74.93 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59b74bc8-90c4-4d91-b184-69866660a36c")
+	)
+	(hierarchical_label "DAC_THRES3_OUT"
+		(shape output)
+		(at 74.93 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b2f922c-16f5-48ec-8d77-38af3ef60ffa")
+	)
+	(hierarchical_label "DAC_THRES5_OUT"
+		(shape output)
+		(at 74.93 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f8719af-8958-42c4-b435-a5402b7478ff")
+	)
+	(hierarchical_label "DAC_READBIAS1_IN"
+		(shape input)
+		(at 15.24 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e07816e-1fa7-456a-a864-d5e0a9128a1e")
+	)
+	(hierarchical_label "DAC_DISCBIAS_IN"
+		(shape input)
+		(at 15.24 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "706ad334-2e03-4c5e-a2f9-6305d05744e7")
+	)
+	(hierarchical_label "DAC_THRES6_IN"
+		(shape input)
+		(at 15.24 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bb70323-e615-4a1a-a310-1b1de52e6f8e")
+	)
+	(hierarchical_label "DAC_READBIAS1_OUT"
+		(shape output)
+		(at 73.66 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89281537-f53a-4baf-8199-7b2918036cd9")
+	)
+	(hierarchical_label "DAC_THRES2_OUT"
+		(shape output)
+		(at 74.93 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f47d7e6-74a4-4dd8-93b4-7e4264addf44")
+	)
+	(hierarchical_label "DAC_WBUFBIAS_IN"
+		(shape input)
+		(at 15.24 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9714793d-a095-4a33-8908-778a00a4b3b8")
+	)
+	(hierarchical_label "DAC_READBIAS2_IN"
+		(shape input)
+		(at 15.24 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9757b6c3-aa2c-4ffd-91c8-edba4c833150")
+	)
+	(hierarchical_label "DAC_THRES7_OUT"
+		(shape output)
+		(at 74.93 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b548599-186d-49ca-8f92-c72a3ca072ab")
+	)
+	(hierarchical_label "DAC_DISCBIAS_OUT"
+		(shape output)
+		(at 73.66 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a47ddb7a-1915-4208-8fe2-e37f991056a8")
+	)
+	(hierarchical_label "DAC_THRES6_OUT"
+		(shape output)
+		(at 74.93 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaf75dda-0d36-429e-b7ef-222a3c29bdd0")
+	)
+	(hierarchical_label "DAC_THRES4_IN"
+		(shape input)
+		(at 15.24 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6c4e646-5956-447a-9561-0bb3402bb38e")
+	)
+	(hierarchical_label "DAC_THRES1_OUT"
+		(shape output)
+		(at 74.93 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b768280a-a825-4154-b59a-7990f572139b")
+	)
+	(hierarchical_label "DAC_THRES5_IN"
+		(shape input)
+		(at 15.24 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcea3d55-3665-4b77-a515-820ea0f6a470")
+	)
+	(hierarchical_label "DAC_READBIAS2_OUT"
+		(shape output)
+		(at 73.66 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0797f5b-a6ab-4061-9e42-cd1cb7c66e85")
+	)
+	(hierarchical_label "DAC_THRES1_IN"
+		(shape input)
+		(at 15.24 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df83d22c-c28a-47e2-9115-0d5f22a39b02")
+	)
+	(symbol
+		(lib_id "PSEC5_ctrlbd:LTC2600CGN_PBF")
+		(at 111.76 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6814f46-4007-47ef-9f90-90c297c9a452")
+		(property "Reference" "U14"
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC2600CGN_PBF"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTC2600CGN_PBF:SSOP-16_GN"
+			(at 140.97 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 182.88 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" "Linear Technology"
+			(at 113.792 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nLinear Technology Ltc2600cgn#Pbf / Ic Dac Octal r-r 16bit 16ssop\n"
+			(at 156.972 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SSOP-16 Linear Technology"
+			(at 111.506 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.324 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTC2600CGN%23PBF/Analog+Devices/view-part/?ref=eda"
+			(at 144.018 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTC2600CGN%23PBF/Analog+Devices/view-part/?ref=snap"
+			(at 125.222 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTC2600CGN#PBF"
+			(at 137.668 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 154.178 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ltc2600cgn"
+			(at 166.116 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "56f2f29d-f8a3-48d8-bfa9-115308d10b1d")
+		)
+		(pin "4"
+			(uuid "a156a24b-41f3-4cc2-92a1-dc5b2e16c9a3")
+		)
+		(pin "11"
+			(uuid "f6dae461-2dcf-4bef-a895-53fb3ebd7b87")
+		)
+		(pin "1"
+			(uuid "b37e0bce-db04-44d2-bfb5-89ee1d2c832e")
+		)
+		(pin "7"
+			(uuid "426d8b94-a973-49d9-9a1f-f44a587f8e37")
+		)
+		(pin "12"
+			(uuid "da47c9f3-b1a1-4908-a26e-9f6401c2a817")
+		)
+		(pin "14"
+			(uuid "f9415b2f-b60b-4944-9cca-540af89fb27b")
+		)
+		(pin "16"
+			(uuid "eff8d03a-2813-4de4-b079-742c7e192de9")
+		)
+		(pin "10"
+			(uuid "53fc42f0-5811-44d7-bbcf-11eecd377166")
+		)
+		(pin "2"
+			(uuid "24f9e1da-453e-44d2-9fcf-a33ea9240107")
+		)
+		(pin "3"
+			(uuid "1549e0d2-d999-4c0c-b991-78521aeafa2a")
+		)
+		(pin "15"
+			(uuid "f04a9352-37f0-42b8-a7d7-98fa343bb3d6")
+		)
+		(pin "8"
+			(uuid "c7a1f217-a826-46bd-afa8-dd30943d16bb")
+		)
+		(pin "13"
+			(uuid "4dc874da-1c35-498e-9e69-a9f821478282")
+		)
+		(pin "6"
+			(uuid "8dc1f70f-539a-465b-9a5f-de37bf693e72")
+		)
+		(pin "5"
+			(uuid "d61dcaeb-b2be-4daa-a6ed-1ad20844fa75")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7f8209d2-4c0c-4014-a327-54471b9e4269"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSEC5_ctrlbd:LTC2600CGN_PBF")
+		(at 111.76 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e685288c-fe9e-494a-b09a-afa22525e2cc")
+		(property "Reference" "U13"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC2600CGN_PBF"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTC2600CGN_PBF:SSOP-16_GN"
+			(at 140.97 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 182.88 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" "Linear Technology"
+			(at 113.792 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nLinear Technology Ltc2600cgn#Pbf / Ic Dac Octal r-r 16bit 16ssop\n"
+			(at 156.972 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SSOP-16 Linear Technology"
+			(at 111.506 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.324 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTC2600CGN%23PBF/Analog+Devices/view-part/?ref=eda"
+			(at 144.018 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTC2600CGN%23PBF/Analog+Devices/view-part/?ref=snap"
+			(at 125.222 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTC2600CGN#PBF"
+			(at 137.668 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 154.178 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ltc2600cgn"
+			(at 166.116 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "67ca670b-b9d5-438e-91a4-5ae9ba78430d")
+		)
+		(pin "4"
+			(uuid "4197eadb-2b8b-46e0-b880-d0f61c5c5f06")
+		)
+		(pin "11"
+			(uuid "42ed5e73-d58e-403e-8ce7-7a3648a4039e")
+		)
+		(pin "1"
+			(uuid "5e92d494-24c0-4e3a-8168-d55970947a23")
+		)
+		(pin "7"
+			(uuid "7ab0c63d-5bd7-424e-8937-e35724c642d7")
+		)
+		(pin "12"
+			(uuid "0c1c16fa-e4d7-4653-86bd-2cc6b2b7e701")
+		)
+		(pin "14"
+			(uuid "649e8fb6-1c0e-4b3c-b0e1-f16ab4b6d90d")
+		)
+		(pin "16"
+			(uuid "b7d73a5b-584e-426e-ab0f-1586060d1137")
+		)
+		(pin "10"
+			(uuid "211084f3-beae-4604-b336-9f08eb86102f")
+		)
+		(pin "2"
+			(uuid "5c2833ab-7374-4b8c-b46e-b6c2c96d21ac")
+		)
+		(pin "3"
+			(uuid "32917581-1b50-406a-98ba-d2709cbf840a")
+		)
+		(pin "15"
+			(uuid "6976d4d8-08f1-45b7-845b-205e2bb05ce2")
+		)
+		(pin "8"
+			(uuid "7d1d5525-ebf5-4acb-9909-74bcb87f4668")
+		)
+		(pin "13"
+			(uuid "1e44c945-2f6e-4da4-b728-0c6527c56100")
+		)
+		(pin "6"
+			(uuid "1e8faa4f-fd86-4d76-b0c3-dcd1d4f478b4")
+		)
+		(pin "5"
+			(uuid "67a834f5-ac69-480b-93fc-4d7be9bdcea3")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7f8209d2-4c0c-4014-a327-54471b9e4269"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
