@@ -788,7 +788,7 @@
 		(uuid "62bd7332-2e4d-4f2e-8ba9-a0d314b53287")
 	)
 	(junction
-		(at 208.28 77.47)
+		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "632fa636-2406-4ab3-9fcb-f6b3dffda92f")
@@ -1141,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 74.93) (xy 208.28 77.47)
+			(xy 190.5 76.2) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 60.96) (xy 208.28 67.31)
+			(xy 190.5 62.23) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1641,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 77.47) (xy 208.28 80.01)
+			(xy 190.5 78.74) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 87.63) (xy 208.28 93.98)
+			(xy 190.5 88.9) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 77.47) (xy 224.79 77.47)
+			(xy 190.5 78.74) (xy 207.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2276,7 @@
 		(uuid "8ca25da4-f8e7-4847-85ff-01901d4af365")
 	)
 	(label "V_OCM"
-		(at 224.79 77.47 0)
+		(at 207.01 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2420,7 +2420,7 @@
 	)
 	(global_label "VDD18"
 		(shape input)
-		(at 208.28 60.96 0)
+		(at 190.5 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2430,7 +2430,7 @@
 		)
 		(uuid "9b6f10de-bbbf-4727-8f71-ba8df2d8e77c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3128 60.96 0)
+			(at 199.5328 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3409,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 208.28 71.12 0)
+		(at 190.5 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3418,7 +3418,7 @@
 		(fields_autoplaced yes)
 		(uuid "7645d4c1-4ef4-4093-a002-f319ccf6979b")
 		(property "Reference" "R63"
-			(at 210.82 69.8499 0)
+			(at 193.04 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,8 +3426,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 210.82 72.3899 0)
+		(property "Value" "2k"
+			(at 193.04 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.296 71.374 90)
+			(at 191.516 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 71.12 0)
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3454,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 208.28 71.12 0)
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3830,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 93.98 0)
+		(at 190.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3839,7 +3839,7 @@
 		(fields_autoplaced yes)
 		(uuid "81dbd08f-60b8-46e4-b440-c6c7d800d45e")
 		(property "Reference" "#PWR047"
-			(at 208.28 100.33 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 99.06 0)
+			(at 190.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +3856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 93.98 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 93.98 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 93.98 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4165,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 208.28 83.82 0)
+		(at 190.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4174,7 +4174,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7a1b16e-79d1-49aa-a15d-cd9dee01a220")
 		(property "Reference" "R64"
-			(at 210.82 82.5499 0)
+			(at 193.04 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,8 +4182,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 210.82 85.0899 0)
+		(property "Value" "2k"
+			(at 193.04 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.296 84.074 90)
+			(at 191.516 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 83.82 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4210,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 208.28 83.82 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
