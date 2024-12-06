@@ -1246,7 +1246,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "72695458-4f3b-44f2-a17d-f40bf13db750")
+		(uuid "6ceb0156-175f-46f0-b3ed-55d3d71c7fdd")
 	)
 	(wire
 		(pts
@@ -1628,181 +1628,277 @@
 		)
 		(uuid "fe23c0de-4b28-46c3-88d2-6790fa549954")
 	)
-	(label "V_ped6"
-		(at 121.92 101.6 0)
+	(global_label "V_ped7"
+		(shape input)
+		(at 121.92 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "07d1be34-b5be-4198-b675-196ba465ce8f")
+		(uuid "492d8fb3-9be3-4bdd-a66f-011f66459713")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.2825 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SIGNAL1"
-		(at 90.17 25.4 0)
+	(global_label "V_ped1"
+		(shape input)
+		(at 29.21 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "0bd2b912-153e-4efb-9a87-010dc8b9e78b")
+		(uuid "64468c84-1ac0-48ae-9b6b-8fe46b9c1850")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5725 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SIGNAL4"
-		(at 91.44 151.13 0)
+	(global_label "V_ped5"
+		(shape input)
+		(at 121.92 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "346c502f-5bd4-440e-8861-707f0ca7ad00")
+		(uuid "7d3e311c-b907-4938-880a-ec67734d52f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.2825 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SIGNAL2"
-		(at 90.17 67.31 0)
+	(global_label "V_ped2"
+		(shape input)
+		(at 29.21 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "398ac70f-57fe-44ef-b3de-410b31ee6445")
+		(uuid "92ec9b07-4707-4387-bd1b-1534b498ddf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5725 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SIGNAL8"
-		(at 271.78 80.01 0)
+	(global_label "V_ped6"
+		(shape input)
+		(at 121.92 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "4799df76-98d6-4de4-8a0c-7f95b129878c")
+		(uuid "aa7d3d5d-697a-46ce-8452-67426851b7ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.2825 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SIGNAL5"
-		(at 182.88 48.26 0)
+	(global_label "V_ped4"
+		(shape input)
+		(at 30.48 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "512cbb93-6ac3-428a-9081-339527698107")
+		(uuid "d829b7ba-7012-4e2f-9a71-d1cc0314bead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8425 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "V_ped4"
-		(at 30.48 166.37 0)
+	(global_label "V_ped3"
+		(shape input)
+		(at 30.48 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "523556b7-4e8f-4be7-af6b-60ebf51e79aa")
+		(uuid "dcb8fc23-78f5-47a4-8457-45bceb7c3c6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8425 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "V_ped5"
-		(at 121.92 63.5 0)
+	(global_label "V_ped8"
+		(shape input)
+		(at 210.82 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "6e46df61-6b0c-4683-9ce7-4e88d079d907")
+		(uuid "f4d5dddb-68b9-4c0c-b299-ddaf99a14bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1825 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SIGNAL7"
+	(hierarchical_label "SIGNAL7"
+		(shape output)
 		(at 182.88 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "95a96c65-9915-40fc-b4a7-87c157417306")
+		(uuid "2b56f7fe-0da2-4f35-92df-4e08335ca7e8")
 	)
-	(label "V_ped8"
-		(at 210.82 95.25 0)
+	(hierarchical_label "SIGNAL4"
+		(shape output)
+		(at 91.44 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "985d9289-915c-46bd-a7fa-4f23dc4cced2")
+		(uuid "3d7e8d66-e190-445c-8c53-176e65a32b1e")
 	)
-	(label "SIGNAL6"
-		(at 182.88 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3a57d19-4406-4beb-b951-dae5029b12fb")
-	)
-	(label "V_ped1"
-		(at 29.21 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4b54dca-4e59-430a-b235-5db423597f53")
-	)
-	(label "SIGNAL3"
+	(hierarchical_label "SIGNAL3"
+		(shape output)
 		(at 91.44 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "a7cd8829-7ee2-4c64-a31b-6f1fa5e5dcad")
+		(uuid "70f33e37-3ee0-41dc-8175-e88f4e9320f3")
 	)
-	(label "V_ped3"
-		(at 30.48 124.46 0)
+	(hierarchical_label "SIGNAL5"
+		(shape output)
+		(at 182.88 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "b3e014b2-44c2-47c4-b08c-f74a3bd53aab")
+		(uuid "8a451539-5b01-4575-8895-272f63721ce2")
 	)
-	(label "V_ped7"
-		(at 121.92 140.97 0)
+	(hierarchical_label "SIGNAL2"
+		(shape output)
+		(at 90.17 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f78d75e9-2aa2-4d5c-8e0e-7be964c8a68c")
+		(uuid "914224d8-966a-4d62-bf08-e9e52b67674b")
 	)
-	(label "V_ped2"
-		(at 29.21 82.55 0)
+	(hierarchical_label "SIGNAL6"
+		(shape output)
+		(at 182.88 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f9ce98ff-134c-4524-b04e-c8fb5997702f")
+		(uuid "97d71d15-0023-416d-a6d5-af36e6424211")
+	)
+	(hierarchical_label "SIGNAL8"
+		(shape output)
+		(at 271.78 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "becf8588-1d91-4859-8193-2636c5725519")
+	)
+	(hierarchical_label "SIGNAL1"
+		(shape output)
+		(at 90.17 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9272b06-ce56-4c11-933c-c7c37ee71f45")
 	)
 	(symbol
 		(lib_id "Device:C")
