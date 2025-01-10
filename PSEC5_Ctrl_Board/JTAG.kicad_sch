@@ -2283,15 +2283,15 @@
 		(uuid "fb7efdac-079c-4a05-bb69-3c1855a69039")
 	)
 	(no_connect
-		(at 29.21 48.26)
-		(uuid "2f84dee4-6f09-4270-b24f-9d17cd6a5a8d")
-	)
-	(no_connect
-		(at 62.23 48.26)
+		(at 80.01 48.26)
 		(uuid "39aba6d1-31ab-49a0-9ff1-c16b6e2b5c8a")
 	)
 	(no_connect
-		(at 62.23 53.34)
+		(at 30.48 48.26)
+		(uuid "6522f2ef-f176-4bee-8521-c273206614e3")
+	)
+	(no_connect
+		(at 80.01 53.34)
 		(uuid "7fa64f67-cee1-4875-a116-9963e4215edb")
 	)
 	(polyline
@@ -2346,16 +2346,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 48.26) (xy 29.21 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251fd6fb-3565-455b-8dd5-6f34bfb04ae7")
-	)
-	(wire
-		(pts
 			(xy 40.64 43.18) (xy 80.01 43.18)
 		)
 		(stroke
@@ -2396,16 +2386,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 53.34) (xy 80.01 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37acd757-cddd-4392-bbfa-e8f27e7126cb")
-	)
-	(wire
-		(pts
 			(xy 43.18 38.1) (xy 43.18 63.5)
 		)
 		(stroke
@@ -2443,16 +2423,6 @@
 			(type default)
 		)
 		(uuid "4d9b08dd-5a12-42eb-ad8b-f40aac41efb7")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 80.01 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56669545-17a3-4ade-ac9e-2b7bdb218b28")
 	)
 	(wire
 		(pts
@@ -2736,7 +2706,7 @@
 	)
 	(hierarchical_label "RST"
 		(shape bidirectional)
-		(at 25.4 48.26 180)
+		(at 30.48 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2756,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073d1836-f8a4-4b27-8390-06937b231832")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 57.15 82.5499 90)
 			(effects
 				(font
@@ -2836,7 +2806,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/fbf72b83-3438-48d6-962d-3a9c35dd6213"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
@@ -2856,7 +2826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b3af9fc-b514-428f-892a-940c372a5ea3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0128"
 			(at 62.23 26.67 0)
 			(effects
 				(font
@@ -2906,7 +2876,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/fbf72b83-3438-48d6-962d-3a9c35dd6213"
-					(reference "#PWR?")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
@@ -2926,7 +2896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f45d678-86b1-4f07-a0e2-4b4d7e326be8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0130"
 			(at 45.72 118.11 0)
 			(effects
 				(font
@@ -2976,7 +2946,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/fbf72b83-3438-48d6-962d-3a9c35dd6213"
-					(reference "#PWR?")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
@@ -3108,7 +3078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ccf727-3017-4977-a1bb-08a3610ed354")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0131"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -3158,7 +3128,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/fbf72b83-3438-48d6-962d-3a9c35dd6213"
-					(reference "#PWR?")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
@@ -3178,7 +3148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d48c89a6-f2e7-4c90-8e0b-a1768e03013b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0129"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -3228,7 +3198,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/fbf72b83-3438-48d6-962d-3a9c35dd6213"
-					(reference "#PWR?")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"

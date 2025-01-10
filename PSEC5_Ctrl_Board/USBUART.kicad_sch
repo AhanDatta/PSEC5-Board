@@ -2051,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2787dec-207f-4f6d-8ac4-6e37d80aa78b")
+	)
+	(wire
+		(pts
 			(xy 123.19 45.72) (xy 134.62 45.72)
 		)
 		(stroke
@@ -2148,16 +2158,6 @@
 			(type default)
 		)
 		(uuid "ee429da2-0efd-4174-aa90-3c50d60074bb")
-	)
-	(wire
-		(pts
-			(xy 176.53 69.85) (xy 190.5 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef66fd2f-b9c1-472f-b78f-ddef2abb7a46")
 	)
 	(wire
 		(pts
@@ -2392,107 +2392,33 @@
 		(uuid "7dd33a90-0a08-4b15-aef3-d6511f15d3af")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "071e246f-c8c6-4d2c-8c4a-2d54ce01caf9")
-		(property "Reference" "C?"
-			(at 152.146 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p"
-			(at 155.194 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 155.9052 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1dbe492a-2b18-4783-b4cf-79ab3add189f")
-		)
-		(pin "1"
-			(uuid "7267daae-800d-496d-b221-29825ef457ed")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 135.89 68.58 180)
+		(at 138.43 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b8bea79-7d83-46be-8b7a-0a149d3b9fa6")
-		(property "Reference" "R?"
-			(at 132.842 65.786 0)
+		(uuid "0ea49202-55d6-427b-8591-56acbe77c2e1")
+		(property "Reference" "R30"
+			(at 134.112 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 131.572 67.564 0)
+		(property "Value" "R_US"
+			(at 141.986 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.874 68.326 90)
+			(at 138.684 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 68.58 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2436,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 135.89 68.58 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,20 +2444,20 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4b52fe6c-5972-4f47-9a39-a52c8d23d4e9")
-		)
 		(pin "1"
-			(uuid "8d6fe7a8-fb66-4db0-88fe-adf6cad075b4")
+			(uuid "ff43453d-01f2-4061-b5d2-94b7920ac3d6")
+		)
+		(pin "2"
+			(uuid "e09d97ec-2308-4456-87de-ed0163ab752c")
 		)
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "R?")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
-					(reference "R29")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e726d9f-cc17-4e26-a1b1-17bd93f5b548")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0135"
 			(at 195.58 43.18 0)
 			(effects
 				(font
@@ -2669,7 +2595,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
@@ -2689,7 +2615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e4e87a-87b8-429b-8a97-fbad3c6de978")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0132"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -2739,7 +2665,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
@@ -2832,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7192c66d-83f2-4fc7-b68a-6e26ca1eca72")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0134"
 			(at 190.5 83.82 0)
 			(effects
 				(font
@@ -2882,7 +2808,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
@@ -2902,7 +2828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754eaec5-54e6-4d1f-9ad3-282e9125ec68")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0137"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -2952,7 +2878,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
@@ -2972,7 +2898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7607ceb0-9f36-4da5-aedb-acbdeb00dc4d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0133"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -3022,7 +2948,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
@@ -3142,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927c3706-3d6f-4def-83a7-46a709dffd2e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0136"
 			(at 243.84 52.07 0)
 			(effects
 				(font
@@ -3192,11 +3118,84 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a1606ec-53e5-4117-8901-d70eaaac544c")
+		(property "Reference" "C67"
+			(at 152.146 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47p"
+			(at 155.194 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa1ee924-64ad-483f-92d3-739dcfdb2a6e")
+		)
+		(pin "1"
+			(uuid "933f658a-83b6-4f09-b9b7-15a400205dbc")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
+					(reference "C67")
+					(unit 1)
+				)
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -3570,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ca9888-6bd3-4894-9391-12464ff1983f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0138"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -3620,7 +3619,7 @@
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "#PWR?")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
@@ -3751,32 +3750,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 138.43 45.72 90)
+		(at 135.89 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6a430d6-6a6c-45b7-9f13-85717d899937")
-		(property "Reference" "R?"
-			(at 134.112 44.704 90)
+		(uuid "f22a12ed-51a1-451a-9447-2b1aaedb6ff9")
+		(property "Reference" "R29"
+			(at 132.842 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R_US"
-			(at 141.986 43.688 90)
+		(property "Value" "10k"
+			(at 131.572 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.684 44.704 90)
+			(at 134.874 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 45.72 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3794,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 138.43 45.72 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,20 +3802,20 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "9507864d-49db-42ef-80cd-c1813bb72a81")
-		)
 		(pin "2"
-			(uuid "09e5e45e-6975-438b-8f15-ca50de8cf8fb")
+			(uuid "fb25d7c0-871d-4e12-8ff0-178a86a08f3b")
+		)
+		(pin "1"
+			(uuid "ef4e5b68-cf9b-47bd-9a62-bdbb253c6db7")
 		)
 		(instances
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f41e5bd8-5251-4d80-8b31-5735eb57379f"
-					(reference "R?")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/f11c5b17-5177-433e-a833-d6160d3e5181"
-					(reference "R30")
+					(reference "R81")
 					(unit 1)
 				)
 			)
