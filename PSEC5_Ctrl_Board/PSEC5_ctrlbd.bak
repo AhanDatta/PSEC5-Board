@@ -311,6 +311,401 @@
 			)
 		)
 	)
+	(symbol "1766343"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 8.89 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1766343"
+			(at 1.524 6.096 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_1766343_PXC"
+			(at 7.62 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1766343"
+			(at 5.334 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "1766343"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CONN_1766343_PXC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1766343_1_1"
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 12.7 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.89 -3.3867)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.89 -1.6933)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 8.89 -0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 8.89 0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -5.08) (xy 12.7 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1766343_1_2"
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 12.7 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 8.89 -3.3867)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 8.89 -1.6933)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 8.89 -0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 8.89 0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -5.08) (xy 12.7 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "878311420"
 		(pin_names
 			(offset 0.254)
@@ -11969,7 +12364,7 @@
 			(pin passive line
 				(at 21.59 73.66 180)
 				(length 5.08)
-				(name "VCCO_HPA"
+				(name "GTH_DP1_C2M_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11987,7 +12382,7 @@
 			(pin passive line
 				(at 21.59 71.12 180)
 				(length 5.08)
-				(name "VCCO_HPA"
+				(name "GTH_DP1_C2M_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12023,7 +12418,7 @@
 			(pin passive line
 				(at 21.59 66.04 180)
 				(length 5.08)
-				(name "HPA02_P"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12041,7 +12436,7 @@
 			(pin passive line
 				(at 21.59 63.5 180)
 				(length 5.08)
-				(name "HPA02_N"
+				(name "GTH_DP3_C2M_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12059,7 +12454,7 @@
 			(pin passive line
 				(at 21.59 60.96 180)
 				(length 5.08)
-				(name "GND"
+				(name "GTH_DP3_c2M_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12077,7 +12472,7 @@
 			(pin passive line
 				(at 21.59 58.42 180)
 				(length 5.08)
-				(name "HPA01_P"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12095,7 +12490,7 @@
 			(pin passive line
 				(at 21.59 55.88 180)
 				(length 5.08)
-				(name "HPA01_N"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12113,7 +12508,7 @@
 			(pin passive line
 				(at 21.59 53.34 180)
 				(length 5.08)
-				(name "GND"
+				(name "GTH_DP0_M2C_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12131,7 +12526,7 @@
 			(pin passive line
 				(at 21.59 50.8 180)
 				(length 5.08)
-				(name "HPA09_P"
+				(name "GTH_DP0_M2C_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12149,7 +12544,7 @@
 			(pin passive line
 				(at 21.59 48.26 180)
 				(length 5.08)
-				(name "HPA09_N"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12167,7 +12562,7 @@
 			(pin passive line
 				(at 21.59 45.72 180)
 				(length 5.08)
-				(name "GND"
+				(name "HPB01_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12185,7 +12580,7 @@
 			(pin passive line
 				(at 21.59 43.18 180)
 				(length 5.08)
-				(name "HPA14_P"
+				(name "HPB01_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12203,7 +12598,7 @@
 			(pin passive line
 				(at 21.59 40.64 180)
 				(length 5.08)
-				(name "HPA14_N"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12221,7 +12616,7 @@
 			(pin passive line
 				(at 21.59 38.1 180)
 				(length 5.08)
-				(name "GND"
+				(name "HPB00_CC_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12239,7 +12634,7 @@
 			(pin passive line
 				(at 21.59 35.56 180)
 				(length 5.08)
-				(name "HDA00_CC"
+				(name "HPB00_CC_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12257,7 +12652,7 @@
 			(pin passive line
 				(at 21.59 33.02 180)
 				(length 5.08)
-				(name "HDA01"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12275,7 +12670,7 @@
 			(pin passive line
 				(at 21.59 30.48 180)
 				(length 5.08)
-				(name "HDA02"
+				(name "HPB-CLK0_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12293,7 +12688,7 @@
 			(pin passive line
 				(at 21.59 27.94 180)
 				(length 5.08)
-				(name "GND"
+				(name "HPB_CLK0_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12311,7 +12706,7 @@
 			(pin passive line
 				(at 21.59 25.4 180)
 				(length 5.08)
-				(name "HDA12"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12329,7 +12724,7 @@
 			(pin passive line
 				(at 21.59 22.86 180)
 				(length 5.08)
-				(name "HDA13"
+				(name "HPB04_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12347,7 +12742,7 @@
 			(pin passive line
 				(at 21.59 20.32 180)
 				(length 5.08)
-				(name "HDA14"
+				(name "HPB04_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12383,7 +12778,7 @@
 			(pin passive line
 				(at 21.59 15.24 180)
 				(length 5.08)
-				(name "PWRGD_FPD_M2C"
+				(name "HPB17_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12401,7 +12796,7 @@
 			(pin passive line
 				(at 21.59 12.7 180)
 				(length 5.08)
-				(name "PWRGD_LPD_M2C"
+				(name "HPB17_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12419,7 +12814,7 @@
 			(pin passive line
 				(at 21.59 10.16 180)
 				(length 5.08)
-				(name "PWRGD_PL_M2C"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12437,7 +12832,7 @@
 			(pin passive line
 				(at 21.59 7.62 180)
 				(length 5.08)
-				(name "GND"
+				(name "HPC09_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12455,7 +12850,7 @@
 			(pin passive line
 				(at 21.59 5.08 180)
 				(length 5.08)
-				(name "MIO26"
+				(name "HPC09_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12473,7 +12868,7 @@
 			(pin passive line
 				(at 21.59 2.54 180)
 				(length 5.08)
-				(name "MIO27"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12491,7 +12886,7 @@
 			(pin passive line
 				(at 21.59 0 180)
 				(length 5.08)
-				(name "MIO28"
+				(name "HPC01_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12509,7 +12904,7 @@
 			(pin passive line
 				(at 21.59 -2.54 180)
 				(length 5.08)
-				(name "GND"
+				(name "HPC01_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12527,7 +12922,7 @@
 			(pin passive line
 				(at 21.59 -5.08 180)
 				(length 5.08)
-				(name "MIO44"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12545,7 +12940,7 @@
 			(pin passive line
 				(at 21.59 -7.62 180)
 				(length 5.08)
-				(name "MIO45"
+				(name "HPC00_CC_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12563,7 +12958,7 @@
 			(pin passive line
 				(at 21.59 -10.16 180)
 				(length 5.08)
-				(name "MIO46"
+				(name "HPC00_CC_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12599,7 +12994,7 @@
 			(pin passive line
 				(at 21.59 -15.24 180)
 				(length 5.08)
-				(name "MIO52"
+				(name "HPC02_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12617,7 +13012,7 @@
 			(pin passive line
 				(at 21.59 -17.78 180)
 				(length 5.08)
-				(name "MIO53"
+				(name "HPC02_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12635,7 +13030,7 @@
 			(pin passive line
 				(at 21.59 -20.32 180)
 				(length 5.08)
-				(name "MIO54"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12653,7 +13048,7 @@
 			(pin passive line
 				(at 21.59 -22.86 180)
 				(length 5.08)
-				(name "GND"
+				(name "HPC04_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12671,7 +13066,7 @@
 			(pin passive line
 				(at 21.59 -25.4 180)
 				(length 5.08)
-				(name "MIO64"
+				(name "HPC04_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12689,7 +13084,7 @@
 			(pin passive line
 				(at 21.59 -27.94 180)
 				(length 5.08)
-				(name "MIO65"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12707,7 +13102,7 @@
 			(pin passive line
 				(at 21.59 -30.48 180)
 				(length 5.08)
-				(name "MIO66"
+				(name "VCCO_HPC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12743,7 +13138,7 @@
 			(pin passive line
 				(at 21.59 -35.56 180)
 				(length 5.08)
-				(name "MIO76"
+				(name "HDB00_CC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12761,7 +13156,7 @@
 			(pin passive line
 				(at 21.59 -38.1 180)
 				(length 5.08)
-				(name "MIO77"
+				(name "HDB01"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12779,7 +13174,7 @@
 			(pin passive line
 				(at 21.59 -40.64 180)
 				(length 5.08)
-				(name "Reserved"
+				(name "HDB02"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12815,7 +13210,7 @@
 			(pin passive line
 				(at 21.59 -45.72 180)
 				(length 5.08)
-				(name "GND"
+				(name "HDB03"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12833,7 +13228,7 @@
 			(pin passive line
 				(at 21.59 -48.26 180)
 				(length 5.08)
-				(name "GTR_DP3_C2M_P"
+				(name "HDB04"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12851,7 +13246,7 @@
 			(pin passive line
 				(at 21.59 -50.8 180)
 				(length 5.08)
-				(name "GTR_DP3_C2M_N"
+				(name "HDB05"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12887,7 +13282,7 @@
 			(pin passive line
 				(at 21.59 -55.88 180)
 				(length 5.08)
-				(name "GND"
+				(name "HDC00_CC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12905,7 +13300,7 @@
 			(pin passive line
 				(at 21.59 -58.42 180)
 				(length 5.08)
-				(name "GTR_REFCLK2_C2M_P"
+				(name "HDC01"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12923,7 +13318,7 @@
 			(pin passive line
 				(at 21.59 -60.96 180)
 				(length 5.08)
-				(name "GTR_REFCLK2_C2M_N"
+				(name "HDC02"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12959,7 +13354,7 @@
 			(pin passive line
 				(at 21.59 -66.04 180)
 				(length 5.08)
-				(name "GND"
+				(name "HDC03"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12977,7 +13372,7 @@
 			(pin passive line
 				(at 21.59 -68.58 180)
 				(length 5.08)
-				(name "GTR_DP2_M2C_P"
+				(name "HDC04"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12995,7 +13390,7 @@
 			(pin passive line
 				(at 21.59 -71.12 180)
 				(length 5.08)
-				(name "GTR_DP2_M2C_N"
+				(name "HDC05"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -13013,7 +13408,7 @@
 			(pin passive line
 				(at 21.59 -73.66 180)
 				(length 5.08)
-				(name "GND"
+				(name "VCCO_HDC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -13031,7 +13426,7 @@
 			(pin passive line
 				(at 21.59 -76.2 180)
 				(length 5.08)
-				(name "VCC_SOM"
+				(name "VCCO_HDC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -13852,6 +14247,243 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LP38501TS-ADJ_NOPB"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 27.94 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LP38501TS-ADJ/NOPB"
+			(at 27.94 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TS5B"
+			(at 40.386 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LP38501TS-ADJ/NOPB"
+			(at 12.446 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LP38501TS-ADJ/NOPB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TS5B TS5B-M TS5B-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LP38501TS-ADJ_NOPB_0_1"
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 48.26 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 48.26 -10.16) (xy 48.26 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 48.26 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 2.54 0)
+				(length 7.62)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -17.78 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 55.88 2.54 180)
+				(length 7.62)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 55.88 -7.62 180)
+				(length 7.62)
+				(name "ADJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 31.75 -17.78 90)
+				(length 7.62)
+				(name "TAB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
