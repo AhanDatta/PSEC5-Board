@@ -1586,12 +1586,6 @@
 		(uuid "47af50c6-debf-4c3e-b864-c942d75a0a16")
 	)
 	(junction
-		(at 264.16 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e66131d-6393-45bb-9119-abf6949ba3fe")
-	)
-	(junction
 		(at 252.73 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1649,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 125.73) (xy 264.16 125.73)
+			(xy 232.41 125.73) (xy 265.43 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1786,16 +1780,6 @@
 			(type default)
 		)
 		(uuid "36053f56-78f8-440b-8c12-c41d372bb5c1")
-	)
-	(wire
-		(pts
-			(xy 265.43 125.73) (xy 264.16 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3714651b-f60b-4d86-90fd-09d90afe654c")
 	)
 	(wire
 		(pts
@@ -1946,16 +1930,6 @@
 			(type default)
 		)
 		(uuid "8097ff92-4666-4529-a097-216fa374fe16")
-	)
-	(wire
-		(pts
-			(xy 264.16 125.73) (xy 264.16 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83cdcf65-ab2c-45cc-a207-edd45d4ecc92")
 	)
 	(wire
 		(pts
@@ -2338,17 +2312,6 @@
 		)
 		(uuid "d74c25d1-9d04-4dfe-b37f-603c3e4a8575")
 	)
-	(label "GND?FPGA"
-		(at 240.03 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dacf8dc8-39c9-4ce7-8d4d-f1136bb48f19")
-	)
 	(label "VDD25"
 		(at 140.97 67.31 0)
 		(fields_autoplaced yes)
@@ -2370,17 +2333,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8495a6c-402f-494b-b928-2d943d2e380d")
-	)
-	(label "To FPGA***"
-		(at 265.43 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe2a94c7-297c-41df-873a-88aaaa9e9561")
 	)
 	(global_label "VDD33"
 		(shape input)
@@ -2404,6 +2356,28 @@
 			)
 		)
 	)
+	(global_label "ADC_CNV"
+		(shape input)
+		(at 240.03 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b3d19a6-7ff2-4b71-96a6-2d053fe5e9d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.3005 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD25"
 		(shape input)
 		(at 104.14 68.58 0)
@@ -2417,6 +2391,50 @@
 		(uuid "374efa62-e879-4db9-bfa0-ea7e738ce52b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.1728 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_SDO"
+		(shape output)
+		(at 264.16 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "738d947e-b561-4e3b-bab3-ec40d54a6dd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.5514 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_SCK"
+		(shape input)
+		(at 265.43 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf1aaead-0909-47d4-bb07-35d06fb00e71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.7609 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.714 131.826 90)
 			(effects
 				(font
@@ -2534,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASE2-40.000MHZ-ET:XTAL_ASE2-40.000MHZ-ET"
+		(property "Footprint" "ASE2_40_000MHZ_E_T:XTAL_ASE2-40.000MHZ-ET"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -2792,7 +2810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_10_9_ADI"
+		(property "Footprint" "AD4008BCPZ-RL7:CP_10_9_ADI"
 			(at 191.77 118.11 0)
 			(effects
 				(font
@@ -3021,7 +3039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.84 121.6152 0)
 			(effects
 				(font
@@ -3091,7 +3109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 140.97 0)
 			(effects
 				(font
@@ -3226,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP1700T-1802E_TT:SOT95P237X112-3N"
+		(property "Footprint" "MCP1700T_1802E_TT:SOT95P237X112-3N"
 			(at 148.59 123.19 0)
 			(effects
 				(font
@@ -3273,72 +3291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98dd3482-1584-497a-9dfb-e7564a7e89dd")
-		(property "Reference" "#PWR039"
-			(at 240.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90d8c98e-28b1-4e25-9991-ec2166066d94")
-		)
-		(instances
-			(project ""
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/342f9d5e-3615-4623-a80b-f03a940e5896"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 121.92 74.93 270)
 		(unit 1)
@@ -3364,7 +3316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.666 75.946 90)
 			(effects
 				(font
@@ -3433,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP1700T-1802E_TT:SOT95P237X112-3N"
+		(property "Footprint" "MCP1700T_1802E_TT:SOT95P237X112-3N"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -3532,7 +3484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A-IPC_A"
+		(property "Footprint" "footprints:DBV0005A-IPC_A"
 			(at 130.81 74.93 0)
 			(effects
 				(font
