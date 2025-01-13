@@ -240,6 +240,484 @@
 				)
 			)
 		)
+		(symbol "LP38501TS-ADJ_NOPB_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "111111"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LP38501TS-ADJ/NOPB"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "TS5B"
+				(at 40.386 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LP38501TS-ADJ/NOPB"
+				(at 12.446 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LP38501TS-ADJ/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TS5B TS5B-M TS5B-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LP38501TS-ADJ_NOPB_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -17.78 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 31.75 -17.78 90)
+					(length 7.62)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LP38501TS-ADJ_NOPB_1_1_1"
+				(pin input line
+					(at 55.88 2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LP38501TS-ADJ_NOPB_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "1111111"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LP38501TS-ADJ/NOPB"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "TS5B"
+				(at 40.386 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LP38501TS-ADJ/NOPB"
+				(at 12.446 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LP38501TS-ADJ/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TS5B TS5B-M TS5B-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LP38501TS-ADJ_NOPB_2_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -17.78 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 31.75 -17.78 90)
+					(length 7.62)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LP38501TS-ADJ_NOPB_2_1_1"
+				(pin input line
+					(at 55.88 2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB"
 			(pin_names
 				(offset 0.254)
@@ -421,6 +899,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 55.88 2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 55.88 -7.62 180)
 					(length 7.62)
@@ -450,26 +946,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LP38501TS-ADJ_NOPB_1_1"
-				(pin power_out line
-					(at 55.88 2.54 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -575,6 +1051,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 45.72 36.83)
@@ -619,7 +1191,7 @@
 		(uuid "28112b6e-5f0e-4fff-aafd-e4f67e012994")
 	)
 	(junction
-		(at 242.57 127)
+		(at 245.11 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f0332cc-dbc7-433e-93f1-75f86a71a5d3")
@@ -649,7 +1221,7 @@
 		(uuid "4f492c65-4349-496c-8fd1-2f25a5766b28")
 	)
 	(junction
-		(at 209.55 127)
+		(at 212.09 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f6eb47e-6be8-4292-8052-78310c5e221b")
@@ -673,19 +1245,13 @@
 		(uuid "67abf299-66a1-41f0-8cf6-db2f20d2ce1c")
 	)
 	(junction
-		(at 242.57 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a9c4292-1d79-447a-a46d-fc2ad22f32d9")
-	)
-	(junction
-		(at 215.9 127)
+		(at 218.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "888db099-6d2f-491e-895f-0ea35d128326")
 	)
 	(junction
-		(at 177.8 114.3)
+		(at 180.34 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d3fbfcb-4483-47ff-87d1-61ce8b3fdd17")
@@ -703,25 +1269,31 @@
 		(uuid "909ac601-377f-4d90-a79e-a0b05eef0d63")
 	)
 	(junction
-		(at 252.73 104.14)
+		(at 255.27 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a29b62d2-90af-4cf6-9c9f-4319d3fbd735")
 	)
 	(junction
-		(at 177.8 104.14)
+		(at 132.08 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a31efeb9-7300-4860-b882-4545559f79bd")
+	)
+	(junction
+		(at 180.34 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acf70b1e-4eb6-4df8-affe-f81020cb7a07")
 	)
 	(junction
-		(at 242.57 114.3)
+		(at 245.11 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6d47005-3784-45b2-873e-437609844946")
 	)
 	(junction
-		(at 242.57 104.14)
+		(at 245.11 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc5c8b98-41eb-4b5f-900a-d7f82c9af72c")
@@ -731,6 +1303,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb728fb8-a222-4ce6-92de-2fc621ef695e")
+	)
+	(junction
+		(at 242.57 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc533317-9d8c-49f6-a8e1-a1a47cf043f2")
+	)
+	(junction
+		(at 132.08 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d226b459-49bd-4630-880a-246b45904e16")
 	)
 	(junction
 		(at 45.72 100.33)
@@ -780,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 177.8 106.68)
+			(xy 180.34 104.14) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -800,16 +1384,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 36.83) (xy 240.03 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "086ea0f7-73ab-4e9b-be16-09480a5aaf07")
-	)
-	(wire
-		(pts
 			(xy 110.49 46.99) (xy 107.95 46.99)
 		)
 		(stroke
@@ -820,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 119.38) (xy 242.57 114.3)
+			(xy 245.11 119.38) (xy 245.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 111.76) (xy 242.57 114.3)
+			(xy 245.11 111.76) (xy 245.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -890,7 +1464,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 104.14) (xy 252.73 104.14)
+			(xy 245.11 104.14) (xy 255.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -900,17 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 36.83) (xy 266.7 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c422fa-dc5b-4c6e-9ba0-88de13c439f7")
-	)
-	(wire
-		(pts
-			(xy 177.8 114.3) (xy 184.15 114.3)
+			(xy 180.34 114.3) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 36.83) (xy 252.73 36.83)
+			(xy 240.03 36.83) (xy 242.57 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1038,16 +1602,6 @@
 		)
 		(uuid "2fdd0e7a-7bd8-435b-ab54-de0cd02d415a")
 	)
-	(wire
-		(pts
-			(xy 242.57 36.83) (xy 242.57 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308bafea-70fc-4d61-83ad-d4b0cf0b6f34")
-	)
 	(polyline
 		(pts
 			(xy 149.86 12.7) (xy 149.86 81.28)
@@ -1060,7 +1614,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.76) (xy 177.8 114.3)
+			(xy 180.34 111.76) (xy 180.34 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1087,6 +1641,16 @@
 			(type default)
 		)
 		(uuid "3d6e39b0-bb0c-44bf-b2b1-d4e5935c23a3")
+	)
+	(wire
+		(pts
+			(xy 255.27 104.14) (xy 269.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0822f1-558e-476e-bf2e-1ade1a9a00d1")
 	)
 	(wire
 		(pts
@@ -1150,23 +1714,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 104.14) (xy 266.7 104.14)
+			(xy 212.09 127) (xy 212.09 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "599fcf56-ff53-4af1-afee-86117aeac6f7")
-	)
-	(wire
-		(pts
-			(xy 209.55 127) (xy 209.55 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e9885d5-36c9-4c3f-b1ad-5b69be8544d0")
+		(uuid "575dc839-a795-4db5-b619-7740c435f56b")
 	)
 	(wire
 		(pts
@@ -1180,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 134.62 100.33)
+			(xy 120.65 100.33) (xy 132.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 209.55 127)
+			(xy 212.09 124.46) (xy 212.09 127)
 		)
 		(stroke
 			(width 0)
@@ -1240,13 +1794,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 177.8 114.3)
+			(xy 170.18 114.3) (xy 180.34 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84c24a85-6eba-4483-8c81-59b5809e7328")
+	)
+	(wire
+		(pts
+			(xy 242.57 36.83) (xy 252.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855d7b95-e26b-4d60-a472-1770158b1a45")
 	)
 	(wire
 		(pts
@@ -1280,7 +1844,17 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 104.14) (xy 240.03 104.14)
+			(xy 132.08 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a773981-cd15-4e92-8199-8d49d888f46a")
+	)
+	(wire
+		(pts
+			(xy 245.11 104.14) (xy 242.57 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1884,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 104.14) (xy 242.57 106.68)
+			(xy 245.11 104.14) (xy 245.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 127) (xy 247.65 127)
+			(xy 245.11 127) (xy 250.19 127)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 184.15 104.14)
+			(xy 180.34 104.14) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1914,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 124.46) (xy 242.57 127)
+			(xy 245.11 124.46) (xy 245.11 127)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 127) (xy 209.55 127)
+			(xy 218.44 127) (xy 212.09 127)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 127) (xy 242.57 127)
+			(xy 218.44 127) (xy 245.11 127)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 36.83) (xy 134.62 36.83)
+			(xy 120.65 36.83) (xy 132.08 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1480,13 +2054,33 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 114.3) (xy 240.03 114.3)
+			(xy 245.11 114.3) (xy 242.57 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d06a07a7-00da-46b8-a115-4179e799ac16")
+	)
+	(wire
+		(pts
+			(xy 252.73 36.83) (xy 266.7 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f69df1-fbd4-43c6-b08c-ef2e77362f85")
+	)
+	(wire
+		(pts
+			(xy 132.08 36.83) (xy 134.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d730e636-2a84-437f-8719-53be2fd0113d")
 	)
 	(wire
 		(pts
@@ -1500,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 104.14) (xy 177.8 104.14)
+			(xy 170.18 104.14) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 124.46) (xy 215.9 127)
+			(xy 218.44 124.46) (xy 218.44 127)
 		)
 		(stroke
 			(width 0)
@@ -1628,6 +2222,16 @@
 		)
 		(uuid "f9539c28-41c6-4fe2-ac87-b30c16249ea8")
 	)
+	(wire
+		(pts
+			(xy 242.57 36.83) (xy 242.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb00aa90-3d83-430d-bd1b-b9a0b8d0e2c0")
+	)
 	(polyline
 		(pts
 			(xy 281.94 12.7) (xy 281.94 81.28)
@@ -1640,7 +2244,7 @@
 	)
 	(text "Vmin = 0.965V\nVtyp = 1.000V\nVmax = 1.039V"
 		(exclude_from_sim no)
-		(at 271.526 110.744 0)
+		(at 274.066 110.744 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1670,7 +2274,7 @@
 	)
 	(text "1V0 to Ethernet"
 		(exclude_from_sim no)
-		(at 210.566 85.09 0)
+		(at 213.106 85.09 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1764,7 +2368,7 @@
 	)
 	(global_label "VDD_BUCK_5V"
 		(shape input)
-		(at 167.64 114.3 180)
+		(at 170.18 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1774,7 +2378,7 @@
 		)
 		(uuid "5a88d2bc-5d27-4bb1-9443-2f4389a27402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6524 114.3 0)
+			(at 154.1924 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +2434,7 @@
 	)
 	(global_label "VDD_BUCK_5V"
 		(shape input)
-		(at 167.64 104.14 180)
+		(at 170.18 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1840,7 +2444,7 @@
 		)
 		(uuid "8e1be2a3-c37f-46cf-8ce8-67367a4db493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6524 104.14 0)
+			(at 154.1924 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2544,7 @@
 	)
 	(global_label "1V0_Eth"
 		(shape output)
-		(at 266.7 104.14 0)
+		(at 269.24 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1950,7 +2554,7 @@
 		)
 		(uuid "e82955b2-3cca-4bd6-b866-371463eefbf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.1841 104.14 0)
+			(at 279.7241 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,88 +2657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
-		(at 52.07 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11bd5cca-d4ab-4ad2-8ffb-af5ec6fc1b4e")
-		(property "Reference" "C"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LP38501TS-ADJ/NOPB"
-			(at 80.01 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TS5B"
-			(at 92.456 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LP38501TS-ADJ/NOPB"
-			(at 64.516 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e66921a5-32e3-412c-8332-6766597ba13f")
-		)
-		(pin "4"
-			(uuid "676fbe8d-0e8c-4fc3-9559-107adeff3ed7")
-		)
-		(pin "1"
-			(uuid "753ac6aa-76e1-4ce4-9275-6cc96cc4e325")
-		)
-		(pin "3"
-			(uuid "3c490aa0-db5f-4a03-8758-36f2d2f320b0")
-		)
-		(pin "5"
-			(uuid "099327dc-59df-4582-8167-a936de80c582")
-		)
-		(pin "6"
-			(uuid "7d0ed312-265f-4964-9b27-23e67dd3e829")
-		)
-		(instances
-			(project ""
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
-					(reference "C")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 177.8 41.91 0)
 		(unit 1)
@@ -2199,6 +2721,71 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c9d256-b871-41c7-a044-53fd17d68034")
+		(property "Reference" "#FLG01"
+			(at 132.08 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 136.144 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9007d12b-7a86-454f-a737-908bcc5f079d")
+		)
+		(instances
+			(project ""
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2341,6 +2928,89 @@
 		)
 	)
 	(symbol
+		(lib_name "LP38501TS-ADJ_NOPB_2")
+		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
+		(at 186.69 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b963cef-d664-49a9-8e37-e4c62bd3a2b2")
+		(property "Reference" "1111111"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LP38501TS-ADJ/NOPB"
+			(at 214.63 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TS5B"
+			(at 227.076 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LP38501TS-ADJ/NOPB"
+			(at 199.136 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "446a8b8b-ee7b-4574-80a3-03bfa45f222e")
+		)
+		(pin "3"
+			(uuid "b52d1e1e-86a2-47a2-8532-17ce3104ee44")
+		)
+		(pin "2"
+			(uuid "d6723f01-85bb-4946-8be9-364b232b79ca")
+		)
+		(pin "6"
+			(uuid "e22d5924-d3ab-4227-9a4b-9d02c1168522")
+		)
+		(pin "4"
+			(uuid "bda901f8-a441-4c42-9dbc-481bd272e7a1")
+		)
+		(pin "5"
+			(uuid "468de7b1-0a12-4a1c-a71a-c372e24ed225")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "1111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 252.73 36.83 0)
 		(unit 1)
@@ -2408,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 104.14 0)
+		(at 255.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2416,7 +3086,7 @@
 		(dnp no)
 		(uuid "424cc1bf-c86e-49b5-9659-ec5d477a8f07")
 		(property "Reference" "TP12"
-			(at 254 97.79 0)
+			(at 256.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +3095,7 @@
 			)
 		)
 		(property "Value" "1V0_Eth"
-			(at 253.746 99.568 0)
+			(at 256.286 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +3104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +3113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +3122,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,6 +3137,88 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
+		(at 52.07 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f853738-11ff-4ea5-8523-19d56d81a5f8")
+		(property "Reference" "1111"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LP38501TS-ADJ/NOPB"
+			(at 80.01 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TS5B"
+			(at 92.456 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LP38501TS-ADJ/NOPB"
+			(at 64.516 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "444a407e-64dc-4f03-91fd-0e38ee9b327e")
+		)
+		(pin "3"
+			(uuid "82fc4810-e64e-4c17-b653-d0774f5a8255")
+		)
+		(pin "2"
+			(uuid "2686330f-913c-4673-a5a8-43aeb5dc2bb9")
+		)
+		(pin "6"
+			(uuid "05eb24c4-4632-41d9-88d5-1be8c3f7f112")
+		)
+		(pin "4"
+			(uuid "29854c7d-19ae-42a7-bdb8-32c5f9baf0b6")
+		)
+		(pin "5"
+			(uuid "5146eb5e-3fbe-494e-9319-d243d5c79284")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "1111")
 					(unit 1)
 				)
 			)
@@ -2675,6 +3427,237 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74175e05-9619-4b8b-9f4a-3eff6fd774be")
+		(property "Reference" "#FLG02"
+			(at 132.08 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4c816f4-4a16-428c-b087-4341308ea665")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
+		(at 52.07 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742051c9-00a2-4125-831c-4247c600d6be")
+		(property "Reference" "11111"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LP38501TS-ADJ/NOPB"
+			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TS5B"
+			(at 92.456 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LP38501TS-ADJ/NOPB"
+			(at 64.516 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "715838a0-1ff5-49be-983a-5298a81d264c")
+		)
+		(pin "3"
+			(uuid "094e79b4-de2e-4887-9093-74323aee96f6")
+		)
+		(pin "2"
+			(uuid "b37c9b4a-3f46-4a8a-b657-1d81ed635dfb")
+		)
+		(pin "6"
+			(uuid "2368e7ec-8ac6-43f2-9718-0a3523761407")
+		)
+		(pin "4"
+			(uuid "8b1b8e83-c293-42a1-a04a-148e8f7998e1")
+		)
+		(pin "5"
+			(uuid "9dfc836c-9b0c-4d4b-840a-e35e18612a9c")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "11111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LP38501TS-ADJ_NOPB_1")
+		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
+		(at 184.15 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745b2399-49bb-4121-9c76-d0f5e40ca0a9")
+		(property "Reference" "111111"
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LP38501TS-ADJ/NOPB"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TS5B"
+			(at 224.536 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LP38501TS-ADJ/NOPB"
+			(at 196.596 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be56bed-88db-4809-9875-75f1d5dabd4a")
+		)
+		(pin "3"
+			(uuid "c8b59587-be72-4b23-aee5-31347156e76b")
+		)
+		(pin "2"
+			(uuid "91d252d3-6e1e-4050-b5ec-26ded838d553")
+		)
+		(pin "6"
+			(uuid "97ea6c86-62a8-49e5-bbee-ed133853b5b6")
+		)
+		(pin "4"
+			(uuid "cc1d1501-9700-4227-98f9-7929bf9390c6")
+		)
+		(pin "5"
+			(uuid "1ab75eea-edfb-495d-b94b-708fd5b23c76")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 45.72 105.41 0)
 		(unit 1)
@@ -2745,90 +3728,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
-		(at 184.15 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8278f04b-c357-4b7e-9e4f-34a7c5575c78")
-		(property "Reference" "D"
-			(at 212.09 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LP38501TS-ADJ/NOPB"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TS5B"
-			(at 224.536 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LP38501TS-ADJ/NOPB"
-			(at 196.596 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7133a91b-b684-47b3-9459-820774e83874")
-		)
-		(pin "3"
-			(uuid "c393dbe1-24cc-46c3-b955-dccf4c8999b6")
-		)
-		(pin "5"
-			(uuid "594915e3-45fb-472e-a897-db48c6db80e4")
-		)
-		(pin "6"
-			(uuid "26a458bd-3155-4541-977c-bb415125bdea")
-		)
-		(pin "4"
-			(uuid "d62a9985-2f1b-4448-a767-642ba0b451bb")
-		)
-		(pin "2"
-			(uuid "5ecb4b79-ef0b-4236-9928-6c8a563fb2a3")
-		)
-		(instances
-			(project ""
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
-					(reference "D")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 177.8 109.22 0)
+		(at 180.34 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2837,7 +3738,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b525ba1-f802-4639-ad51-516530be6780")
 		(property "Reference" "R69"
-			(at 180.34 107.9499 0)
+			(at 182.88 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +3747,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 180.34 110.4899 0)
+			(at 182.88 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3756,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +3765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +3774,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 177.8 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +4136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 130.81 0)
+		(at 212.09 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3243,7 +4144,7 @@
 		(dnp no)
 		(uuid "b7129b76-6875-492e-984c-357de8ad8c9b")
 		(property "Reference" "#PWR074"
-			(at 209.55 137.16 0)
+			(at 212.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +4153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 211.836 131.064 0)
+			(at 214.376 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +4161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 130.81 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +4170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 130.81 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +4179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 130.81 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,88 +4194,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
-		(at 184.15 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd993617-f6e7-4445-af3d-29748d9c1219")
-		(property "Reference" "B"
-			(at 212.09 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LP38501TS-ADJ/NOPB"
-			(at 212.09 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TS5B"
-			(at 224.536 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LP38501TS-ADJ/NOPB"
-			(at 196.596 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07bec9c0-5c73-4baa-80dc-43594f5a7250")
-		)
-		(pin "6"
-			(uuid "ec2f0298-77f3-4ce7-a438-887a77bcf684")
-		)
-		(pin "5"
-			(uuid "dea39c80-715c-41e0-bd8e-43462310694e")
-		)
-		(pin "4"
-			(uuid "8af2bf34-bbb5-48e8-8497-21f8834ceb84")
-		)
-		(pin "2"
-			(uuid "242a731e-1f58-4fb4-b9a6-9dcbf31a163c")
-		)
-		(pin "1"
-			(uuid "82bf18f8-019f-4d98-bef4-cae7eaba58ec")
-		)
-		(instances
-			(project ""
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
-					(reference "B")
 					(unit 1)
 				)
 			)
@@ -3517,7 +4336,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 247.65 127 270)
+		(at 250.19 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3525,7 +4344,7 @@
 		(dnp no)
 		(uuid "e6b9add3-223b-4ee6-bfdd-4ef77d52ae80")
 		(property "Reference" "TP11"
-			(at 252.476 125.73 90)
+			(at 255.016 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +4353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.222 128.016 90)
+			(at 254.762 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 132.08 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 132.08 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +4380,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 247.65 127 0)
+			(at 250.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,88 +4395,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB")
-		(at 52.07 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edd79733-5952-47f0-ba2b-9212abf157c6")
-		(property "Reference" "A"
-			(at 80.01 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LP38501TS-ADJ/NOPB"
-			(at 80.01 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TS5B"
-			(at 92.456 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LP38501TS-ADJ/NOPB"
-			(at 64.516 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa676919-c7d3-40b6-94a2-98e9dc5000d5")
-		)
-		(pin "2"
-			(uuid "60d0cddf-4949-4959-a9ae-1352e8129c02")
-		)
-		(pin "3"
-			(uuid "fd3bdb90-a79a-4b38-8175-ff0e9738948f")
-		)
-		(pin "4"
-			(uuid "15b123ed-5dc4-4b97-b95c-cc0228c01740")
-		)
-		(pin "5"
-			(uuid "330abb39-3985-4243-bb29-328051ee581e")
-		)
-		(pin "6"
-			(uuid "1c0610cd-02b8-4e5c-b51a-e3f0f4e30ba4")
-		)
-		(instances
-			(project ""
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
-					(reference "A")
 					(unit 1)
 				)
 			)
@@ -3800,7 +4537,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 242.57 121.92 0)
+		(at 245.11 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3809,7 +4546,7 @@
 		(fields_autoplaced yes)
 		(uuid "f764f114-0c8d-4fd3-bea0-2350a340d2bf")
 		(property "Reference" "R71"
-			(at 245.11 120.6499 0)
+			(at 247.65 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +4555,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 245.11 123.1899 0)
+			(at 247.65 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +4564,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 242.57 121.92 0)
+			(at 245.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 121.92 0)
+			(at 245.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +4582,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 242.57 121.92 0)
+			(at 245.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +4607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 242.57 109.22 0)
+		(at 245.11 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3879,7 +4616,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa7cce05-f58c-429d-8b48-90a4f13e8271")
 		(property "Reference" "R70"
-			(at 245.11 107.9499 0)
+			(at 247.65 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +4625,7 @@
 			)
 		)
 		(property "Value" "6.52k"
-			(at 245.11 110.4899 0)
+			(at 247.65 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +4634,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 242.57 109.22 0)
+			(at 245.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +4643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 109.22 0)
+			(at 245.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +4652,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 242.57 109.22 0)
+			(at 245.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
