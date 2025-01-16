@@ -5328,10 +5328,6 @@
 		(uuid "ffd2660c-63ad-4d58-a06f-b9844da7b2e9")
 	)
 	(no_connect
-		(at 214.63 119.38)
-		(uuid "024caafe-7a8c-4abf-bc09-f32f4006daee")
-	)
-	(no_connect
 		(at 214.63 91.44)
 		(uuid "041e0789-e440-4a98-b66b-e78135625b57")
 	)
@@ -5408,14 +5404,6 @@
 		(uuid "363f1f47-210a-40aa-9483-7e62fb57134d")
 	)
 	(no_connect
-		(at 251.46 114.3)
-		(uuid "3bdc9017-ced2-470f-ab8e-7c289afaf73f")
-	)
-	(no_connect
-		(at 251.46 111.76)
-		(uuid "3cc2db16-4f08-461d-a0be-4a335efbde2b")
-	)
-	(no_connect
 		(at 214.63 142.24)
 		(uuid "3db0d6b5-a6f2-4809-a3a9-a528fc26ac23")
 	)
@@ -5484,10 +5472,6 @@
 		(uuid "6e27d5c4-0059-461e-a429-da78c43743ef")
 	)
 	(no_connect
-		(at 80.01 118.11)
-		(uuid "6fe5a856-f074-4674-8d4b-6fe2fe307810")
-	)
-	(no_connect
 		(at 214.63 86.36)
 		(uuid "70ba0b3a-c2ff-4e95-9749-8b137a7483c3")
 	)
@@ -5496,28 +5480,16 @@
 		(uuid "7274de38-3e3d-4cf5-b8c5-746fec1c6a70")
 	)
 	(no_connect
-		(at 214.63 116.84)
-		(uuid "738c4b29-3a51-4e04-951f-f48221d2f572")
-	)
-	(no_connect
 		(at 214.63 121.92)
 		(uuid "73bee6c9-cdf8-4678-bf73-18568101d6b2")
 	)
 	(no_connect
-		(at 378.46 158.75)
-		(uuid "740fb23e-d85c-45cc-b25e-17cdcbc605ed")
-	)
-	(no_connect
-		(at 80.01 115.57)
-		(uuid "7448ae27-086f-4eb7-a894-d0e104138d03")
+		(at 214.63 96.52)
+		(uuid "73e207cb-4197-440a-b502-150bf0febbc3")
 	)
 	(no_connect
 		(at 121.92 62.23)
 		(uuid "7a957b3d-e607-4a0e-ad44-bfbd4d14ece7")
-	)
-	(no_connect
-		(at 80.01 120.65)
-		(uuid "7a98967a-8a63-42fa-add7-08d70d9f2f54")
 	)
 	(no_connect
 		(at 251.46 73.66)
@@ -5658,6 +5630,16 @@
 	(no_connect
 		(at 80.01 67.31)
 		(uuid "f2c4a842-f2be-4c0a-a67a-5408f1de4f07")
+	)
+	(wire
+		(pts
+			(xy 251.46 114.3) (xy 275.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00061b0c-e53e-4e1e-a8ab-f13e4e297590")
 	)
 	(wire
 		(pts
@@ -5868,6 +5850,26 @@
 			(type default)
 		)
 		(uuid "15396a4e-fa45-43b1-9d63-1370abb893f0")
+	)
+	(wire
+		(pts
+			(xy 191.77 116.84) (xy 214.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158c7497-2551-4856-95ee-f90539ff1b3b")
+	)
+	(wire
+		(pts
+			(xy 191.77 119.38) (xy 214.63 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17731753-2892-4faa-985e-ca17fd1631a1")
 	)
 	(wire
 		(pts
@@ -6221,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 78.74) (xy 365.76 78.74)
+			(xy 349.25 78.74) (xy 365.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6238,6 +6240,16 @@
 			(type default)
 		)
 		(uuid "3382f470-890d-4f50-8631-88438144bf50")
+	)
+	(wire
+		(pts
+			(xy 55.88 115.57) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33efa03a-6c5a-4177-a3e6-41959b839200")
 	)
 	(wire
 		(pts
@@ -6521,7 +6533,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 81.28) (xy 365.76 81.28)
+			(xy 349.25 81.28) (xy 365.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7221,6 +7233,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 120.65) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7107b952-e6b2-4533-bd26-a7c57a07f513")
+	)
+	(wire
+		(pts
 			(xy 121.92 171.45) (xy 142.24 171.45)
 		)
 		(stroke
@@ -7421,7 +7443,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 158.75) (xy 378.46 158.75)
+			(xy 375.92 158.75) (xy 392.43 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8201,7 +8223,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 73.66) (xy 365.76 73.66)
+			(xy 349.25 73.66) (xy 365.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8358,16 +8380,6 @@
 			(type default)
 		)
 		(uuid "b930be61-5c2d-4ea9-b125-331600cdb528")
-	)
-	(wire
-		(pts
-			(xy 191.77 96.52) (xy 214.63 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a950fc-cfe0-4c2c-b09e-6dd947cfa674")
 	)
 	(wire
 		(pts
@@ -8731,6 +8743,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 111.76) (xy 275.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8946258-cd42-49c4-b210-0d8ae8f54efa")
+	)
+	(wire
+		(pts
 			(xy 210.82 114.3) (xy 214.63 114.3)
 		)
 		(stroke
@@ -8941,6 +8963,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 144.78) (xy 392.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70388da-35df-4911-9a0b-aefa47c38102")
+	)
+	(wire
+		(pts
 			(xy 57.15 49.53) (xy 80.01 49.53)
 		)
 		(stroke
@@ -9001,6 +9033,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee064b03-a3ab-4b74-a3cb-dc83474dfe02")
+	)
+	(wire
+		(pts
 			(xy 255.27 35.56) (xy 255.27 43.18)
 		)
 		(stroke
@@ -9011,7 +9053,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 76.2) (xy 365.76 76.2)
+			(xy 349.25 76.2) (xy 365.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9111,7 +9153,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 143.51) (xy 392.43 143.51)
+			(xy 375.92 140.97) (xy 392.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9227,19 +9269,6 @@
 		(uuid 96ab1da2-a065-417f-a5ad-487f339a738a)
 	)
 	(rectangle
-		(start 325.12 71.12)
-		(end 353.06 83.82)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9a3ee1c0-079b-4968-b389-2358e07ceb17)
-	)
-	(rectangle
 		(start 106.68 233.68)
 		(end 142.24 279.4)
 		(stroke
@@ -9295,16 +9324,6 @@
 			)
 		)
 		(uuid "0d94e627-9c8a-48e2-a839-d876bd419180")
-	)
-	(text "TBD, NEED MORE\nCLOCK PINS"
-		(exclude_from_sim no)
-		(at 338.328 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "109ed340-13a8-42ec-be01-65291f575da1")
 	)
 	(text "ETH_RGMI\n"
 		(exclude_from_sim no)
@@ -9365,16 +9384,6 @@
 			)
 		)
 		(uuid "66e11a03-3a77-49e4-bd08-aa8621cd6c79")
-	)
-	(text "NOTE: NO MORE CC PINS ON KRIA1\nWhere does P5_ReadClk go?"
-		(exclude_from_sim no)
-		(at 178.054 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "69b111c0-aa72-4db0-b9c6-92f423bad40e")
 	)
 	(text "Additional Signals"
 		(exclude_from_sim no)
@@ -9480,6 +9489,17 @@
 		)
 		(uuid "0511809f-ed77-4bb2-ba5d-1ea823cc5e96")
 	)
+	(label "SDI_DAC_BIAS"
+		(at 392.43 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06397161-d0df-48f1-9987-55922e9d40b3")
+	)
 	(label "ADC_DOUT4+"
 		(at 144.78 29.21 180)
 		(fields_autoplaced yes)
@@ -9534,6 +9554,17 @@
 			(justify right bottom)
 		)
 		(uuid "11474309-23f1-487d-a6da-d07aae4d1757")
+	)
+	(label "ADC2_SDIO{slash}ODM"
+		(at 349.25 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "141711f1-7cbf-4457-8d23-bd89951bdec5")
 	)
 	(label "DISCBIAS"
 		(at 147.32 210.82 0)
@@ -9601,17 +9632,6 @@
 		)
 		(uuid "1c8a2c2c-bb06-404f-938f-5375846e95ad")
 	)
-	(label "SCK_DAC"
-		(at 147.32 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1dbed7f5-628c-47d3-bf64-3f1683b7ff20")
-	)
 	(label "JTAG_CLK"
 		(at 63.5 82.55 0)
 		(fields_autoplaced yes)
@@ -9634,6 +9654,17 @@
 		)
 		(uuid "231242e6-f7bb-4349-93c6-b59ffcd1b31c")
 	)
+	(label "ADC1_SDIO{slash}ODM"
+		(at 275.59 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27de8f28-95cf-4532-8e49-15bf188781c8")
+	)
 	(label "ETH_RX_CLK"
 		(at 87.63 237.49 0)
 		(fields_autoplaced yes)
@@ -9655,6 +9686,17 @@
 			(justify left bottom)
 		)
 		(uuid "2a784738-a7b6-4e53-936a-9c0f49dea75f")
+	)
+	(label "P5_ReadClk"
+		(at 147.32 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a99f379-3ce5-4925-954d-79e5c3b22cf5")
 	)
 	(label "JTAG_TDO"
 		(at 63.5 77.47 0)
@@ -9711,6 +9753,17 @@
 		)
 		(uuid "2e373a33-c9b2-4f33-a446-2b99dbb92c8e")
 	)
+	(label "ADC1_SCLK{slash}DTP"
+		(at 349.25 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "324d782b-fe39-482e-8155-5c2c0a8d08ee")
+	)
 	(label "ETH_MDIO"
 		(at 270.51 134.62 180)
 		(fields_autoplaced yes)
@@ -9732,6 +9785,17 @@
 			(justify left bottom)
 		)
 		(uuid "3705a9cc-95e3-49a9-a296-a083e4a36e2b")
+	)
+	(label "SCK_DAC2"
+		(at 392.43 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38fd40f2-7c85-413b-8ecb-553ba7e6944f")
 	)
 	(label "READBIAS2"
 		(at 147.32 203.2 0)
@@ -9788,6 +9852,17 @@
 		)
 		(uuid "402b5361-4cf2-475d-b401-3fcf35beeaff")
 	)
+	(label "ADC2_SCLK{slash}DTP"
+		(at 349.25 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402e7bfd-edbd-4ec2-9add-b380180cce12")
+	)
 	(label "Disc_Thresh1"
 		(at 107.95 241.3 0)
 		(fields_autoplaced yes)
@@ -9798,6 +9873,17 @@
 			(justify left bottom)
 		)
 		(uuid "41a723e9-ce91-4127-bdaf-6115ca788162")
+	)
+	(label "ADC1_SCLK{slash}DTP"
+		(at 275.59 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42ebf864-173b-4d09-a430-96ddeb523c02")
 	)
 	(label "ETH_RXD0"
 		(at 87.63 234.95 0)
@@ -9875,6 +9961,17 @@
 			(justify left bottom)
 		)
 		(uuid "48f85f94-f16b-4c4c-95f1-e369d0f60024")
+	)
+	(label "ADC2_SCLK{slash}DTP"
+		(at 191.77 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "491634c7-8f7d-4b03-b7be-bd374a12645b")
 	)
 	(label "CS{slash}LD_DAC2*"
 		(at 191.77 111.76 0)
@@ -10184,6 +10281,17 @@
 		)
 		(uuid "72777514-41b1-43cf-8397-349637372e83")
 	)
+	(label "SDI_DAC_BIAS"
+		(at 55.88 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73c93643-e1a4-4047-84db-c81770816e63")
+	)
 	(label "SD_DETECT"
 		(at 41.91 242.57 0)
 		(fields_autoplaced yes)
@@ -10305,8 +10413,8 @@
 		)
 		(uuid "85739bde-1d66-4bcf-9fff-de8ee353934b")
 	)
-	(label "SCK_DAC"
-		(at 392.43 143.51 180)
+	(label "SCK_DAC1"
+		(at 392.43 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10337,6 +10445,17 @@
 			(justify left bottom)
 		)
 		(uuid "893fba13-12d4-480e-b814-14b1eaefd1ad")
+	)
+	(label "ADC2_SDIO{slash}ODM"
+		(at 191.77 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "894849d8-e946-4168-9720-264553806e66")
 	)
 	(label "ADC_DOUT8+"
 		(at 193.04 43.18 0)
@@ -10469,6 +10588,17 @@
 			(justify left bottom)
 		)
 		(uuid "a38b1e26-8815-44a4-a46a-f0a450d3ad0e")
+	)
+	(label "SCK_DAC1"
+		(at 55.88 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a43bfd1e-ff3a-4c5a-bde8-e300f09c475f")
 	)
 	(label "DataClk1-"
 		(at 193.04 53.34 0)
@@ -10668,6 +10798,17 @@
 		)
 		(uuid "bab49d64-2441-4a10-a060-92c02b12d938")
 	)
+	(label "SCK_DAC2"
+		(at 55.88 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdbfba52-e01f-4f14-b5b0-a6ad5a1bfaaa")
+	)
 	(label "ADC_DOUT7+"
 		(at 193.04 35.56 0)
 		(fields_autoplaced yes)
@@ -10700,17 +10841,6 @@
 			(justify left bottom)
 		)
 		(uuid "c4298891-b176-4c6b-ab62-6dca4df78a2a")
-	)
-	(label "P5_ReadClk"
-		(at 191.77 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5ea1abc-383b-4594-826b-f95f6dfcdf2b")
 	)
 	(label "ETH_RXD2"
 		(at 87.63 229.87 0)
@@ -10821,6 +10951,17 @@
 			(justify right bottom)
 		)
 		(uuid "d197b54c-73bd-479f-9ad3-2062df54b423")
+	)
+	(label "ADC1_SDIO{slash}ODM"
+		(at 349.25 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b2b014-aef5-4e27-9fcf-e6940cbaaadf")
 	)
 	(label "Disc_Thresh3"
 		(at 146.05 105.41 180)
@@ -14964,16 +15105,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SCK_DAC" input
-			(at 375.92 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3bab9ed9-e77a-4b8c-bc14-6273188756cd")
-		)
 		(pin "CLR_DAC*" input
 			(at 375.92 148.59 0)
 			(effects
@@ -15023,6 +15154,26 @@
 				(justify right)
 			)
 			(uuid "29077394-43fc-449c-a0d9-4c929150a03d")
+		)
+		(pin "SCK_DAC1" input
+			(at 375.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e155971d-6c62-448a-af31-86012739121d")
+		)
+		(pin "SCK_DAC2" input
+			(at 375.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7718ff69-f5aa-428d-a7ca-2688463c71ac")
 		)
 		(instances
 			(project "PSEC5_Ctrl_Board"
