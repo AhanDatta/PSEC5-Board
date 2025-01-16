@@ -3502,126 +3502,6 @@
 				)
 			)
 		)
-		(symbol "power:+2V5"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -4629,13 +4509,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 123.19) (xy 250.19 124.46)
+			(xy 250.19 120.65) (xy 250.19 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2eecf533-3d2f-457c-9423-31e7e18ee298")
+		(uuid "2d0033d3-b37d-4483-b3ea-9c3d5848879f")
 	)
 	(wire
 		(pts
@@ -7312,7 +7192,7 @@
 		)
 		(uuid "ff634835-26d9-431b-bba7-1235c616f9d2")
 	)
-	(global_label "3V3_DUT"
+	(global_label "3V3_IO"
 		(shape input)
 		(at 255.27 19.05 0)
 		(fields_autoplaced yes)
@@ -7324,7 +7204,7 @@
 		)
 		(uuid "3a7f66f8-63ac-4690-b496-69f907cb5435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2985 19.05 0)
+			(at 264.6657 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7236,29 @@
 			)
 		)
 	)
-	(global_label "1V8_DUT"
+	(global_label "2V5_IO"
+		(shape input)
+		(at 250.19 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74821116-476c-4c2e-b491-8d505de3d4ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.5857 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1V8_IO"
 		(shape input)
 		(at 67.31 181.61 0)
 		(fields_autoplaced yes)
@@ -7368,7 +7270,7 @@
 		)
 		(uuid "79ca7593-6e05-4988-a5b4-9c4bf6c5bc54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.3385 181.61 0)
+			(at 76.7057 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7280,7 @@
 			)
 		)
 	)
-	(global_label "3V3_DUT"
+	(global_label "3V3_IO"
 		(shape input)
 		(at 63.5 217.17 0)
 		(fields_autoplaced yes)
@@ -7390,7 +7292,7 @@
 		)
 		(uuid "859075ea-5c91-4591-a876-07bcf043774e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5285 217.17 0)
+			(at 72.8957 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7302,7 @@
 			)
 		)
 	)
-	(global_label "3V3_DUT"
+	(global_label "3V3_IO"
 		(shape input)
 		(at 254 39.37 0)
 		(fields_autoplaced yes)
@@ -7412,7 +7314,7 @@
 		)
 		(uuid "cd36aed9-5570-46d5-b917-b59ad81971d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.0285 39.37 0)
+			(at 263.3957 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +7324,7 @@
 			)
 		)
 	)
-	(global_label "3V3_DUT"
+	(global_label "3V3_IO"
 		(shape input)
 		(at 66.04 123.19 0)
 		(fields_autoplaced yes)
@@ -7434,7 +7336,7 @@
 		)
 		(uuid "d384692a-a797-4196-bb71-ad0a02343fb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0685 123.19 0)
+			(at 75.4357 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7346,7 @@
 			)
 		)
 	)
-	(global_label "1V8_DUT"
+	(global_label "1V8_IO"
 		(shape input)
 		(at 59.69 95.25 0)
 		(fields_autoplaced yes)
@@ -7456,7 +7358,7 @@
 		)
 		(uuid "fa302596-f728-43d8-80c6-81f28897ca4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.7185 95.25 0)
+			(at 69.0857 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11762,71 +11664,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 250.19 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb822853-a901-4613-b99e-4d09be4f2a71")
-		(property "Reference" "#PWR090"
-			(at 250.19 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 249.682 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 250.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a38100c-726e-4905-8b86-732d1046e38f")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
-					(reference "#PWR090")
 					(unit 1)
 				)
 			)

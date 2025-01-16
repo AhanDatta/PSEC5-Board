@@ -3685,7 +3685,7 @@
 			)
 		)
 	)
-	(global_label "1V8_DUT"
+	(global_label "1V8_IO"
 		(shape input)
 		(at 91.44 29.21 180)
 		(fields_autoplaced yes)
@@ -3697,7 +3697,7 @@
 		)
 		(uuid "9138b9a2-b491-4d1d-8b85-a8acb73d9e04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.4115 29.21 0)
+			(at 82.0443 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3707,7 @@
 			)
 		)
 	)
-	(global_label "1V8_DUT"
+	(global_label "1V8_IO"
 		(shape input)
 		(at 264.16 54.61 0)
 		(fields_autoplaced yes)
@@ -3719,7 +3719,7 @@
 		)
 		(uuid "bdf78bf0-ec25-4605-8da2-c76c532bcf47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.1885 54.61 0)
+			(at 273.5557 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3729,7 @@
 			)
 		)
 	)
-	(global_label "3V3_DUT"
+	(global_label "3V3_IO"
 		(shape input)
 		(at 101.6 29.21 0)
 		(fields_autoplaced yes)
@@ -3741,7 +3741,7 @@
 		)
 		(uuid "edc47222-7bcf-462c-9ef4-fc9593db8da1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6285 29.21 0)
+			(at 110.9957 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3751,7 @@
 			)
 		)
 	)
-	(global_label "3V3_DUT"
+	(global_label "3V3_IO"
 		(shape input)
 		(at 25.4 124.46 180)
 		(fields_autoplaced yes)
@@ -3763,7 +3763,7 @@
 		)
 		(uuid "eef7c1fa-3a65-4673-bf39-dcaf84f7b695")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.3715 124.46 0)
+			(at 16.0043 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
