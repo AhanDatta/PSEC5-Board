@@ -130,6 +130,44 @@
 		)
 	)
 	(sheet
+		(at 35.56 86.36)
+		(size 25.4 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5fa9561d-5801-41a3-8635-931a21fb9041")
+		(property "Sheetname" "power_ctrl"
+			(at 35.56 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_ctrl.kicad_sch"
+			(at 35.56 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 229.87)
 		(size 95.25 35.56)
 		(fields_autoplaced yes)

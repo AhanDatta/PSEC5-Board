@@ -1877,7 +1877,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "GND"
@@ -1967,7 +1967,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "GND"
@@ -2603,102 +2603,6 @@
 		(uuid "7f390084-7ab4-4d91-963d-8cfc3219de1a")
 	)
 	(symbol
-		(lib_id "PSEC5_ctrlbd:PUSB3FR4Z")
-		(at 50.8 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "073d1836-f8a4-4b27-8390-06937b231832")
-		(property "Reference" "U3"
-			(at 57.15 82.5499 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PUSB3FR4Z"
-			(at 57.15 85.0899 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "U_PUSB3FR4Z_NEX"
-			(at 65.024 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PUSB3FR4Z"
-			(at 65.024 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12c53c9c-f2d7-497e-934a-c60274c61a7a")
-		)
-		(pin "2"
-			(uuid "943b108e-fb5e-4d09-b61a-b67ee537797e")
-		)
-		(pin "3"
-			(uuid "dff58d1b-8377-40c7-b68b-3396f1c506e4")
-		)
-		(pin "8"
-			(uuid "4d2dda24-64cf-4b74-bece-51dd4dd9365e")
-		)
-		(pin "6"
-			(uuid "ef7b7249-dcb3-4472-b77b-41e1e3bce4c1")
-		)
-		(pin "5"
-			(uuid "a8a45a03-1eae-4b45-bdbf-4758949221c5")
-		)
-		(pin "7"
-			(uuid "2f935ae8-ca6f-4e2b-872e-a835eba2a91a")
-		)
-		(pin "9"
-			(uuid "e993bb3c-4732-42be-a942-1fc981e0ce67")
-		)
-		(pin "10"
-			(uuid "7e4432fd-5914-47f0-a3ff-cd8136ef4e3e")
-		)
-		(pin "4"
-			(uuid "45232802-0127-4ba4-baba-9b9dcc9b6a93")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 111.76 0)
 		(unit 1)
@@ -2759,6 +2663,102 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSEC5_ctrlbd:PUSB3FR4Z")
+		(at 50.8 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "756e43b7-6b5f-4fee-aa9a-041990d9d2ea")
+		(property "Reference" "U3"
+			(at 57.15 82.5499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PUSB3FR4Z"
+			(at 57.15 85.0899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "U_PUSB3FR4Z_NEX"
+			(at 65.024 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PUSB3FR4Z"
+			(at 65.024 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1f604bad-7c53-4377-aad1-6ba4b8694489")
+		)
+		(pin "3"
+			(uuid "04bc9e3c-ee47-408a-a72b-49bb51592c0f")
+		)
+		(pin "1"
+			(uuid "475f9f64-ee08-4ca8-8e6d-84e85034f457")
+		)
+		(pin "7"
+			(uuid "650be808-cefd-4123-a97c-c8b5bc4c54e2")
+		)
+		(pin "9"
+			(uuid "d75b6125-d42f-4481-8ecf-d857d969e5d6")
+		)
+		(pin "4"
+			(uuid "bbfaa7c8-6dcf-454b-bee0-ca3f433dfcbf")
+		)
+		(pin "6"
+			(uuid "a5879ee1-628b-4b01-b0fc-816e1cf939a4")
+		)
+		(pin "2"
+			(uuid "06dc4711-bc08-439d-8d64-2e69b998be0f")
+		)
+		(pin "10"
+			(uuid "8c67ceea-b3fe-4dd4-be58-b74940c33660")
+		)
+		(pin "5"
+			(uuid "b8736f0e-cffa-441a-ba0a-1d10bb3cba3d")
+		)
+		(instances
+			(project ""
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/277fb02f-a6ab-4b05-94e6-c516155fbdc1"
+					(reference "U3")
 					(unit 1)
 				)
 			)
