@@ -3103,24 +3103,6 @@
 				)
 			)
 			(pin output line
-				(at 66.04 -45.72 180)
-				(length 7.62)
-				(name "AVDD18_OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "S_OUTP"
@@ -3518,6 +3500,24 @@
 			)
 		)
 		(symbol "88E1512-A0-NNP2C000_1_1"
+			(pin power_out line
+				(at 66.04 -45.72 180)
+				(length 7.62)
+				(name "AVDD18_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 66.04 -43.18 180)
 				(length 7.62)
