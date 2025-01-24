@@ -6115,6 +6115,16 @@
 		)
 		(uuid 684a33fe-5d49-4eed-acdd-fd95f0cebf14)
 	)
+	(text "742863122"
+		(exclude_from_sim no)
+		(at 37.846 219.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18e807b3-be20-483a-a976-3b35d568b412")
+	)
 	(text "ETHERNET\n"
 		(exclude_from_sim no)
 		(at 45.974 14.732 0)
@@ -6124,6 +6134,16 @@
 			)
 		)
 		(uuid "4a06f5ff-6500-4b56-a69f-13a9f45852c1")
+	)
+	(text "742863122"
+		(exclude_from_sim no)
+		(at 55.88 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "684eebb1-9586-4204-ab9d-707952af3b16")
 	)
 	(label "LED_12"
 		(at 96.52 107.95 0)
@@ -7675,7 +7695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "WE-RJ45_7499111446:7499111446"
+		(property "Footprint" "Connector_RJ:RJ45_Wuerth_7499111446_Horizontal"
 			(at 136.144 8.636 0)
 			(effects
 				(font
@@ -7865,7 +7885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.484 104.394 90)
 			(effects
 				(font
@@ -8001,7 +8021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.484 114.554 90)
 			(effects
 				(font
@@ -8068,7 +8088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.484 101.854 90)
 			(effects
 				(font
@@ -8205,7 +8225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASE2-25.000MHZ-ET:XTAL_ASE2-25.000MHZ-ET"
+		(property "Footprint" "ASE2_25_000MHZ_ET:XTAL_ASE2-25.000MHZ-ET"
 			(at 256.54 119.888 0)
 			(effects
 				(font
@@ -8467,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.484 106.934 90)
 			(effects
 				(font
@@ -8537,7 +8557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SI2342DS_T1_GE3:SOT-23_TO-236_VIS"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -8903,7 +8923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SI2342DS_T1_GE3:SOT-23_TO-236_VIS"
 			(at 228.6 21.59 0)
 			(effects
 				(font
@@ -9676,7 +9696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 223.52 0)
 			(effects
 				(font
@@ -9743,7 +9763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.684 62.484 90)
 			(effects
 				(font
@@ -9942,7 +9962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.484 109.474 90)
 			(effects
 				(font
@@ -10009,7 +10029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.484 112.014 90)
 			(effects
 				(font
@@ -10411,7 +10431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.964 114.554 90)
 			(effects
 				(font
@@ -10543,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 128.27 0)
 			(effects
 				(font
@@ -10680,7 +10700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_56P_MTG"
+		(property "Footprint" "88E1512_A0_NNP2C000:QFN_56P_MTG"
 			(at 122.682 64.262 0)
 			(effects
 				(font
@@ -10983,7 +11003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.134 147.574 90)
 			(effects
 				(font

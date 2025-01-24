@@ -1563,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 40.64) (xy 127 40.64)
+			(xy 116.84 40.64) (xy 127 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 72.39 40.64)
+			(xy 58.42 40.64) (xy 72.39 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1963,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 43.18) (xy 72.39 43.18)
+			(xy 58.42 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2083,27 +2083,27 @@
 		)
 		(uuid "1acd3ff5-6579-45a7-9826-bf33e0048c00")
 	)
-	(label "10"
-		(at 124.46 40.64 180)
+	(label "USB_RESET#"
+		(at 58.42 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "102fb6f2-2f94-4392-b313-6ce5de32b2cc")
+		(uuid "16cd01f5-eae6-45ac-b946-b13a61ed20d6")
 	)
-	(label "9"
-		(at 69.85 40.64 180)
+	(label "USB_VCC"
+		(at 116.84 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "168ed3d2-7392-4191-909b-b7af6b669106")
+		(uuid "182a7a85-2b33-4cff-9a40-32bd52fddbae")
 	)
 	(label "USB_CTS"
 		(at 129.54 53.34 180)
@@ -2115,6 +2115,17 @@
 			(justify right bottom)
 		)
 		(uuid "536b9b97-9a6d-47eb-a9a6-71727595898e")
+	)
+	(label "USB_VCC"
+		(at 58.42 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54bc7c11-7fe4-43d5-bfa0-2725e16c9de9")
 	)
 	(label "USB_CTS"
 		(at 66.04 50.8 180)
@@ -2149,19 +2160,8 @@
 		)
 		(uuid "a82c869d-95f1-46ac-ab36-b28931fe75d9")
 	)
-	(label "9"
-		(at 135.89 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1c748ea-c5de-4e2c-ab68-8079e83ecd14")
-	)
-	(label "10"
-		(at 69.85 43.18 180)
+	(label "USB_RESET#"
+		(at 135.89 74.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2169,7 +2169,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f1a25dc5-6009-4f16-8494-4c5e95ceac13")
+		(uuid "bf5ec204-4a4d-4e8b-8586-882938ad2a49")
 	)
 	(global_label "1V8_Banks"
 		(shape input)
@@ -2361,7 +2361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "U_PUSB3FR4Z_NEX"
+		(property "Footprint" "PUSB3FR4Z:U_PUSB3FR4Z_NEX"
 			(at 157.226 90.932 0)
 			(effects
 				(font
@@ -2455,7 +2455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN-16_FTD"
+		(property "Footprint" "FT230XQ_R:QFN-16_FTD"
 			(at 99.314 76.708 0)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX62D-B-5P830_HIR"
+		(property "Footprint" "ZX62D_B_5P8_30_:ZX62D-B-5P830_HIR"
 			(at 213.614 29.21 0)
 			(effects
 				(font
