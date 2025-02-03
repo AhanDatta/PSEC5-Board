@@ -5209,7 +5209,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_5V"
+	(global_label "VDD_BUCK_5V_UNUSED"
 		(shape output)
 		(at 139.7 130.81 0)
 		(fields_autoplaced yes)
@@ -5221,7 +5221,7 @@
 		)
 		(uuid "2555f903-25b9-413c-ba84-107dd2372388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.6876 130.81 0)
+			(at 164.2752 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
