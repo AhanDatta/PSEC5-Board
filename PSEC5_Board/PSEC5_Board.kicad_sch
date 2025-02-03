@@ -2550,16 +2550,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 135.89) (xy 193.04 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279de8d8-28ff-4420-9d55-e14d08956a2f")
-	)
-	(wire
-		(pts
 			(xy 96.52 62.23) (xy 99.06 62.23)
 		)
 		(stroke
@@ -2657,6 +2647,16 @@
 			(type default)
 		)
 		(uuid "35d4fded-24a7-4d13-b629-3aba6922ca2b")
+	)
+	(wire
+		(pts
+			(xy 165.1 135.89) (xy 173.99 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba21896-59c9-4d3d-8bf5-2f14e6d73d45")
 	)
 	(wire
 		(pts
@@ -3789,6 +3789,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PSEC5_CLK_OUT"
+		(shape output)
+		(at 173.99 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "955a5fd2-4fdf-4e5d-88e5-26e2cfed126c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.2151 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5135,7 +5157,7 @@
 		)
 	)
 	(sheet
-		(at 193.04 133.35)
+		(at 223.52 133.35)
 		(size 19.05 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -5147,7 +5169,7 @@
 		)
 		(uuid "342f9d5e-3615-4623-a80b-f03a940e5896")
 		(property "Sheetname" "Phase_detection"
-			(at 193.04 132.6384 0)
+			(at 223.52 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,23 +5178,13 @@
 			)
 		)
 		(property "Sheetfile" "phase.kicad_sch"
-			(at 193.04 141.5546 0)
+			(at 223.52 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "PSEC5_CLK_OUT" input
-			(at 193.04 135.89 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b1738552-3927-4b6d-91f7-caaf4fabdf9c")
 		)
 		(instances
 			(project "PSEC5_Board"
