@@ -1971,12 +1971,6 @@
 		(uuid "82c5870c-71db-47ec-a508-02a6374f613d")
 	)
 	(junction
-		(at 96.52 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92282089-02af-4276-948d-d7d68ef99f99")
-	)
-	(junction
 		(at 99.06 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2288,16 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 53.34) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f48862-e9e0-4496-8a4b-37428644c38e")
-	)
-	(wire
-		(pts
 			(xy 142.24 58.42) (xy 142.24 62.23)
 		)
 		(stroke
@@ -2415,16 +2399,6 @@
 			(type default)
 		)
 		(uuid "441bedf5-ca91-4388-9fc8-64e97db732cb")
-	)
-	(wire
-		(pts
-			(xy 96.52 36.83) (xy 96.52 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4778c768-0b89-4479-b903-fb63684ad500")
 	)
 	(wire
 		(pts
@@ -2828,16 +2802,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849d864d-eeda-48cd-b275-ef33a3711eb0")
-	)
-	(wire
-		(pts
 			(xy 165.1 101.6) (xy 232.41 101.6)
 		)
 		(stroke
@@ -3105,6 +3069,16 @@
 			(type default)
 		)
 		(uuid "b97da7ba-bc20-4dbb-80c0-4b7d53fd07f7")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baed4c81-6eae-42c4-997b-7a1089e550fc")
 	)
 	(wire
 		(pts
@@ -3385,6 +3359,16 @@
 			(type default)
 		)
 		(uuid "e884d04b-0560-4a56-a3fc-a329d391ad07")
+	)
+	(wire
+		(pts
+			(xy 128.27 52.07) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b3dd25-da33-4977-b38f-a94b1bf7566b")
 	)
 	(wire
 		(pts
@@ -4777,72 +4761,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a626d55-2840-4bb6-9cd5-f2316cfb4f70")
-		(property "Reference" "#PWR096"
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f22221d-2797-49a6-ba5e-3e526c75a15c")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 121.92 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5178,7 +5096,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 43.18 0)
+		(at 128.27 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5187,7 +5105,7 @@
 		(fields_autoplaced yes)
 		(uuid "89901260-0bb2-49fd-932f-a3e602e59bd8")
 		(property "Reference" "C97"
-			(at 100.33 41.9099 0)
+			(at 132.08 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5114,7 @@
 			)
 		)
 		(property "Value" "680n"
-			(at 100.33 44.4499 0)
+			(at 132.08 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5123,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.4852 46.99 0)
+			(at 129.2352 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5132,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 43.18 0)
+			(at 128.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5141,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 43.18 0)
+			(at 128.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,6 +5720,72 @@
 			(project "PSEC5_Board"
 				(path "/af906810-6e6b-406e-b884-20eae48a7386"
 					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8cc0570-efb1-402e-8507-ad80a42ec0dc")
+		(property "Reference" "#PWR05"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea026393-a973-4597-9883-47cca841f8e6")
+		)
+		(instances
+			(project "PSEC5_Board"
+				(path "/af906810-6e6b-406e-b884-20eae48a7386"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
