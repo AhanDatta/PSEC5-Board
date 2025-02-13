@@ -850,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 151.13) (xy 46.99 151.13)
+			(xy 46.99 151.13) (xy 62.23 151.13)
 		)
 		(stroke
 			(width 0)
@@ -860,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 109.22) (xy 46.99 109.22)
+			(xy 46.99 109.22) (xy 62.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -917,16 +917,6 @@
 			(type default)
 		)
 		(uuid "153dfcc7-4c94-467c-a88c-72c351d6131a")
-	)
-	(wire
-		(pts
-			(xy 53.34 67.31) (xy 60.96 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16f07255-e17b-4950-8f39-fc265775bc76")
 	)
 	(wire
 		(pts
@@ -990,16 +980,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 109.22) (xy 62.23 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c56ce08-c685-40bf-ab4b-8b46bad69cbb")
-	)
-	(wire
-		(pts
 			(xy 76.2 166.37) (xy 76.2 167.64)
 		)
 		(stroke
@@ -1020,27 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 48.26) (xy 153.67 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcb99be-9b15-491d-abf0-8294fd79a3b0")
-	)
-	(wire
-		(pts
-			(xy 146.05 125.73) (xy 153.67 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31fa7f92-bfd1-4a7c-9285-1c40524ad7ce")
-	)
-	(wire
-		(pts
-			(xy 130.81 48.26) (xy 138.43 48.26)
+			(xy 138.43 48.26) (xy 153.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 25.4) (xy 45.72 25.4)
+			(xy 45.72 25.4) (xy 60.96 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 138.43 86.36)
+			(xy 138.43 86.36) (xy 153.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 80.01) (xy 227.33 80.01)
+			(xy 228.6 80.01) (xy 242.57 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1410,16 +1370,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 80.01) (xy 242.57 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5549c6-fc49-40c0-ac4c-7a985cf01905")
-	)
-	(wire
-		(pts
 			(xy 50.8 40.64) (xy 74.93 40.64)
 		)
 		(stroke
@@ -1447,16 +1397,6 @@
 			(type default)
 		)
 		(uuid "b6a43b3b-1ec0-48df-a3e4-19fa15c3a453")
-	)
-	(wire
-		(pts
-			(xy 146.05 86.36) (xy 153.67 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba3995cc-5305-4fe3-bd50-95f544aa4475")
 	)
 	(wire
 		(pts
@@ -1500,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 67.31) (xy 45.72 67.31)
+			(xy 45.72 67.31) (xy 60.96 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1530,16 +1470,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 151.13) (xy 62.23 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e049bc46-5242-45b7-a4d3-961cead391e0")
-	)
-	(wire
-		(pts
 			(xy 76.2 109.22) (xy 91.44 109.22)
 		)
 		(stroke
@@ -1550,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 138.43 125.73)
+			(xy 138.43 125.73) (xy 153.67 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1577,16 +1507,6 @@
 			(type default)
 		)
 		(uuid "ee14a38c-5321-4a93-9768-d0a98fc66ad3")
-	)
-	(wire
-		(pts
-			(xy 53.34 25.4) (xy 60.96 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d2363e-2d8e-48c1-a496-736b59034a3a")
 	)
 	(wire
 		(pts
@@ -2038,7 +1958,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 34.29 109.22 0)
+		(at 41.91 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2047,7 +1967,7 @@
 		(dnp no)
 		(uuid "060a4bb3-9487-4244-8dfe-d294f38aab99")
 		(property "Reference" "J3"
-			(at 30.48 108.2431 0)
+			(at 38.1 108.2431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +1976,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 30.48 110.7831 0)
+			(at 38.1 110.7831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +1985,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 34.29 109.22 0)
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +1994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 109.22 0)
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2003,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 34.29 109.22 0)
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,74 +2021,6 @@
 			(project "PSEC5_Board"
 				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 142.24 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a4416d-f019-42c6-a982-a64badf21dd1")
-		(property "Reference" "R59"
-			(at 142.24 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 142.24 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.986 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfe414fb-6ca6-4b01-81c0-70a77a961645")
-		)
-		(pin "1"
-			(uuid "1daa6260-7993-4964-b8c2-da3a86215cff")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2442,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 33.02 25.4 0)
+		(at 40.64 25.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2599,7 +2451,7 @@
 		(dnp no)
 		(uuid "20834890-cb94-481e-84d6-db6bfc00a0ad")
 		(property "Reference" "J11"
-			(at 29.21 24.4231 0)
+			(at 36.83 24.4231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2460,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 29.21 26.9631 0)
+			(at 36.83 26.9631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2469,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 33.02 25.4 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 25.4 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2487,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 33.02 25.4 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 114.3 0)
+		(at 41.91 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2871,7 +2723,7 @@
 		(fields_autoplaced yes)
 		(uuid "338eb459-f55a-4de9-8957-4f0e8cd12dce")
 		(property "Reference" "#PWR027"
-			(at 34.29 120.65 0)
+			(at 41.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +2732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 119.38 0)
+			(at 41.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 114.3 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 114.3 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +2758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 114.3 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2780,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 33.02 67.31 0)
+		(at 40.64 67.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2937,7 +2789,7 @@
 		(dnp no)
 		(uuid "353cdfd7-9ece-4383-8359-900baed880a9")
 		(property "Reference" "J2"
-			(at 29.21 66.3331 0)
+			(at 36.83 66.3331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2798,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 29.21 68.8731 0)
+			(at 36.83 68.8731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2807,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 33.02 67.31 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 67.31 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2825,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 33.02 67.31 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,74 +2843,6 @@
 			(project "PSEC5_Board"
 				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 50.8 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e4bb2d7-11b9-461f-b6dc-8a6e7150b8b2")
-		(property "Reference" "R20"
-			(at 50.8 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 50.8 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.546 152.146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 50.8 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c07d35b0-2240-48d7-aa54-16127af939e6")
-		)
-		(pin "1"
-			(uuid "967611cd-64a6-4603-ad74-c397f9a11e74")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3197,74 +2981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 142.24 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56140bad-7aae-43a0-abf4-dbcdc95b2c70")
-		(property "Reference" "R55"
-			(at 142.24 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 142.24 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.986 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2ab34f1-9c51-4440-838f-d53d63aba793")
-		)
-		(pin "1"
-			(uuid "119c5030-f9e1-4e82-9762-55b09520d20d")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 52.07 0)
 		(unit 1)
@@ -3325,74 +3041,6 @@
 			(project ""
 				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 49.53 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d758d8e-b60d-44ae-8dcd-4e196722dd32")
-		(property "Reference" "R16"
-			(at 49.53 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 49.53 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.276 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d2d702d-df40-4aaf-94e5-fd7d41d3e8bf")
-		)
-		(pin "1"
-			(uuid "c15fc1c9-7bb4-4afc-a3ae-2ff897f24c94")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3675,76 +3323,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 142.24 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c42adcd-ca05-4485-b503-15122f1b896f")
-		(property "Reference" "R57"
-			(at 142.24 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 142.24 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.986 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c35745d7-b7f2-492d-bc5f-a0c6501e9aef")
-		)
-		(pin "1"
-			(uuid "2c79dc2f-be5b-49f3-baf9-ed7a302cfca8")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 34.29 151.13 0)
+		(at 41.91 151.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3753,7 +3333,7 @@
 		(dnp no)
 		(uuid "819f3a59-4aef-48ad-8ec8-179144257b88")
 		(property "Reference" "J4"
-			(at 30.48 150.1531 0)
+			(at 38.1 150.1531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3342,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 30.48 152.6931 0)
+			(at 38.1 152.6931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3351,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 34.29 151.13 0)
+			(at 41.91 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 151.13 0)
+			(at 41.91 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3369,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 34.29 151.13 0)
+			(at 41.91 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3460,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 125.73 48.26 0)
+		(at 133.35 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3889,7 +3469,7 @@
 		(dnp no)
 		(uuid "87dc473c-8894-43e6-acea-4926731e7877")
 		(property "Reference" "J5"
-			(at 121.92 47.2831 0)
+			(at 129.54 47.2831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3478,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 121.92 49.8231 0)
+			(at 129.54 49.8231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3487,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 125.73 48.26 0)
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 48.26 0)
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3505,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 125.73 48.26 0)
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 85.09 0)
+		(at 223.52 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3959,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "922c2d33-7e39-4ed8-9b1b-71749de24369")
 		(property "Reference" "#PWR037"
-			(at 214.63 91.44 0)
+			(at 223.52 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 90.17 0)
+			(at 223.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 85.09 0)
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 85.09 0)
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 85.09 0)
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +3666,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 125.73 125.73 0)
+		(at 133.35 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4095,7 +3675,7 @@
 		(dnp no)
 		(uuid "952325b3-87b4-4302-b7f3-d93dfca1402e")
 		(property "Reference" "J7"
-			(at 121.92 124.7531 0)
+			(at 129.54 124.7531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +3684,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 121.92 127.2931 0)
+			(at 129.54 127.2931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +3693,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 125.73 125.73 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +3702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 125.73 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +3711,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 125.73 125.73 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +3736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 130.81 0)
+		(at 133.35 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4165,7 +3745,7 @@
 		(fields_autoplaced yes)
 		(uuid "9789431d-714a-4194-87ee-d99d0f0814eb")
 		(property "Reference" "#PWR035"
-			(at 125.73 137.16 0)
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +3754,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 135.89 0)
+			(at 133.35 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +3762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 130.81 0)
+			(at 133.35 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +3771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 130.81 0)
+			(at 133.35 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +3780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 130.81 0)
+			(at 133.35 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +3872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 91.44 0)
+		(at 133.35 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4301,7 +3881,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a582fbd-e794-4f5f-b138-d04329033a6e")
 		(property "Reference" "#PWR033"
-			(at 125.73 97.79 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +3890,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 96.52 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +3898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 91.44 0)
+			(at 133.35 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +3907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 91.44 0)
+			(at 133.35 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +3916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 91.44 0)
+			(at 133.35 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 156.21 0)
+		(at 41.91 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4505,7 +4085,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fcfea45-1aad-4d4f-8fae-98300ccf3000")
 		(property "Reference" "#PWR029"
-			(at 34.29 162.56 0)
+			(at 41.91 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 161.29 0)
+			(at 41.91 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 156.21 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 156.21 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 156.21 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4552,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 72.39 0)
+		(at 40.64 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4981,7 +4561,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9250577-268d-4045-b4b6-b419a0231a4a")
 		(property "Reference" "#PWR025"
-			(at 33.02 78.74 0)
+			(at 40.64 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 77.47 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 72.39 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +4587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 72.39 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +4596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 72.39 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +4686,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 53.34 0)
+		(at 133.35 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5115,7 +4695,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4326c42-b7cf-4369-8b0a-fb89138ed83f")
 		(property "Reference" "#PWR031"
-			(at 125.73 59.69 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +4704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 58.42 0)
+			(at 133.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +4712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 53.34 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +4721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 53.34 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +4730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 53.34 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,74 +5021,6 @@
 			(project "PSEC5_Board"
 				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 231.14 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0eec0a9-b8f1-4c89-997d-c2eb519fcb8f")
-		(property "Reference" "R61"
-			(at 231.14 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 231.14 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.886 81.026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d17c8f43-cbd8-40f2-80db-aa8a2700c927")
-		)
-		(pin "1"
-			(uuid "4c165b36-660f-432b-8302-b7a1414f60c0")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -5927,76 +5439,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 50.8 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efbc29fa-3143-450c-b007-6518fab22221")
-		(property "Reference" "R18"
-			(at 50.8 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 50.8 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.546 110.236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c09d732-54cb-4e4e-b8f5-4652f80dff94")
-		)
-		(pin "1"
-			(uuid "a0c58e4e-c963-4315-b3d9-f4e5ee42c771")
-		)
-		(instances
-			(project "PSEC5_Board"
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 125.73 86.36 0)
+		(at 133.35 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6005,7 +5449,7 @@
 		(dnp no)
 		(uuid "f310b20b-f053-4f70-b910-cfe207476050")
 		(property "Reference" "J6"
-			(at 121.92 85.3831 0)
+			(at 129.54 85.3831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +5458,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 121.92 87.9231 0)
+			(at 129.54 87.9231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +5467,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 125.73 86.36 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 86.36 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +5485,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 125.73 86.36 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +5510,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 30.48 0)
+		(at 40.64 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6075,7 +5519,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3121de3-49c9-42ba-a924-01654513a96b")
 		(property "Reference" "#PWR023"
-			(at 33.02 36.83 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +5528,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 35.56 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +5536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 30.48 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +5545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 30.48 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +5554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 30.48 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,76 +5575,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 49.53 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5de74f7-66f2-4a6d-8e8c-dadf15e9be2e")
-		(property "Reference" "R14"
-			(at 49.53 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 49.53 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.276 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 49.53 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "344eae0b-c02d-4b56-8082-5549599faca2")
-		)
-		(pin "1"
-			(uuid "8c918d46-a5f0-4c39-b2bf-c4131eb40ecd")
-		)
-		(instances
-			(project ""
-				(path "/af906810-6e6b-406e-b884-20eae48a7386/b57c8adb-b2f1-464d-86b1-47d57c51fbe1"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 214.63 80.01 0)
+		(at 223.52 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6209,7 +5585,7 @@
 		(dnp no)
 		(uuid "f7cd7002-11ec-4166-bed0-26615f8e3172")
 		(property "Reference" "J8"
-			(at 210.82 79.0331 0)
+			(at 219.71 79.0331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +5594,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 210.82 81.5731 0)
+			(at 219.71 81.5731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +5603,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
-			(at 214.63 80.01 0)
+			(at 223.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 80.01 0)
+			(at 223.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +5621,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 214.63 80.01 0)
+			(at 223.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
