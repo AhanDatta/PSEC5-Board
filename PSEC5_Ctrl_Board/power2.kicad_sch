@@ -1454,12 +1454,6 @@
 		(uuid "16e4bf03-5e21-47d0-90c7-52acf7bb6370")
 	)
 	(junction
-		(at 109.22 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17a85753-0248-41ac-8776-0d274046741f")
-	)
-	(junction
 		(at 110.49 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1560,6 +1554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e9ed409-9fd5-43fc-a55b-494055b7852a")
+	)
+	(junction
+		(at 109.22 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fc6a28f-94ed-4b4e-b713-c32c84badad0")
 	)
 	(junction
 		(at 127 100.33)
@@ -1740,8 +1740,8 @@
 		(uuid "176d75b1-56eb-4f6c-8243-8712d845057a")
 	)
 	(no_connect
-		(at 106.68 182.88)
-		(uuid "babc353b-daa4-4da8-9b84-3846dce48451")
+		(at 106.68 177.8)
+		(uuid "f4135539-de55-4ba9-80db-a635c884ea8f")
 	)
 	(wire
 		(pts
@@ -2403,6 +2403,16 @@
 		)
 		(uuid "6209e74d-d2ed-49cf-aad6-58c509abc622")
 	)
+	(wire
+		(pts
+			(xy 106.68 180.34) (xy 109.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6809e1bb-663b-4ac3-b1ef-92f336b6887e")
+	)
 	(polyline
 		(pts
 			(xy 281.94 81.28) (xy 281.94 134.62)
@@ -2492,16 +2502,6 @@
 			(type default)
 		)
 		(uuid "74119350-6a78-4d33-86c2-0d67e834644b")
-	)
-	(wire
-		(pts
-			(xy 106.68 180.34) (xy 109.22 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "746fe9b2-fb7c-494f-b41f-7962d00f228a")
 	)
 	(wire
 		(pts
@@ -4419,7 +4419,7 @@
 	)
 	(symbol
 		(lib_id "PSEC5_ctrlbd:1766343")
-		(at 106.68 180.34 0)
+		(at 106.68 177.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4428,7 +4428,7 @@
 		(dnp no)
 		(uuid "52537431-b607-4998-9393-51d1cda57b16")
 		(property "Reference" "J9"
-			(at 92.71 180.3399 0)
+			(at 92.71 177.7999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4437,7 +4437,7 @@
 			)
 		)
 		(property "Value" "1766343"
-			(at 92.71 182.8799 0)
+			(at 92.71 180.3399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4446,7 +4446,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G_1x02_P7.50mm_Horizontal"
-			(at 99.06 170.942 0)
+			(at 99.06 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" "1766343"
-			(at 101.346 168.91 0)
+			(at 101.346 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 180.34 0)
+			(at 106.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
