@@ -1825,7 +1825,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 152.4) (xy 157.48 210.82)
+			(xy 165.1 152.4) (xy 165.1 210.82)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1855,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 12.7) (xy 157.48 152.4)
+			(xy 165.1 12.7) (xy 165.1 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2145,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 152.4) (xy 157.48 152.4)
+			(xy 12.7 152.4) (xy 165.1 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2335,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.8 152.4) (xy 157.48 152.4)
+			(xy 304.8 152.4) (xy 165.1 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2715,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 86.36) (xy 304.8 86.36)
+			(xy 165.1 86.36) (xy 304.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2982,6 +2982,16 @@
 			)
 		)
 		(uuid "1d382d85-6c0f-4ffd-82ab-2e9f1d8b80fc")
+	)
+	(text "5V0 External Buck"
+		(exclude_from_sim no)
+		(at 79.248 51.816 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "20fd5152-42f9-42c6-b8d1-277eecece006")
 	)
 	(text "3V3 to DUT"
 		(exclude_from_sim no)
