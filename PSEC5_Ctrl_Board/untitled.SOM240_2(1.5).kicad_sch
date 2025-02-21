@@ -4768,12 +4768,6 @@
 		(uuid "303a744b-e442-4fce-95b1-174b817e161e")
 	)
 	(junction
-		(at 127 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31ca2dbe-87cf-4473-8459-1d914368d90a")
-	)
-	(junction
 		(at 257.81 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7003,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 151.13 129.54)
+			(xy 121.92 129.54) (xy 151.13 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7433,7 +7427,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 127 132.08)
+			(xy 127 127) (xy 127 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7700,16 +7694,6 @@
 			(type default)
 		)
 		(uuid "beb1a2a2-3f4e-46f9-8b9f-0bad8bad7887")
-	)
-	(wire
-		(pts
-			(xy 127 129.54) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb5adfc-a125-4f30-8f07-a0652e3790d1")
 	)
 	(wire
 		(pts
@@ -8230,16 +8214,6 @@
 			(type default)
 		)
 		(uuid "e76305fd-5b54-4f4f-9146-924ef09de653")
-	)
-	(wire
-		(pts
-			(xy 127 127) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8126f74-b0c8-431a-993d-4a2a9ffe395b")
 	)
 	(wire
 		(pts
@@ -9023,28 +8997,6 @@
 			)
 		)
 	)
-	(global_label "1V2_Banks"
-		(shape input)
-		(at 151.13 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06fb6753-9bf8-4822-be98-e0bd2ead3ef5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.2146 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HPC14_N"
 		(shape output)
 		(at 113.03 276.86 0)
@@ -9265,28 +9217,6 @@
 			)
 		)
 	)
-	(global_label "1V2_Banks"
-		(shape input)
-		(at 298.45 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14588218-25c0-46a1-8976-f7f5692716a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.5346 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HPB18_P"
 		(shape output)
 		(at 142.24 279.4 0)
@@ -9327,6 +9257,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1V8_Banks"
+		(shape input)
+		(at 298.45 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "176f8fe5-4605-499b-8889-2c3ae395495c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 311.5346 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9375,7 +9327,7 @@
 			)
 		)
 	)
-	(global_label "1V2_Banks"
+	(global_label "1V8_Banks"
 		(shape input)
 		(at 39.37 128.27 180)
 		(fields_autoplaced yes)
@@ -9877,6 +9829,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1V8_Banks"
+		(shape input)
+		(at 177.8 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4477e408-9a31-4a17-b026-5e0e6c51e867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.7154 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11223,28 +11197,6 @@
 			)
 		)
 	)
-	(global_label "1V2_Banks"
-		(shape input)
-		(at 177.8 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb23cdf3-0762-4a5b-bcc2-5b06cc3d36d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.7154 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HPB12_N"
 		(shape output)
 		(at 142.24 231.14 0)
@@ -11588,6 +11540,28 @@
 		(uuid "f86c8b88-2e0c-46cf-a962-68da43164224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.1104 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1V8_Banks"
+		(shape input)
+		(at 151.13 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb0b12d9-5701-46c7-af8f-b6c44f10377d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.2146 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
