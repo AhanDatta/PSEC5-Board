@@ -5136,7 +5136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 361.95 133.35 0)
 			(effects
 				(font
@@ -5246,15 +5246,15 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 133.35 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e100a793-415a-4f1c-a1c1-7fbe6aabcdcf")
 		(property "Reference" "C29"
-			(at 135.89 80.0162 0)
+			(at 130.81 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5263,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 135.89 82.5562 0)
+			(at 130.81 82.5562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 151.13 0)
 			(effects
 				(font
