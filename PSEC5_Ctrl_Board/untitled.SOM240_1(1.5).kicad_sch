@@ -5861,10 +5861,6 @@
 		(uuid "52954b0a-681c-4740-b3f8-a576b77f499c")
 	)
 	(no_connect
-		(at 80.01 130.81)
-		(uuid "5a4949d1-bdea-49e0-9f20-d83617913726")
-	)
-	(no_connect
 		(at 121.92 115.57)
 		(uuid "650c0e15-1e28-493d-b1f5-7d49a3036152")
 	)
@@ -5943,6 +5939,10 @@
 	(no_connect
 		(at 214.63 81.28)
 		(uuid "b8b496f4-1631-4430-a6de-95fcd3fd4883")
+	)
+	(no_connect
+		(at 214.63 76.2)
+		(uuid "bb5e0aae-7114-41b5-9df7-c7c3b8cbd67c")
 	)
 	(no_connect
 		(at 251.46 101.6)
@@ -6597,6 +6597,16 @@
 			(type default)
 		)
 		(uuid "2e88a9af-02f4-41ac-8cfb-a6d2610eb66a")
+	)
+	(wire
+		(pts
+			(xy 55.88 130.81) (xy 80.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee8bd2a-c27e-4bc0-973f-39fa2af78180")
 	)
 	(wire
 		(pts
@@ -9770,16 +9780,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 76.2) (xy 214.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef739ade-a30b-413b-a504-0128d1e1532b")
-	)
-	(wire
-		(pts
 			(xy 251.46 30.48) (xy 276.86 30.48)
 		)
 		(stroke
@@ -10891,7 +10891,7 @@
 		(uuid "60849adc-6afa-4c75-be07-fcb5a768bd53")
 	)
 	(label "CLR_DAC*"
-		(at 195.58 76.2 0)
+		(at 55.88 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
