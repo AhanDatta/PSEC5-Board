@@ -1762,7 +1762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d876122-eb18-4704-b1b1-cc37e12e4ef9")
-		(property "Reference" "TP15"
+		(property "Reference" "THRESH1"
 			(at 52.07 18.2879 0)
 			(effects
 				(font
@@ -1813,7 +1813,7 @@
 		(instances
 			(project "PSEC5_Board"
 				(path "/af906810-6e6b-406e-b884-20eae48a7386/5d36e410-855a-42d4-b6a1-2e177315192b"
-					(reference "TP15")
+					(reference "THRESH1")
 					(unit 1)
 				)
 			)
