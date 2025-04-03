@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2025-03-31T18:49:43-05:00"
+    "CreationDate": "2025-04-03T13:44:51-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 71.4,
-      "Y": 76.5
+      "X": 72.875,
+      "Y": 78.075
     },
     "LayerNumber": 6,
     "BoardThickness": 1.511,
@@ -112,6 +112,16 @@
     {
       "Path": "PSEC5_Board-Edge_Cuts.gm1",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PSEC5_Board-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PSEC5_Board-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
