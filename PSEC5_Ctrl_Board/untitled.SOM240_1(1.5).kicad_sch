@@ -6050,16 +6050,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 35.56) (xy 214.63 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f9908e-727c-4cfa-bf09-287406ec32a5")
-	)
-	(wire
-		(pts
 			(xy 162.56 250.19) (xy 147.32 250.19)
 		)
 		(stroke
@@ -6527,6 +6517,16 @@
 			(type default)
 		)
 		(uuid "2784f2a2-2b06-4d02-8352-04805db111e9")
+	)
+	(wire
+		(pts
+			(xy 191.77 38.1) (xy 214.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e0f68c-0fe3-477d-b8ef-f6f9ecddedf7")
 	)
 	(wire
 		(pts
@@ -7087,16 +7087,6 @@
 			(type default)
 		)
 		(uuid "465bd12d-7875-4d70-9b92-c6aecf45ede9")
-	)
-	(wire
-		(pts
-			(xy 193.04 30.48) (xy 214.63 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47438528-9ee4-4848-b409-2a29ea529c47")
 	)
 	(wire
 		(pts
@@ -7720,6 +7710,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 27.94) (xy 214.63 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c62f44f-b0db-4306-9ece-3dabdeba5eb1")
+	)
+	(wire
+		(pts
 			(xy 350.52 39.37) (xy 365.76 39.37)
 		)
 		(stroke
@@ -8257,6 +8257,16 @@
 			(type default)
 		)
 		(uuid "8ed3ebe1-ebcf-4ce0-8f0d-c6954fab2d23")
+	)
+	(wire
+		(pts
+			(xy 191.77 30.48) (xy 214.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2da608-b771-49f1-ad33-c4a7a60dadec")
 	)
 	(wire
 		(pts
@@ -8840,6 +8850,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 35.56) (xy 214.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44f8c58-0274-4d0e-859d-fc6f81f3059d")
+	)
+	(wire
+		(pts
 			(xy 266.7 121.92) (xy 283.21 121.92)
 		)
 		(stroke
@@ -9300,16 +9320,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 27.94) (xy 214.63 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce905996-82df-40df-ba1b-99188ad8454e")
-	)
-	(wire
-		(pts
 			(xy 107.95 266.7) (xy 123.19 266.7)
 		)
 		(stroke
@@ -9617,16 +9627,6 @@
 			(type default)
 		)
 		(uuid "e24684f0-6f55-4087-8e50-391595dfdf98")
-	)
-	(wire
-		(pts
-			(xy 186.69 38.1) (xy 214.63 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26d26d3-b478-4a16-af01-882392809abf")
 	)
 	(wire
 		(pts
@@ -10286,7 +10286,7 @@
 		(uuid "0f44ccbe-0539-43a9-87b5-d8978f7422b1")
 	)
 	(label "ADC_CLK1-"
-		(at 186.69 35.56 0)
+		(at 191.77 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10913,7 +10913,7 @@
 		(uuid "621dd75f-a054-4cbb-945c-8ed8826f45d3")
 	)
 	(label "ADC_CLK1+"
-		(at 186.69 38.1 0)
+		(at 191.77 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11133,7 +11133,7 @@
 		(uuid "7aaa27fc-ee35-45fd-9def-bfa742dca709")
 	)
 	(label "FrameClk1+"
-		(at 193.04 30.48 0)
+		(at 191.77 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11749,7 +11749,7 @@
 		(uuid "c887c549-0ef7-4db9-9e40-4a0ad8153e85")
 	)
 	(label "FrameClk1-"
-		(at 193.04 27.94 0)
+		(at 191.77 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13719,7 +13719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -13916,7 +13916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 295.91 83.82 0)
 			(effects
 				(font
@@ -14319,7 +14319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 300.99 86.36 0)
 			(effects
 				(font
@@ -16105,7 +16105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 171.45 85.09 0)
 			(effects
 				(font
@@ -16374,7 +16374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 251.46 210.82 0)
 			(effects
 				(font
@@ -16440,7 +16440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -16506,7 +16506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 290.83 81.28 0)
 			(effects
 				(font
