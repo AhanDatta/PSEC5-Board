@@ -725,6 +725,191 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -0.254 0.508)
+					(mid -1.651 0.9912)
+					(end -3.048 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PSEC5_ctrlbd:1040310811"
 			(pin_names
 				(offset 0.254)
@@ -2769,12 +2954,6 @@
 		(uuid "a3e93ede-3dce-4b0c-8b8e-474e8dda9993")
 	)
 	(junction
-		(at 119.38 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a452d5a9-d103-4a4f-aaea-0023f5edf483")
-	)
-	(junction
 		(at 133.35 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2938,6 +3117,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 25.4) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7e1130-33b4-4a08-848d-f103e7feeda8")
+	)
+	(wire
+		(pts
 			(xy 184.15 72.39) (xy 195.58 72.39)
 		)
 		(stroke
@@ -3005,26 +3194,6 @@
 			(type default)
 		)
 		(uuid "1f382f14-6a0d-4c16-ba0d-60c6bebb8841")
-	)
-	(wire
-		(pts
-			(xy 116.84 21.59) (xy 119.38 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2277c0c0-d64d-4546-b91f-63bfb0b147de")
-	)
-	(wire
-		(pts
-			(xy 119.38 21.59) (xy 124.46 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d9efecc-db0e-4a66-9219-8f8326630f26")
 	)
 	(wire
 		(pts
@@ -3268,16 +3437,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 21.59) (xy 146.05 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d3290ef-a215-48ce-bb8c-0a79d6619c80")
-	)
-	(wire
-		(pts
 			(xy 184.15 67.31) (xy 195.58 67.31)
 		)
 		(stroke
@@ -3355,6 +3514,16 @@
 			(type default)
 		)
 		(uuid "65111afd-c562-4b1b-93d0-2f42609f1667")
+	)
+	(wire
+		(pts
+			(xy 125.73 21.59) (xy 146.05 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69506145-7341-497f-a2a8-ad2f5df043fa")
 	)
 	(wire
 		(pts
@@ -3455,16 +3624,6 @@
 			(type default)
 		)
 		(uuid "7c147907-544a-4fd1-afb0-356ca07e94fc")
-	)
-	(wire
-		(pts
-			(xy 119.38 21.59) (xy 119.38 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db5ec12-0ed4-4712-92e6-ffcd924a02e4")
 	)
 	(wire
 		(pts
@@ -3938,7 +4097,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 21.59) (xy 109.22 21.59)
+			(xy 101.6 21.59) (xy 113.03 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4370,7 +4529,7 @@
 	)
 	(text "JUMPER FOR SD SELECTION"
 		(exclude_from_sim no)
-		(at 119.38 17.018 0)
+		(at 118.618 13.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5240,75 +5399,6 @@
 		(uuid "ed301566-b8b6-43dd-8d20-6bb72ac9fdd7")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 128.27 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06fa9272-acd6-4d12-9442-bc55ad3f8660")
-		(property "Reference" "R117"
-			(at 130.81 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 129.794 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.524 20.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 128.27 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7272649e-0a32-428b-88e6-c210b2bb63c4")
-		)
-		(pin "1"
-			(uuid "bf44a7f2-f415-4fea-bd99-a9e0d57c32ef")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/c0f65b12-20e6-4d96-9278-83d0447c8288"
-					(reference "R117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 142.24 0)
 		(unit 1)
@@ -5653,75 +5743,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/c0f65b12-20e6-4d96-9278-83d0447c8288"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 113.03 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "105a79df-46a2-4d99-ab9d-55c21f5fd3ea")
-		(property "Reference" "R116"
-			(at 115.57 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 114.808 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.284 20.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 113.03 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "198bcb76-1386-43dd-a317-06ec83c87f8a")
-		)
-		(pin "1"
-			(uuid "50178aef-97d6-4464-983e-01a58eefcb4f")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/c0f65b12-20e6-4d96-9278-83d0447c8288"
-					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -8146,6 +8167,77 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/c0f65b12-20e6-4d96-9278-83d0447c8288"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 119.38 21.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3dd2aae-dde8-4225-99b3-0e37149885c0")
+		(property "Reference" "JP1"
+			(at 119.38 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
+			(at 119.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 119.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4526c2b0-19cd-44a8-981f-e2026a6a476f")
+		)
+		(pin "2"
+			(uuid "5465f8bd-6a57-4271-ab89-9f90370e8426")
+		)
+		(pin "1"
+			(uuid "2f469f25-ecaf-44c2-9032-00b87f537436")
+		)
+		(instances
+			(project ""
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/c0f65b12-20e6-4d96-9278-83d0447c8288"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
