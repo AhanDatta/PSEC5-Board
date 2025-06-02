@@ -5291,6 +5291,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 120.65 137.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4939560d-5161-4968-9d7e-632d2c4d83c1")
+		(property "Reference" "H6"
+			(at 123.19 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 123.19 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Translator_Board"
+				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 125.73 0)
 		(mirror y)
@@ -5425,16 +5489,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 256.54 137.16 0)
+		(at 260.35 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a4ade9f-bc44-4feb-8ba6-d6a720faf585")
-		(property "Reference" "H4"
-			(at 259.08 135.8899 0)
+		(uuid "7048c401-c106-4293-b513-c02f6b869a83")
+		(property "Reference" "H8"
+			(at 262.89 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5507,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 259.08 138.4299 0)
+			(at 262.89 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,8 +5515,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 256.54 137.16 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 260.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 137.16 0)
+			(at 260.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5534,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 256.54 137.16 0)
+			(at 260.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5545,71 @@
 		(instances
 			(project "Translator_Board"
 				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
-					(reference "H4")
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 201.93 138.43 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d62fec2-d16f-4a39-ad90-da67ddacafd4")
+		(property "Reference" "H7"
+			(at 204.47 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 204.47 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Translator_Board"
+				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -5549,70 +5677,6 @@
 			(project "Translator_Board"
 				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 123.19 137.16 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1ab95f9-202a-4cf8-aa7b-e03294e333b3")
-		(property "Reference" "H6"
-			(at 125.73 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 125.73 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Translator_Board"
-				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
 			(at 49.53 135.89 0)
 			(effects
 				(font
@@ -6845,70 +6909,6 @@
 			(project "Translator_Board"
 				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 200.66 135.89 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe6ef782-8875-4608-8371-bdc730b09a45")
-		(property "Reference" "H7"
-			(at 203.2 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 203.2 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 200.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 200.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Translator_Board"
-				(path "/03aee455-6aac-4c5b-b9dc-8dd41334d4bb/4f60dabf-a622-4c11-808c-a83228c2f00b"
-					(reference "H7")
 					(unit 1)
 				)
 			)
