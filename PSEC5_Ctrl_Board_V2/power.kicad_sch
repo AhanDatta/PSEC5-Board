@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ef6baa0d-fd06-479b-afbd-66c98fa6cc52")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,11 +110,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -180,10 +189,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -192,10 +201,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -241,11 +250,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -315,7 +329,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -327,7 +341,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -374,6 +388,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB"
 			(pin_names
@@ -456,18 +471,6 @@
 			(symbol "LP38501TS-ADJ_NOPB_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 48.26 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
@@ -480,7 +483,7 @@
 				)
 				(polyline
 					(pts
-						(xy 48.26 -10.16) (xy 48.26 5.08)
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -502,22 +505,16 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_in line
@@ -531,6 +528,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,24 +571,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 55.88 -7.62 180)
-					(length 7.62)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 31.75 -17.78 90)
 					(length 7.62)
@@ -585,6 +582,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -613,12 +628,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -709,7 +729,128 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Total 19.7k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 113.284 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0256cc86-9d0d-4f41-bd12-bb18129dc40b")
+	)
+	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
+		(exclude_from_sim no)
+		(at 141.986 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d382d85-6c0f-4ffd-82ab-2e9f1d8b80fc")
+	)
+	(text "3V3 to DUT"
+		(exclude_from_sim no)
+		(at 231.902 21.59 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "47ca59ac-cd17-4ba2-8a0b-580e724a31f1")
+	)
+	(text "Total 9.83k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 261.366 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c2a7ec0-0097-4f17-9a51-032359a5ca59")
+	)
+	(text "Total 31.3k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 265.176 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6467d1e4-1940-41f7-b4bb-0806416cb5e5")
+	)
+	(text "2V5 to DUT"
+		(exclude_from_sim no)
+		(at 234.95 90.932 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "762acf00-90d2-4133-a732-a7a7ebe35e78")
+	)
+	(text "Vmin = 3.19V\nVtyp = 3.30V\nVmax = 3.435V"
+		(exclude_from_sim no)
+		(at 294.894 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d5a0f60-a674-49e4-8c21-90f1cdebbab4")
+	)
+	(text "1V2 to DUT"
+		(exclude_from_sim no)
+		(at 231.648 157.988 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "9bde4a8b-cbde-4471-9228-ace77fec61bd")
+	)
+	(text "Vmin = 2.413V\nVtyp = 2.500V\nVmax = 2.588V"
+		(exclude_from_sim no)
+		(at 294.386 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a97a82b4-3fce-499b-9695-31d8323316dd")
+	)
+	(text "Vmin = 1.586V\nVtyp = 1.200V\nVmax = 1.249V"
+		(exclude_from_sim no)
+		(at 290.576 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac62c7b5-48f4-47e2-b8fe-7ecf051dd082")
+	)
+	(text "1V8 to DUT\n"
+		(exclude_from_sim no)
+		(at 81.026 160.02 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "cb8bb657-6b49-42f7-93d2-030ef5deff41")
+	)
+	(text "Total 44.5k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 264.922 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd6d9479-0a66-4c3a-b012-aa36b626165f")
 	)
 	(junction
 		(at 278.13 175.26)
@@ -2050,126 +2191,6 @@
 			(type default)
 		)
 		(uuid "ffe888ab-d787-428d-84ee-26b9e558e56f")
-	)
-	(text "Total 19.7k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 113.284 169.926 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0256cc86-9d0d-4f41-bd12-bb18129dc40b")
-	)
-	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
-		(exclude_from_sim no)
-		(at 141.986 185.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1d382d85-6c0f-4ffd-82ab-2e9f1d8b80fc")
-	)
-	(text "3V3 to DUT"
-		(exclude_from_sim no)
-		(at 231.902 21.59 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "47ca59ac-cd17-4ba2-8a0b-580e724a31f1")
-	)
-	(text "Total 9.83k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 261.366 167.132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4c2a7ec0-0097-4f17-9a51-032359a5ca59")
-	)
-	(text "Total 31.3k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 265.176 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6467d1e4-1940-41f7-b4bb-0806416cb5e5")
-	)
-	(text "2V5 to DUT"
-		(exclude_from_sim no)
-		(at 234.95 90.932 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "762acf00-90d2-4133-a732-a7a7ebe35e78")
-	)
-	(text "Vmin = 3.19V\nVtyp = 3.30V\nVmax = 3.435V"
-		(exclude_from_sim no)
-		(at 294.894 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8d5a0f60-a674-49e4-8c21-90f1cdebbab4")
-	)
-	(text "1V2 to DUT"
-		(exclude_from_sim no)
-		(at 231.648 157.988 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "9bde4a8b-cbde-4471-9228-ace77fec61bd")
-	)
-	(text "Vmin = 2.413V\nVtyp = 2.500V\nVmax = 2.588V"
-		(exclude_from_sim no)
-		(at 294.386 114.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a97a82b4-3fce-499b-9695-31d8323316dd")
-	)
-	(text "Vmin = 1.586V\nVtyp = 1.200V\nVmax = 1.249V"
-		(exclude_from_sim no)
-		(at 290.576 181.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ac62c7b5-48f4-47e2-b8fe-7ecf051dd082")
-	)
-	(text "1V8 to DUT\n"
-		(exclude_from_sim no)
-		(at 81.026 160.02 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "cb8bb657-6b49-42f7-93d2-030ef5deff41")
-	)
-	(text "Total 44.5k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 264.922 39.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd6d9479-0a66-4c3a-b012-aa36b626165f")
 	)
 	(global_label "3V3_DUT"
 		(shape output)

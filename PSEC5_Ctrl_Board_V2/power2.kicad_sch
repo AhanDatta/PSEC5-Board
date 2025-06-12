@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "41e6303a-5a9d-4013-994c-f2c1c7d7da34")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,11 +110,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -180,10 +189,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -192,10 +201,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -241,11 +250,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -315,7 +329,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -327,7 +341,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -374,6 +388,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PSEC5_ctrlbd:1766343"
 			(pin_names
@@ -456,18 +471,6 @@
 			(symbol "1766343_1_1"
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
 					(stroke
@@ -480,31 +483,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -528,18 +507,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 10.16 0) (xy 8.89 0.8467)
 					)
 					(stroke
@@ -552,7 +519,43 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -565,6 +568,18 @@
 				(polyline
 					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -614,18 +629,6 @@
 			(symbol "1766343_1_2"
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
 					(stroke
@@ -638,31 +641,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -686,18 +665,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 0) (xy 8.89 0.8467)
 					)
 					(stroke
@@ -710,7 +677,43 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -723,6 +726,18 @@
 				(polyline
 					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -769,6 +784,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PSEC5_ctrlbd:LP38501TS-ADJ_NOPB"
 			(pin_names
@@ -851,18 +867,6 @@
 			(symbol "LP38501TS-ADJ_NOPB_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 48.26 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
@@ -875,7 +879,7 @@
 				)
 				(polyline
 					(pts
-						(xy 48.26 -10.16) (xy 48.26 5.08)
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -897,22 +901,16 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_in line
@@ -926,6 +924,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -951,24 +967,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 55.88 -7.62 180)
-					(length 7.62)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 31.75 -17.78 90)
 					(length 7.62)
@@ -980,6 +978,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1008,6 +1024,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PSEC5_ctrlbd:OKX-T_5-D12N-C"
 			(pin_names
@@ -1090,18 +1107,6 @@
 			(symbol "OKX-T_5-D12N-C_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 53.34 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
@@ -1114,7 +1119,7 @@
 				)
 				(polyline
 					(pts
-						(xy 53.34 -10.16) (xy 53.34 5.08)
+						(xy 7.62 -10.16) (xy 53.34 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1127,6 +1132,18 @@
 				(polyline
 					(pts
 						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -10.16) (xy 53.34 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -1154,24 +1171,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 60.96 -2.54 180)
-					(length 7.62)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 60.96 0 180)
 					(length 7.62)
@@ -1183,6 +1182,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 60.96 -2.54 180)
+					(length 7.62)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1229,12 +1246,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1325,12 +1347,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1421,7 +1448,148 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "5V0 External Buck"
+		(exclude_from_sim no)
+		(at 171.704 192.532 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "3fbcd374-6985-4afc-9593-a198489ac58e")
+	)
+	(text "Total 19.7k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 110.49 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40e3e472-d6ea-4dc9-afee-73b44df86f1a")
+	)
+	(text "2V5 to IO"
+		(exclude_from_sim no)
+		(at 213.868 88.392 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "4670c407-c783-4268-82ea-f9363c8187ae")
+	)
+	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
+		(exclude_from_sim no)
+		(at 271.526 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49c64ce3-786f-47ab-be24-4d21c02fb883")
+	)
+	(text "2V5 External Buck"
+		(exclude_from_sim no)
+		(at 171.704 230.886 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "5950e8f9-5fbe-4045-83ac-ada26a8ed313")
+	)
+	(text "Vmin = 3.19V\nVtyp = 3.30V\nVmax = 3.435V"
+		(exclude_from_sim no)
+		(at 138.684 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e3dbc08-90b8-4620-a277-25af9dabd591")
+	)
+	(text "Total 44.5k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 109.474 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83a1f202-a6bb-43a1-8151-fb82d71ebbf6")
+	)
+	(text "Total 31.3k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 242.316 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f86e88f-c1e8-4a87-867e-bc6a65701526")
+	)
+	(text "1V8 to ADC"
+		(exclude_from_sim no)
+		(at 210.566 17.78 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "acc2276f-b1d7-4b94-999d-535f106592e9")
+	)
+	(text "Total 19.7k\n2 Resistors due to the odd value\n"
+		(exclude_from_sim no)
+		(at 243.586 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7e7c46d-d93f-47c4-adc2-c6c6fe67bf1c")
+	)
+	(text "Vmin = 2.413V\nVtyp = 2.500V\nVmax = 2.588V"
+		(exclude_from_sim no)
+		(at 272.796 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1612f93-c5eb-4720-a1e9-905b1b5ca371")
+	)
+	(text "1V8 to Banks"
+		(exclude_from_sim no)
+		(at 78.486 17.78 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "c7f353ac-8477-402d-b8f3-191d5fcaa948")
+	)
+	(text "3V3 to IO"
+		(exclude_from_sim no)
+		(at 81.534 87.376 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "cee37680-0bed-4746-9028-e89d94c1dea5")
+	)
+	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
+		(exclude_from_sim no)
+		(at 139.446 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4f97f5b-4bf7-4f58-9097-50711a1acfcf")
 	)
 	(junction
 		(at 243.84 121.92)
@@ -3035,149 +3203,8 @@
 		)
 		(uuid "fc7ba307-ded1-4f5e-bf64-ebe67092a47a")
 	)
-	(text "5V0 External Buck"
-		(exclude_from_sim no)
-		(at 171.704 192.532 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "3fbcd374-6985-4afc-9593-a198489ac58e")
-	)
-	(text "Total 19.7k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 110.49 26.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "40e3e472-d6ea-4dc9-afee-73b44df86f1a")
-	)
-	(text "2V5 to IO"
-		(exclude_from_sim no)
-		(at 213.868 88.392 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "4670c407-c783-4268-82ea-f9363c8187ae")
-	)
-	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
-		(exclude_from_sim no)
-		(at 271.526 43.434 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "49c64ce3-786f-47ab-be24-4d21c02fb883")
-	)
-	(text "2V5 External Buck"
-		(exclude_from_sim no)
-		(at 171.704 230.886 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "5950e8f9-5fbe-4045-83ac-ada26a8ed313")
-	)
-	(text "Vmin = 3.19V\nVtyp = 3.30V\nVmax = 3.435V"
-		(exclude_from_sim no)
-		(at 138.684 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7e3dbc08-90b8-4620-a277-25af9dabd591")
-	)
-	(text "Total 44.5k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 109.474 92.202 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "83a1f202-a6bb-43a1-8151-fb82d71ebbf6")
-	)
-	(text "Total 31.3k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 242.316 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8f86e88f-c1e8-4a87-867e-bc6a65701526")
-	)
-	(text "1V8 to ADC"
-		(exclude_from_sim no)
-		(at 210.566 17.78 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "acc2276f-b1d7-4b94-999d-535f106592e9")
-	)
-	(text "Total 19.7k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 243.586 27.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7e7c46d-d93f-47c4-adc2-c6c6fe67bf1c")
-	)
-	(text "Vmin = 2.413V\nVtyp = 2.500V\nVmax = 2.588V"
-		(exclude_from_sim no)
-		(at 272.796 105.664 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1612f93-c5eb-4720-a1e9-905b1b5ca371")
-	)
-	(text "1V8 to Banks"
-		(exclude_from_sim no)
-		(at 78.486 17.78 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "c7f353ac-8477-402d-b8f3-191d5fcaa948")
-	)
-	(text "3V3 to IO"
-		(exclude_from_sim no)
-		(at 81.534 87.376 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "cee37680-0bed-4746-9028-e89d94c1dea5")
-	)
-	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
-		(exclude_from_sim no)
-		(at 139.446 43.434 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f4f97f5b-4bf7-4f58-9097-50711a1acfcf")
-	)
 	(label "power"
 		(at 54.61 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7a390416-404b-4b41-873b-f4fedb1889a4")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,9 +110,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -181,7 +188,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -193,7 +200,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -242,11 +249,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -316,10 +328,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -328,10 +340,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -377,9 +389,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -450,18 +465,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -474,7 +477,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -498,7 +501,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -547,6 +562,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MCP1501-25E_SN_1"
 			(pin_names
@@ -629,18 +645,6 @@
 			(symbol "MCP1501-25E_SN_1_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 43.18 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
@@ -653,7 +657,7 @@
 				)
 				(polyline
 					(pts
-						(xy 43.18 -12.7) (xy 43.18 5.08)
+						(xy 7.62 -12.7) (xy 43.18 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -666,6 +670,18 @@
 				(polyline
 					(pts
 						(xy 43.18 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -12.7) (xy 43.18 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -711,24 +727,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 50.8 -2.54 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 50.8 0 180)
 					(length 7.62)
@@ -740,6 +738,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -786,24 +802,6 @@
 					)
 				)
 				(pin power_in line
-					(at 50.8 -7.62 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 50.8 -5.08 180)
 					(length 7.62)
 					(name "GND"
@@ -821,7 +819,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 50.8 -7.62 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PSEC5_ctrlbd:LTC2600CGN_PBF"
 			(pin_names
@@ -1007,132 +1024,6 @@
 					)
 				)
 				(pin output line
-					(at 66.04 -15.24 180)
-					(length 7.62)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 66.04 -12.7 180)
-					(length 7.62)
-					(name "*CLR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 66.04 -10.16 180)
-					(length 7.62)
-					(name "VOUTE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 66.04 -7.62 180)
-					(length 7.62)
-					(name "VOUTF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 66.04 -5.08 180)
-					(length 7.62)
-					(name "VOUTG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 66.04 -2.54 180)
-					(length 7.62)
-					(name "VOUTH"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 66.04 0 180)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "VOUTA"
@@ -1258,6 +1149,132 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -2.54 180)
+					(length 7.62)
+					(name "VOUTH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -5.08 180)
+					(length 7.62)
+					(name "VOUTG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -7.62 180)
+					(length 7.62)
+					(name "VOUTF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -10.16 180)
+					(length 7.62)
+					(name "VOUTE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -12.7 180)
+					(length 7.62)
+					(name "*CLR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -15.24 180)
+					(length 7.62)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 66.04 -17.78 180)
 					(length 7.62)
@@ -1277,12 +1294,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1373,7 +1395,60 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 12.7 15.24)
+		(end 99.06 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 647af0fe-eb7c-47cc-a130-f93eaeb0e928)
+	)
+	(text "From Kria"
+		(exclude_from_sim no)
+		(at 55.118 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "419a4967-202f-4387-bb91-87bb74708206")
+	)
+	(text "NOTE: DAC will run at 2V5\n"
+		(exclude_from_sim no)
+		(at 132.08 16.256 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "5b137f6b-dae0-44fc-8da0-d8ba1ae07b1d")
+	)
+	(text "To DUT\n"
+		(exclude_from_sim no)
+		(at 55.88 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "775223d2-7e26-483c-bf4a-b76af2a9f953")
+	)
+	(text "To DUT"
+		(exclude_from_sim no)
+		(at 54.102 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9b1ce95-f5bf-40a8-bff1-cad66238d6f2")
 	)
 	(junction
 		(at 218.44 76.2)
@@ -2713,61 +2788,8 @@
 		)
 		(uuid "ff93d188-8955-4fef-a51d-403ca6e8a9af")
 	)
-	(rectangle
-		(start 12.7 15.24)
-		(end 99.06 91.44)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 647af0fe-eb7c-47cc-a130-f93eaeb0e928)
-	)
-	(text "From Kria"
-		(exclude_from_sim no)
-		(at 55.118 17.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "419a4967-202f-4387-bb91-87bb74708206")
-	)
-	(text "NOTE: DAC will run at 2V5\n"
-		(exclude_from_sim no)
-		(at 132.08 16.256 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "5b137f6b-dae0-44fc-8da0-d8ba1ae07b1d")
-	)
-	(text "To DUT\n"
-		(exclude_from_sim no)
-		(at 55.88 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "775223d2-7e26-483c-bf4a-b76af2a9f953")
-	)
-	(text "To DUT"
-		(exclude_from_sim no)
-		(at 54.102 51.308 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a9b1ce95-f5bf-40a8-bff1-cad66238d6f2")
-	)
 	(label "DAC_THRES8_OUT"
 		(at 58.42 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2778,7 +2800,6 @@
 	)
 	(label "CLR_DAC*"
 		(at 402.59 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2789,7 +2810,6 @@
 	)
 	(label "CLR_DAC*"
 		(at 69.85 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2800,7 +2820,6 @@
 	)
 	(label "DAC_READBIAS2_OUT"
 		(at 54.61 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2811,7 +2830,6 @@
 	)
 	(label "SCK_DAC1"
 		(at 69.85 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2822,7 +2840,6 @@
 	)
 	(label "DAC_THRES6_OUT"
 		(at 58.42 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2833,7 +2850,6 @@
 	)
 	(label "DAC_THRES5_OUT"
 		(at 58.42 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2844,7 +2860,6 @@
 	)
 	(label "DAC_READBIAS1_OUT"
 		(at 248.92 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2855,7 +2870,6 @@
 	)
 	(label "SDI_DAC_THRES"
 		(at 69.85 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2866,7 +2880,6 @@
 	)
 	(label "CS{slash}LD_DAC1*"
 		(at 69.85 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,7 +2890,6 @@
 	)
 	(label "SCK_DAC2"
 		(at 248.92 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2888,7 +2900,6 @@
 	)
 	(label "CLR_DAC*"
 		(at 403.86 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2899,7 +2910,6 @@
 	)
 	(label "DAC_WBUFBIAS_OUT"
 		(at 54.61 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2910,7 +2920,6 @@
 	)
 	(label "DAC_THRES2_OUT"
 		(at 250.19 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2921,7 +2930,6 @@
 	)
 	(label "DAC_THRES3_OUT"
 		(at 250.19 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2932,7 +2940,6 @@
 	)
 	(label "SDI_DAC_BIAS"
 		(at 375.92 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2943,7 +2950,6 @@
 	)
 	(label "DAC_THRES1_OUT"
 		(at 58.42 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2954,7 +2960,6 @@
 	)
 	(label "DAC_THRES8_OUT"
 		(at 364.49 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,7 +2970,6 @@
 	)
 	(label "CS{slash}LD_DAC2*"
 		(at 248.92 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2976,7 +2980,6 @@
 	)
 	(label "DAC_THRES5_OUT"
 		(at 364.49 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2987,7 +2990,6 @@
 	)
 	(label "DAC_THRES7_OUT"
 		(at 58.42 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2998,7 +3000,6 @@
 	)
 	(label "SCK_DAC2"
 		(at 69.85 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3009,7 +3010,6 @@
 	)
 	(label "DAC_THRES6_OUT"
 		(at 364.49 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,7 +3020,6 @@
 	)
 	(label "CS{slash}LD_DAC2*"
 		(at 69.85 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3031,7 +3030,6 @@
 	)
 	(label "SDI_DAC_THRES"
 		(at 361.95 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3042,7 +3040,6 @@
 	)
 	(label "DAC_READBIAS2_OUT"
 		(at 248.92 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3050,6 @@
 	)
 	(label "DAC_THRES1_OUT"
 		(at 250.19 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3064,7 +3060,6 @@
 	)
 	(label "DAC_WBUFBIAS_OUT"
 		(at 248.92 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3075,7 +3070,6 @@
 	)
 	(label "SDI_DAC_BIAS"
 		(at 68.58 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3086,7 +3080,6 @@
 	)
 	(label "DAC_READBIAS1_OUT"
 		(at 54.61 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3097,7 +3090,6 @@
 	)
 	(label "DAC_THRES2_OUT"
 		(at 58.42 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3108,7 +3100,6 @@
 	)
 	(label "DAC_THRES4_OUT"
 		(at 58.42 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3119,7 +3110,6 @@
 	)
 	(label "CS{slash}LD_DAC1*"
 		(at 250.19 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,7 +3120,6 @@
 	)
 	(label "DAC_DISCBIAS_OUT"
 		(at 248.92 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3141,7 +3130,6 @@
 	)
 	(label "DAC_THRES7_OUT"
 		(at 364.49 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3152,7 +3140,6 @@
 	)
 	(label "DAC_THRES4_OUT"
 		(at 250.19 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3163,7 +3150,6 @@
 	)
 	(label "DAC_DISCBIAS_OUT"
 		(at 54.61 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3174,7 +3160,6 @@
 	)
 	(label "DAC_THRES3_OUT"
 		(at 58.42 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3185,7 +3170,6 @@
 	)
 	(label "SCK_DAC1"
 		(at 250.19 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3593,7 +3577,6 @@
 	(hierarchical_label "CS{slash}LD_DAC1*"
 		(shape input)
 		(at 53.34 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3605,7 +3588,6 @@
 	(hierarchical_label "SCK_DAC2"
 		(shape input)
 		(at 53.34 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3617,7 +3599,6 @@
 	(hierarchical_label "SDI_DAC_THRES"
 		(shape input)
 		(at 53.34 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3629,7 +3610,6 @@
 	(hierarchical_label "SCK_DAC1"
 		(shape input)
 		(at 53.34 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3641,7 +3621,6 @@
 	(hierarchical_label "CLR_DAC*"
 		(shape input)
 		(at 53.34 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3653,7 +3632,6 @@
 	(hierarchical_label "CS{slash}LD_DAC2*"
 		(shape input)
 		(at 53.34 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3665,7 +3643,6 @@
 	(hierarchical_label "SDI_DAC_BIAS"
 		(shape input)
 		(at 52.07 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
