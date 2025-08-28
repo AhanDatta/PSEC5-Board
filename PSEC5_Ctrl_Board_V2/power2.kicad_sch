@@ -1453,7 +1453,7 @@
 	)
 	(text "5V0 External Buck"
 		(exclude_from_sim no)
-		(at 171.704 192.532 0)
+		(at 188.722 192.024 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1491,9 +1491,9 @@
 		)
 		(uuid "49c64ce3-786f-47ab-be24-4d21c02fb883")
 	)
-	(text "2V5 External Buck"
+	(text "2V7 External Buck"
 		(exclude_from_sim no)
-		(at 171.704 230.886 0)
+		(at 204.978 230.886 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1652,6 +1652,12 @@
 		(uuid "3d6c42d4-4142-485c-8bcc-098b727c9b19")
 	)
 	(junction
+		(at 147.32 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4130b43c-33a7-4c4e-82ec-e2cc1855e220")
+	)
+	(junction
 		(at 120.65 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1722,6 +1728,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a9bf01e-a51d-4867-b413-74c548665526")
+	)
+	(junction
+		(at 146.05 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "771ead48-33b6-4210-a085-69c70d31f4c5")
 	)
 	(junction
 		(at 109.22 110.49)
@@ -2395,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 237.49) (xy 167.64 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed60a1a-9961-4b2c-aa2d-34c6a62f9188")
+	)
+	(wire
+		(pts
 			(xy 259.08 36.83) (xy 266.7 36.83)
 		)
 		(stroke
@@ -2502,6 +2524,16 @@
 			(type default)
 		)
 		(uuid "75cae798-4ecd-4bd0-80e0-73bab1787e2d")
+	)
+	(wire
+		(pts
+			(xy 146.05 198.12) (xy 161.29 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e47527-8239-40fb-af62-1ae4f3142a9d")
 	)
 	(wire
 		(pts
@@ -2655,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 237.49) (xy 160.02 237.49)
+			(xy 138.43 237.49) (xy 147.32 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 198.12) (xy 161.29 198.12)
+			(xy 137.16 198.12) (xy 146.05 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3377,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_2V5"
+	(global_label "VDD_BUCK_2V7"
 		(shape input)
 		(at 35.56 36.83 180)
 		(fields_autoplaced yes)
@@ -3367,9 +3399,9 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_2V5"
+	(global_label "VDD_BUCK_2V7"
 		(shape output)
-		(at 160.02 237.49 0)
+		(at 167.64 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3379,7 +3411,7 @@
 		)
 		(uuid "b97fb851-c708-4e95-9f53-dba65098e1de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.2171 237.49 0)
+			(at 184.8371 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3421,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_2V5"
+	(global_label "VDD_BUCK_2V7"
 		(shape input)
 		(at 167.64 36.83 180)
 		(fields_autoplaced yes)
@@ -3661,7 +3693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "44.5k"
+		(property "Value" "10.5k"
 			(at 111.76 109.2199 0)
 			(effects
 				(font
@@ -3847,6 +3879,73 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc1a0d6-06cb-4680-82d8-ca3a70d6ca84")
+		(property "Reference" "TP16"
+			(at 148.59 193.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VDD_BUCK_5V"
+			(at 148.59 196.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 151.13 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d63de9d-32b1-4fb4-9c7c-ea1fd2331343")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.7k"
+		(property "Value" "4.99k"
 			(at 245.11 45.7199 0)
 			(effects
 				(font
@@ -4551,7 +4650,7 @@
 		(dnp no)
 		(uuid "62f0deca-605a-4454-8236-e553ba35015d")
 		(property "Reference" "R60"
-			(at 104.14 38.354 0)
+			(at 113.03 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,8 +4658,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.7k"
-			(at 103.632 40.894 0)
+		(property "Value" "14.7k"
+			(at 112.522 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.3k"
+		(property "Value" "20k"
 			(at 246.38 102.8699 0)
 			(effects
 				(font
@@ -4899,7 +4998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.7k"
+		(property "Value" "4.99k"
 			(at 113.03 45.7199 0)
 			(effects
 				(font
@@ -5121,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.7k"
+		(property "Value" "14.7k"
 			(at 245.11 40.6399 0)
 			(effects
 				(font
@@ -5256,7 +5355,7 @@
 				)
 			)
 		)
-		(property "Value" "5.009k"
+		(property "Value" "4.42k"
 			(at 146.558 245.11 90)
 			(effects
 				(font
@@ -5434,6 +5533,73 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27d77f8-38d3-4516-9d11-d040b0f8adb4")
+		(property "Reference" "TP17"
+			(at 149.86 232.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VDD_BUCK_2V7"
+			(at 149.86 235.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 152.4 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81e5ac1f-90dc-4f40-879d-94bc5b3b57a1")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/ba7b9281-d70b-432c-9c7d-bfda745e0250"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -5882,7 +6048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "44.5k"
+		(property "Value" "34k"
 			(at 111.76 104.1399 0)
 			(effects
 				(font
@@ -5952,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.3k"
+		(property "Value" "11.3k"
 			(at 246.38 107.9499 0)
 			(effects
 				(font

@@ -762,16 +762,6 @@
 		)
 		(uuid "47ca59ac-cd17-4ba2-8a0b-580e724a31f1")
 	)
-	(text "Total 9.83k\n2 Resistors due to the odd value\n"
-		(exclude_from_sim no)
-		(at 261.366 167.132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4c2a7ec0-0097-4f17-9a51-032359a5ca59")
-	)
 	(text "Total 31.3k\n2 Resistors due to the odd value\n"
 		(exclude_from_sim no)
 		(at 265.176 99.06 0)
@@ -2258,7 +2248,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_2V5"
+	(global_label "VDD_BUCK_2V7"
 		(shape input)
 		(at 38.1 179.07 180)
 		(fields_autoplaced yes)
@@ -2346,7 +2336,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_2V5"
+	(global_label "VDD_BUCK_2V7"
 		(shape input)
 		(at 186.69 175.26 180)
 		(fields_autoplaced yes)
@@ -2961,7 +2951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "44.5k"
+		(property "Value" "10.5k"
 			(at 267.97 57.1499 0)
 			(effects
 				(font
@@ -3165,7 +3155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.83k"
+		(property "Value" "6.8k"
 			(at 264.16 179.0699 0)
 			(effects
 				(font
@@ -3366,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.7k"
+		(property "Value" "4.99k"
 			(at 115.57 187.9599 0)
 			(effects
 				(font
@@ -3506,7 +3496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.83k"
+		(property "Value" "3.03k"
 			(at 264.16 184.1499 0)
 			(effects
 				(font
@@ -3790,7 +3780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "44.5k"
+		(property "Value" "34k"
 			(at 267.97 52.0699 0)
 			(effects
 				(font
@@ -4126,7 +4116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.7k"
+		(property "Value" "14.7k"
 			(at 115.57 182.8799 0)
 			(effects
 				(font
@@ -4483,7 +4473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.3k"
+		(property "Value" "20k"
 			(at 267.97 111.7599 0)
 			(effects
 				(font
@@ -4553,7 +4543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.3k"
+		(property "Value" "11.3k"
 			(at 267.97 116.8399 0)
 			(effects
 				(font
