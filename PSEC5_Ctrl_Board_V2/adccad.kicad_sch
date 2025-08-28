@@ -1451,6 +1451,12 @@
 		(uuid "a9b1ce95-f5bf-40a8-bff1-cad66238d6f2")
 	)
 	(junction
+		(at 271.78 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0237961d-411b-4c5f-9126-695bc9a3eb7d")
+	)
+	(junction
 		(at 218.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1461,6 +1467,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c31f8e3-786d-4b13-9d43-e05868fcbf7b")
+	)
+	(junction
+		(at 264.16 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e7e03bd-3da9-40e3-b6f9-1abe0c99da57")
 	)
 	(junction
 		(at 133.35 76.2)
@@ -1499,6 +1511,12 @@
 		(uuid "60385ab7-87ea-4946-90ee-9174fe3753bd")
 	)
 	(junction
+		(at 266.7 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77ec8603-153b-4028-b3a4-30aff61745a7")
+	)
+	(junction
 		(at 186.69 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1521,6 +1539,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c4a827-8615-48c7-8488-e3ad4cd912ed")
+	)
+	(junction
+		(at 271.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d874ab-5246-41c3-910d-b7cc281fcb6e")
 	)
 	(junction
 		(at 149.86 153.67)
@@ -1551,6 +1575,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1eb808d-9597-4812-bd21-a923133c6796")
+	)
+	(junction
+		(at 269.24 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8a68872-6c27-462b-8e2a-ebafe5474ee8")
 	)
 	(junction
 		(at 238.76 146.05)
@@ -1690,6 +1720,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 66.04) (xy 273.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c1bebc-7e4e-4153-ac8b-481e5852e4eb")
+	)
+	(wire
+		(pts
 			(xy 207.01 151.13) (xy 210.82 151.13)
 		)
 		(stroke
@@ -1710,6 +1750,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 120.65) (xy 264.16 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ca4c19-d5ee-4570-9f20-92b72f215056")
+	)
+	(wire
+		(pts
+			(xy 264.16 143.51) (xy 273.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0fab84-af29-4871-b46d-ff9445c05b37")
+	)
+	(wire
+		(pts
 			(xy 240.03 63.5) (xy 273.05 63.5)
 		)
 		(stroke
@@ -1720,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.89) (xy 273.05 135.89)
+			(xy 248.92 135.89) (xy 271.78 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1760,6 +1820,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 140.97) (xy 273.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257c2ab5-8cfd-400e-9ff6-3831bab02f38")
+	)
+	(wire
+		(pts
 			(xy 238.76 153.67) (xy 238.76 156.21)
 		)
 		(stroke
@@ -1770,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 66.04) (xy 273.05 66.04)
+			(xy 250.19 66.04) (xy 271.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1980,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 123.19) (xy 266.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56502002-a377-440b-989c-b33ec1ede29b")
+	)
+	(wire
+		(pts
 			(xy 344.17 148.59) (xy 344.17 158.75)
 		)
 		(stroke
@@ -2040,6 +2120,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 128.27) (xy 271.78 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a9e5c6-6f62-4b86-8337-d677e10c2373")
+	)
+	(wire
+		(pts
 			(xy 54.61 59.69) (xy 45.72 59.69)
 		)
 		(stroke
@@ -2047,6 +2137,16 @@
 			(type default)
 		)
 		(uuid "612f4c0e-08ba-4f54-9081-5c9808eebe0d")
+	)
+	(wire
+		(pts
+			(xy 269.24 125.73) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63723dd8-5333-4ce2-9479-d238ce6c4919")
 	)
 	(wire
 		(pts
@@ -2160,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 138.43) (xy 273.05 138.43)
+			(xy 248.92 138.43) (xy 269.24 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2217,6 +2317,16 @@
 			(type default)
 		)
 		(uuid "8f23eb2d-ac86-44cd-ae2c-3dd3be535eb8")
+	)
+	(wire
+		(pts
+			(xy 271.78 135.89) (xy 273.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9041635b-7589-4701-baaa-bf8be6baa84b")
 	)
 	(wire
 		(pts
@@ -2307,6 +2417,16 @@
 			(type default)
 		)
 		(uuid "a3e96ae5-2181-474f-a650-3eee219e3375")
+	)
+	(wire
+		(pts
+			(xy 271.78 53.34) (xy 271.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2418c5-e81e-4a66-87be-16d9fd52e7ac")
 	)
 	(wire
 		(pts
@@ -2470,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 138.43) (xy 273.05 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82c4569-08c5-4ed6-8280-51ba005b2de1")
+	)
+	(wire
+		(pts
 			(xy 54.61 57.15) (xy 45.72 57.15)
 		)
 		(stroke
@@ -2580,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 140.97) (xy 273.05 140.97)
+			(xy 248.92 140.97) (xy 266.7 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 143.51) (xy 273.05 143.51)
+			(xy 248.92 143.51) (xy 264.16 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3859,6 +3989,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dff47e7-61cb-4a4d-b31b-55689c215cb5")
+		(property "Reference" "TP28"
+			(at 262.89 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DAC_READBIAS2_OUT"
+			(at 263.906 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e35225c-2842-43cb-a9fe-e4cd6912cfde")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 386.08 68.58 180)
 		(unit 1)
@@ -4849,6 +5045,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af72ab03-069a-401c-be75-f1b7780eb307")
+		(property "Reference" "TP18"
+			(at 273.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DAC_THRES1_OUT"
+			(at 272.796 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 276.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf889cf-c38b-4143-a224-d571e2a7cd95")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 361.95 133.35 90)
 		(unit 1)
@@ -4910,6 +5172,72 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
 					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d25f7316-7a14-4832-a3ec-f9ef1d27f34c")
+		(property "Reference" "TP25"
+			(at 270.51 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DAC_DISCBIAS_OUT"
+			(at 271.78 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27df783d-0a94-4c4c-a640-96c09fc5e48f")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -5328,6 +5656,72 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 266.7 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea667456-f98e-4260-b7d2-35d333312d94")
+		(property "Reference" "TP27"
+			(at 265.684 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DAC_READBIAS1_OUT"
+			(at 266.954 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 271.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3530fae-4c62-4a46-b077-473e96d16fd4")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 344.17 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5455,6 +5849,72 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
 					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 269.24 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef0eda84-d746-4683-bdc1-5f52c65b59b5")
+		(property "Reference" "TP26"
+			(at 267.97 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DAC_WBUFBIAS_OUT"
+			(at 269.24 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 269.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3b3aaa7-842d-4241-abd0-e53f0d2711eb")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/9bd9ffce-acff-4ff9-8380-cb9ceb30e6db"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
