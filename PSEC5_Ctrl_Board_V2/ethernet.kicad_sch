@@ -6862,7 +6862,7 @@
 		)
 		(uuid "ff634835-26d9-431b-bba7-1235c616f9d2")
 	)
-	(global_label "3V3_IO"
+	(global_label "1V8_Banks"
 		(shape input)
 		(at 59.69 95.25 0)
 		(fields_autoplaced yes)
@@ -6874,7 +6874,17 @@
 		)
 		(uuid "0f7dd46c-084d-4800-86df-40a453fef78b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0857 95.25 0)
+			(at 72.7746 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" ""
+			(at 59.69 97.4408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
