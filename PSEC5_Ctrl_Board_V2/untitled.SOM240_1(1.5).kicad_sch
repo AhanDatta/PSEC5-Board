@@ -16358,6 +16358,48 @@
 		)
 	)
 	(sheet
+		(at 355.6 200.66)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15f57d5c-54b3-4ba8-a361-8040b738c0f2")
+		(property "Sheetname" "SD_New"
+			(at 355.6 199.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_New.kicad_sch"
+			(at 355.6 221.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 201.93)
 		(size 10.16 12.7)
 		(exclude_from_sim no)
