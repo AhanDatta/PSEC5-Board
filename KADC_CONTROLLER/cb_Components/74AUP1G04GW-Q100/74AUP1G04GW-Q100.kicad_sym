@@ -1,0 +1,15 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "74AUP1G04GW-Q100"
+    (property "Reference" "U" (id 0) (at 0 -6.35) (effects (font (size 1.27 1.27))))
+    (property "Value" "74AUP1G04" (id 1) (at 0 6.35) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (id 2) (at 0 9.525) (effects (font (size 1.02 1.02))))
+    (property "Datasheet" "" (id 3) (at 0 11.43) (effects (font (size 1.02 1.02))))
+    (pins
+      (pin (number "1") (name "A")   (type input)  (shape line) (at -5 5)  (length 2.5) (orientation left))
+      (pin (number "2") (name "GND") (type power)  (shape line) (at -5 0)  (length 2.5) (orientation left))
+      (pin (number "3") (name "Y")   (type output) (shape line) (at -5 -5) (length 2.5) (orientation left))
+      (pin (number "4") (name "NC")  (type passive) (shape line) (at 5 -5)  (length 2.5) (orientation right))
+      (pin (number "5") (name "VCC") (type power)  (shape line) (at 5 0)   (length 2.5) (orientation right))
+    )
+  )
+)
