@@ -3,6 +3,6094 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4d09e761-a2d6-4b76-9e45-b7f287a5a95b")
-	(paper "A4")
-	(lib_symbols)
+	(paper "A3")
+	(lib_symbols
+		(symbol "AMD6_60_01_5_L_4_2_A_TR_BOTTOM:ADM6-60-01.5-L-4-2-A-TR_BOTTOM"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 77.47 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ADM6-60-01.5-L-4-2-A-TR_BOTTOM"
+				(at -10.16 -80.01 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ADM6-60-01.5-L-4-2-A-TR:SAMTEC_ADM6-60-01.5-L-4-2-A-TR"
+				(at 0 86.868 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "7"
+				(at 0.254 77.978 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at -9.398 84.074 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.1mm"
+				(at 6.35 83.312 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0.762 79.756 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ADM6-60-01.5-L-4-2-A-TR_BOTTOM_1_0"
+				(rectangle
+					(start -16.51 76.2)
+					(end 16.51 -78.74)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -21.59 73.66 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 71.12 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 68.58 0)
+					(length 5.08)
+					(name "GTH_DP3_M2C_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 66.04 0)
+					(length 5.08)
+					(name "GTH_DP3_M2C_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 63.5 0)
+					(length 5.08)
+					(name "GND\n"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 60.96 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 58.42 0)
+					(length 5.08)
+					(name "GTH_REFCLK1_C2M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 55.88 0)
+					(length 5.08)
+					(name "GTH_REFCLK1_C2M_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 53.34 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 50.8 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 48.26 0)
+					(length 5.08)
+					(name "HPB15_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 45.72 0)
+					(length 5.08)
+					(name "HPB15_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 43.18 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 40.64 0)
+					(length 5.08)
+					(name "HPB08_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 38.1 0)
+					(length 5.08)
+					(name "HPB08_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 35.56 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 33.02 0)
+					(length 5.08)
+					(name "HPB12_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 30.48 0)
+					(length 5.08)
+					(name "HPB12_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 27.94 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 25.4 0)
+					(length 5.08)
+					(name "HPB06_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 22.86 0)
+					(length 5.08)
+					(name "HPB06_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 20.32 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 17.78 0)
+					(length 5.08)
+					(name "HPB16_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 15.24 0)
+					(length 5.08)
+					(name "HPB16_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 12.7 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 10.16 0)
+					(length 5.08)
+					(name "HPB19_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 7.62 0)
+					(length 5.08)
+					(name "HPB19_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 2.54 0)
+					(length 5.08)
+					(name "HPC08_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 0 0)
+					(length 5.08)
+					(name "HPC08_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -5.08 0)
+					(length 5.08)
+					(name "HPC19_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -7.62 0)
+					(length 5.08)
+					(name "HPC19_N\n"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -12.7 0)
+					(length 5.08)
+					(name "HPC14_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -15.24 0)
+					(length 5.08)
+					(name "HPC14_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -17.78 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -20.32 0)
+					(length 5.08)
+					(name "HPC15_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -22.86 0)
+					(length 5.08)
+					(name "HPC15_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -25.4 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -27.94 0)
+					(length 5.08)
+					(name "HPC03_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -30.48 0)
+					(length 5.08)
+					(name "HPC03_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -33.02 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -35.56 0)
+					(length 5.08)
+					(name "VCCO_HPB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -38.1 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -40.64 0)
+					(length 5.08)
+					(name "HDB18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -43.18 0)
+					(length 5.08)
+					(name "HDB19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -45.72 0)
+					(length 5.08)
+					(name "HDB20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -48.26 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -50.8 0)
+					(length 5.08)
+					(name "HDB21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -53.34 0)
+					(length 5.08)
+					(name "HDB22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -55.88 0)
+					(length 5.08)
+					(name "HDB23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -58.42 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -60.96 0)
+					(length 5.08)
+					(name "HDC18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -63.5 0)
+					(length 5.08)
+					(name "HDC19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -66.04 0)
+					(length 5.08)
+					(name "HDC20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -68.58 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -71.12 0)
+					(length 5.08)
+					(name "HDC21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -73.66 0)
+					(length 5.08)
+					(name "HDC22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -76.2 0)
+					(length 5.08)
+					(name "A60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "HDC23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 73.66 180)
+					(length 5.08)
+					(name "GTH_DP2_C2M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 71.12 180)
+					(length 5.08)
+					(name "GTH_DP2_C2M_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 68.58 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 66.04 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 63.5 180)
+					(length 5.08)
+					(name "GTH_DP2_M2C_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 60.96 180)
+					(length 5.08)
+					(name "GTH_DP2_M2C_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 58.42 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 55.88 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 53.34 180)
+					(length 5.08)
+					(name "GTH_DP0_C2M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 50.8 180)
+					(length 5.08)
+					(name "GTH_DP0_C2M_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 48.26 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 45.72 180)
+					(length 5.08)
+					(name "HPB10_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 43.18 180)
+					(length 5.08)
+					(name "HPB10_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 40.64 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 38.1 180)
+					(length 5.08)
+					(name "HPB07_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 35.56 180)
+					(length 5.08)
+					(name "HPB07_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 33.02 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 30.48 180)
+					(length 5.08)
+					(name "HPB05_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 27.94 180)
+					(length 5.08)
+					(name "HPB05_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 25.4 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 22.86 180)
+					(length 5.08)
+					(name "HPB11_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 20.32 180)
+					(length 5.08)
+					(name "HPB11_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 15.24 180)
+					(length 5.08)
+					(name "HPB03_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 12.7 180)
+					(length 5.08)
+					(name "HPB03_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 7.62 180)
+					(length 5.08)
+					(name "HPC06_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 5.08 180)
+					(length 5.08)
+					(name "HPC06_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 0 180)
+					(length 5.08)
+					(name "HPC13_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -2.54 180)
+					(length 5.08)
+					(name "HPC13_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -7.62 180)
+					(length 5.08)
+					(name "HPC16_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -10.16 180)
+					(length 5.08)
+					(name "HPC16_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -15.24 180)
+					(length 5.08)
+					(name "HPC07_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -17.78 180)
+					(length 5.08)
+					(name "HPC07_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -22.86 180)
+					(length 5.08)
+					(name "HPC18_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -25.4 180)
+					(length 5.08)
+					(name "HPC18_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -30.48 180)
+					(length 5.08)
+					(name "VCCO_HPB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -33.02 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -35.56 180)
+					(length 5.08)
+					(name "HDB12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -38.1 180)
+					(length 5.08)
+					(name "HDB13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -40.64 180)
+					(length 5.08)
+					(name "HDB14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -43.18 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -45.72 180)
+					(length 5.08)
+					(name "HDB15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -48.26 180)
+					(length 5.08)
+					(name "HDB16_CC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -50.8 180)
+					(length 5.08)
+					(name "HDB17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -53.34 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -55.88 180)
+					(length 5.08)
+					(name "HDC12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -58.42 180)
+					(length 5.08)
+					(name "HDC13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -60.96 180)
+					(length 5.08)
+					(name "HDC14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -63.5 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -66.04 180)
+					(length 5.08)
+					(name "HDC15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -68.58 180)
+					(length 5.08)
+					(name "HDC16_CC\n"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -71.12 180)
+					(length 5.08)
+					(name "HDC17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -73.66 180)
+					(length 5.08)
+					(name "VCCO_HDB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -76.2 180)
+					(length 5.08)
+					(name "VCCO_HDB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADM6-60-01.5-L-4-2-A-TR_BOTTOM_2_0"
+				(rectangle
+					(start -16.51 76.2)
+					(end 16.51 -78.74)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -21.59 73.66 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 71.12 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 68.58 0)
+					(length 5.08)
+					(name "GTH_REFCLK0_C2M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 66.04 0)
+					(length 5.08)
+					(name "GTH_REFCLK0_C2M_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 63.5 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 60.96 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 58.42 0)
+					(length 5.08)
+					(name "GTH_DP1_M2C_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 55.88 0)
+					(length 5.08)
+					(name "GTH_DP1_M2C_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 53.34 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 50.8 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 48.26 0)
+					(length 5.08)
+					(name "HPB09_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 45.72 0)
+					(length 5.08)
+					(name "HPB09_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 43.18 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 40.64 0)
+					(length 5.08)
+					(name "HPB14_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 38.1 0)
+					(length 5.08)
+					(name "HPB14_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 35.56 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 33.02 0)
+					(length 5.08)
+					(name "HPB02_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 30.48 0)
+					(length 5.08)
+					(name "HPB02_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 27.94 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 25.4 0)
+					(length 5.08)
+					(name "HPB13_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 22.86 0)
+					(length 5.08)
+					(name "HPB13_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 20.32 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 17.78 0)
+					(length 5.08)
+					(name "HPB18_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 15.24 0)
+					(length 5.08)
+					(name "HPB18_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 12.7 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 10.16 0)
+					(length 5.08)
+					(name "HPC17_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 7.62 0)
+					(length 5.08)
+					(name "HPC17_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 2.54 0)
+					(length 5.08)
+					(name "HPC10_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 0 0)
+					(length 5.08)
+					(name "HPC10_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -5.08 0)
+					(length 5.08)
+					(name "HPC11_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -7.62 0)
+					(length 5.08)
+					(name "HPC11_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -12.7 0)
+					(length 5.08)
+					(name "HPC12_P\n"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -15.24 0)
+					(length 5.08)
+					(name "HPC12_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -17.78 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -20.32 0)
+					(length 5.08)
+					(name "HPC05_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -22.86 0)
+					(length 5.08)
+					(name "HPC05_CC_N\n"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -25.4 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -27.94 0)
+					(length 5.08)
+					(name "HPC_CLK0_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -30.48 0)
+					(length 5.08)
+					(name "HPC_CLK0_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -33.02 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -35.56 0)
+					(length 5.08)
+					(name "VCCO_HPC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -38.1 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -40.64 0)
+					(length 5.08)
+					(name "HDB06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -43.18 0)
+					(length 5.08)
+					(name "HDB07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -45.72 0)
+					(length 5.08)
+					(name "HDB08_CC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -48.26 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -50.8 0)
+					(length 5.08)
+					(name "HDB09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -53.34 0)
+					(length 5.08)
+					(name "HDB10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -55.88 0)
+					(length 5.08)
+					(name "HDB11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -58.42 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -60.96 0)
+					(length 5.08)
+					(name "HDC06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -63.5 0)
+					(length 5.08)
+					(name "HDC07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -66.04 0)
+					(length 5.08)
+					(name "HDC08_CC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -68.58 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -71.12 0)
+					(length 5.08)
+					(name "HDC09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -73.66 0)
+					(length 5.08)
+					(name "HDC10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -76.2 0)
+					(length 5.08)
+					(name "HDC11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 73.66 180)
+					(length 5.08)
+					(name "GTH_DP1_C2M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 71.12 180)
+					(length 5.08)
+					(name "GTH_DP1_C2M_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 68.58 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 66.04 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 63.5 180)
+					(length 5.08)
+					(name "GTH_DP3_C2M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 60.96 180)
+					(length 5.08)
+					(name "GTH_DP3_C2M_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 58.42 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 55.88 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 53.34 180)
+					(length 5.08)
+					(name "GTH_DP0_M2C_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 50.8 180)
+					(length 5.08)
+					(name "GTH_DP0_M2C_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 48.26 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 45.72 180)
+					(length 5.08)
+					(name "HPB01_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 43.18 180)
+					(length 5.08)
+					(name "HPB01_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 40.64 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 38.1 180)
+					(length 5.08)
+					(name "HPB00_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 35.56 180)
+					(length 5.08)
+					(name "HPB00_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 33.02 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 30.48 180)
+					(length 5.08)
+					(name "HPB_CLK0_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 27.94 180)
+					(length 5.08)
+					(name "HPB_CLK0_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 25.4 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 22.86 180)
+					(length 5.08)
+					(name "HPB04_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 20.32 180)
+					(length 5.08)
+					(name "HPB04_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 15.24 180)
+					(length 5.08)
+					(name "HPB17_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 12.7 180)
+					(length 5.08)
+					(name "HPB17_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 7.62 180)
+					(length 5.08)
+					(name "HPC09_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 5.08 180)
+					(length 5.08)
+					(name "HPC09_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 0 180)
+					(length 5.08)
+					(name "HPC01_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -2.54 180)
+					(length 5.08)
+					(name "HPC01_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -7.62 180)
+					(length 5.08)
+					(name "HPC00_CC_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -10.16 180)
+					(length 5.08)
+					(name "HPC00_CC_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -15.24 180)
+					(length 5.08)
+					(name "HPC02_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -17.78 180)
+					(length 5.08)
+					(name "HPC02_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -22.86 180)
+					(length 5.08)
+					(name "HPC04_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -25.4 180)
+					(length 5.08)
+					(name "HPC04_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -30.48 180)
+					(length 5.08)
+					(name "VCCO_HPC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -33.02 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -35.56 180)
+					(length 5.08)
+					(name "HDB0_CC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -38.1 180)
+					(length 5.08)
+					(name "HDB01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -40.64 180)
+					(length 5.08)
+					(name "HDB02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -43.18 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -45.72 180)
+					(length 5.08)
+					(name "HDB03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -48.26 180)
+					(length 5.08)
+					(name "HDB04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -50.8 180)
+					(length 5.08)
+					(name "HDB05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -53.34 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -55.88 180)
+					(length 5.08)
+					(name "HDC00_CC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -58.42 180)
+					(length 5.08)
+					(name "HDC01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -60.96 180)
+					(length 5.08)
+					(name "HDC02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -63.5 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -66.04 180)
+					(length 5.08)
+					(name "HDC03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -68.58 180)
+					(length 5.08)
+					(name "HDC04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -71.12 180)
+					(length 5.08)
+					(name "HDC05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -73.66 180)
+					(length 5.08)
+					(name "VCCO_HDC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -76.2 180)
+					(length 5.08)
+					(name "VCCO_HDC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "AMD6_60_01_5_L_4_2_A_TR_BOTTOM:ADM6-60-01.5-L-4-2-A-TR_BOTTOM")
+		(at 86.36 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51885340-de4d-4b49-96c9-53c26cffda73")
+		(property "Reference" "J3"
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM6-60-01.5-L-4-2-A-TR_BOTTOM"
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADM6-60-01.5-L-4-2-A-TR:SAMTEC_ADM6-60-01.5-L-4-2-A-TR"
+			(at 86.36 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 86.614 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 76.962 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.1mm"
+			(at 92.71 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 87.122 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A07"
+			(uuid "13670727-3806-4bb2-aab0-d5544c57a8d8")
+		)
+		(pin "A10"
+			(uuid "14a46b5a-7f8b-46a0-bbff-35fa8557b866")
+		)
+		(pin "A15"
+			(uuid "94e963fb-1cb5-46e7-ab6a-5faeb009b717")
+		)
+		(pin "A23"
+			(uuid "20878abc-56d9-4b29-b204-481cf193cded")
+		)
+		(pin "A26"
+			(uuid "491226dc-b7cc-4f3d-8765-d1291d4c3698")
+		)
+		(pin "A03"
+			(uuid "51297b9b-cf9c-4f28-9042-b1b5bf0d2679")
+		)
+		(pin "A29"
+			(uuid "ee51c378-f089-4ea4-b9c4-4a5f0a16c761")
+		)
+		(pin "A16"
+			(uuid "e77a52f8-d6c0-456b-b61c-5227668cac61")
+		)
+		(pin "A04"
+			(uuid "ff010560-c86b-40d9-b7b2-a9cc9ba553bf")
+		)
+		(pin "A02"
+			(uuid "32a47070-9c26-4765-b0ab-e91f8371b6e1")
+		)
+		(pin "A05"
+			(uuid "5814bc4d-27be-445a-95b3-0b0385f6169e")
+		)
+		(pin "A11"
+			(uuid "ba973269-28da-4e65-933f-4398a5baef8a")
+		)
+		(pin "A09"
+			(uuid "4ed8698c-44ac-4227-900e-f396c72bed02")
+		)
+		(pin "A17"
+			(uuid "65ff1b9b-6ee4-40a1-8b95-9892edf548c8")
+		)
+		(pin "A25"
+			(uuid "e07ac24e-35e8-48f5-851f-0be08c77839b")
+		)
+		(pin "A06"
+			(uuid "9c945b8d-82c1-4990-a958-42bd08506437")
+		)
+		(pin "A08"
+			(uuid "cecd9b91-3255-416f-80da-ee6c7ffbcbcd")
+		)
+		(pin "A12"
+			(uuid "b567475c-6d03-44f9-a4f9-72f37bcf4cca")
+		)
+		(pin "A14"
+			(uuid "0898a79d-8a6c-4b23-ab1d-8c45cfe0c0c1")
+		)
+		(pin "A19"
+			(uuid "8ded1160-9ca1-4fef-80d2-b37249fbfa1b")
+		)
+		(pin "A01"
+			(uuid "db599725-27d8-4e1e-b152-33bc9c86faac")
+		)
+		(pin "A18"
+			(uuid "708708dd-db20-408a-a8b6-b2e003f447c2")
+		)
+		(pin "A20"
+			(uuid "cc861fe1-93e6-47d5-8bca-65761963da1a")
+		)
+		(pin "A22"
+			(uuid "261f8279-7979-4558-91de-e80c3c54a29e")
+		)
+		(pin "A13"
+			(uuid "f0586e7a-c78a-423c-8149-29cadeb6b328")
+		)
+		(pin "A21"
+			(uuid "480e4123-49bb-4cbb-be86-1281e4f01314")
+		)
+		(pin "A24"
+			(uuid "9e531864-5969-4ddb-831d-6099235ced9c")
+		)
+		(pin "A27"
+			(uuid "b5e3bfcd-7017-4b71-8985-95f64cfe5101")
+		)
+		(pin "A28"
+			(uuid "56d38059-def9-42bb-8b35-9c7c14d6f66b")
+		)
+		(pin "A47"
+			(uuid "c8d364d6-b668-4061-920f-eec682e88842")
+		)
+		(pin "A33"
+			(uuid "8afdc44f-3210-4c62-b444-04241ae39aaa")
+		)
+		(pin "A34"
+			(uuid "db21b3fe-c250-454e-8d93-53d0feadf92e")
+		)
+		(pin "A38"
+			(uuid "b640f956-e6ce-4b8a-9090-1bb853e65e78")
+		)
+		(pin "A30"
+			(uuid "91d1f462-06db-4313-b2e1-c9361972c805")
+		)
+		(pin "A32"
+			(uuid "e5983f6c-4857-4ae5-8001-3c27d2271517")
+		)
+		(pin "A40"
+			(uuid "ff9c79a2-12af-413e-a482-11f9ce5996c9")
+		)
+		(pin "A41"
+			(uuid "93ca4928-4346-4139-9dbb-4c029f8745bf")
+		)
+		(pin "A31"
+			(uuid "2edf8e55-dc6f-47c9-93ea-db7fc693e8f5")
+		)
+		(pin "A45"
+			(uuid "5fc80729-6fca-4f72-b833-c7449c563dee")
+		)
+		(pin "A37"
+			(uuid "e8183ed0-0f57-4593-858c-86b31c117fb2")
+		)
+		(pin "A49"
+			(uuid "aa756751-bccd-41e0-a3cf-27107a114572")
+		)
+		(pin "A51"
+			(uuid "c2d6350f-8731-41e2-a501-a01ea8400260")
+		)
+		(pin "A52"
+			(uuid "6de2b1b0-75b6-4dea-8ec4-fe66aaeba0eb")
+		)
+		(pin "A57"
+			(uuid "6fadb714-9868-41af-a38d-ef200bdefb4f")
+		)
+		(pin "A43"
+			(uuid "7c51bb9c-00ec-4d9c-af0a-77c8ae02fe36")
+		)
+		(pin "A36"
+			(uuid "896e93d8-f6a7-4f33-9ea4-bf8d10937e7d")
+		)
+		(pin "A48"
+			(uuid "ab028dd5-e22d-4530-95b9-e14932639624")
+		)
+		(pin "A55"
+			(uuid "a24b18a9-4479-47a2-bb01-5bd6ca5f16f5")
+		)
+		(pin "A58"
+			(uuid "93332260-4508-4bc2-b9aa-6b7cdf3ef8e9")
+		)
+		(pin "A42"
+			(uuid "28e206d2-13a2-48e6-b0bd-f2676f723488")
+		)
+		(pin "A39"
+			(uuid "25224494-6574-4cef-8006-e8cf00ffa33c")
+		)
+		(pin "A44"
+			(uuid "e05d75c6-5b0c-4031-97ee-b2cd470e3c3b")
+		)
+		(pin "A35"
+			(uuid "30049a46-0434-40e8-8c1d-6d3e7f7d4c70")
+		)
+		(pin "A46"
+			(uuid "2a384f3a-9427-4cef-8e17-add4e14ccb97")
+		)
+		(pin "A50"
+			(uuid "79a5863c-aff7-41d3-b2df-a9ca34dbdff8")
+		)
+		(pin "A54"
+			(uuid "b8758cb6-7b9f-40e4-91bf-462536777cb1")
+		)
+		(pin "A59"
+			(uuid "4077ff7c-c216-46d1-a8db-87ca994c7280")
+		)
+		(pin "HDC23"
+			(uuid "bac5eae3-9d17-44f4-b9f3-c24cd1f29eab")
+		)
+		(pin "B02"
+			(uuid "db5861c2-c3d9-4b6f-a4e6-1e5110b368b9")
+		)
+		(pin "A56"
+			(uuid "f7d19ad6-1c6a-4469-8461-36afdcfacc3b")
+		)
+		(pin "A53"
+			(uuid "9376776c-a240-4348-9fad-8e5255d99353")
+		)
+		(pin "B01"
+			(uuid "d17da1a0-2586-42ae-8ec6-7ae08d944f99")
+		)
+		(pin "B22"
+			(uuid "6e020a3d-c09f-4536-b349-c44ee6ec5e22")
+		)
+		(pin "B07"
+			(uuid "2553a9e7-dd29-4b92-a4c2-1e3307efafb9")
+		)
+		(pin "B21"
+			(uuid "c5a20253-db33-4f4a-9c82-2b02f429f77d")
+		)
+		(pin "B14"
+			(uuid "5a1d983c-6c9b-419e-b168-e2aa28591170")
+		)
+		(pin "B05"
+			(uuid "b27405a9-4733-42e4-91ff-387f08c7b791")
+		)
+		(pin "B18"
+			(uuid "3f6ebc35-2aa3-46e5-b26d-987d7290ad01")
+		)
+		(pin "B06"
+			(uuid "013691ab-9ea5-4680-8a3c-5dba62ed86c0")
+		)
+		(pin "B20"
+			(uuid "9e30edd9-32ad-4bdf-bcc9-35d6cc31c4c4")
+		)
+		(pin "B12"
+			(uuid "7354bf28-7c85-4f17-8413-60f69cb333dc")
+		)
+		(pin "B26"
+			(uuid "c1f901f9-aca2-4afb-b72d-ce74babe54f5")
+		)
+		(pin "B35"
+			(uuid "e1d9f6ea-6b60-4eba-8e32-1aba0cd34b72")
+		)
+		(pin "B31"
+			(uuid "8003560f-fde0-4af7-b06f-ac60b0ff3a28")
+		)
+		(pin "B38"
+			(uuid "566b2187-e2df-44e8-a583-32e238af3c13")
+		)
+		(pin "B40"
+			(uuid "6987b73f-e545-4a46-b311-d3215469b02b")
+		)
+		(pin "B03"
+			(uuid "2b5a206c-b531-44af-a81d-a1b3389cc7bb")
+		)
+		(pin "B09"
+			(uuid "567cb92c-f8e8-4393-804f-6735a7986be7")
+		)
+		(pin "B13"
+			(uuid "5055ac5e-6305-4d1b-86f4-e888caae6d84")
+		)
+		(pin "B08"
+			(uuid "399cc915-57f0-4a3e-98ee-2693a7389d0c")
+		)
+		(pin "B11"
+			(uuid "bfec0d22-543c-458c-b54e-023e48d8a3a1")
+		)
+		(pin "B10"
+			(uuid "c5b73bd1-528f-417f-bcde-83f44180b9f9")
+		)
+		(pin "B15"
+			(uuid "b6521a24-3184-4ec9-803d-eddf14dd6f00")
+		)
+		(pin "B16"
+			(uuid "225291cc-7cfd-4512-b934-07b5b08c5df1")
+		)
+		(pin "B17"
+			(uuid "59759561-101f-4744-8405-71a46dabf426")
+		)
+		(pin "B19"
+			(uuid "5f727916-2895-4384-b951-35dc8f6f5012")
+		)
+		(pin "B04"
+			(uuid "a5b83c83-8cd1-4139-b850-a620bfc32e13")
+		)
+		(pin "B23"
+			(uuid "3263ef7c-23db-44fa-b0e7-2d4a971cc81b")
+		)
+		(pin "B24"
+			(uuid "5ff0abef-1361-4049-a0eb-036aec44f334")
+		)
+		(pin "B25"
+			(uuid "c9980f2c-419d-47b5-8819-b8a9f7f5c86e")
+		)
+		(pin "B27"
+			(uuid "1735d707-224e-4711-aaf3-c53d682c6b32")
+		)
+		(pin "B28"
+			(uuid "63331635-d270-4f27-a93d-b97394dcd0a6")
+		)
+		(pin "B29"
+			(uuid "e77816b9-6728-408e-89a2-5e6632ef7d90")
+		)
+		(pin "B30"
+			(uuid "21b6a53a-5be4-4d42-a767-f2fdc0fa9a91")
+		)
+		(pin "B32"
+			(uuid "29420200-f48f-4b9a-baff-3c8fb1b56dcc")
+		)
+		(pin "B33"
+			(uuid "a439b388-77b8-443d-9522-e0befdbeabc2")
+		)
+		(pin "B34"
+			(uuid "ca8be21a-bd57-455d-9dc1-fb1fd88fb288")
+		)
+		(pin "B36"
+			(uuid "78f12132-500e-457e-84b9-46169704e9ba")
+		)
+		(pin "B37"
+			(uuid "ebb35234-9cd9-4863-97d0-0fc9ebd38763")
+		)
+		(pin "B39"
+			(uuid "00e345cc-1505-4496-a6ab-888c102cd531")
+		)
+		(pin "B59"
+			(uuid "a0bd4e87-6850-42ff-ac4f-c2bbdaafc669")
+		)
+		(pin "B54"
+			(uuid "41ae6e3e-d7f3-4202-97c4-d7f447dee971")
+		)
+		(pin "B45"
+			(uuid "f5e4ec25-96ac-4170-bbce-eebd33bd80d3")
+		)
+		(pin "B49"
+			(uuid "93cde22d-1629-4212-98a9-fb09b6bd18a5")
+		)
+		(pin "B42"
+			(uuid "c5b239db-543e-4a92-9b0c-a09cde5f4c69")
+		)
+		(pin "C02"
+			(uuid "122c85e9-e304-4293-bfbc-f3b488ed2730")
+		)
+		(pin "C04"
+			(uuid "cd1442a2-2773-4aeb-9bba-2c14c25aad8a")
+		)
+		(pin "C06"
+			(uuid "967f7b2b-f8f8-4602-a701-c707901fbac2")
+		)
+		(pin "B53"
+			(uuid "3ba84ba9-5bf7-440f-bcf9-e8fe9884f2be")
+		)
+		(pin "B43"
+			(uuid "76fc4e84-2aab-4686-963a-3341984a74a3")
+		)
+		(pin "B48"
+			(uuid "171ad515-2bf5-4d3a-852f-fc0dd4cd3c4d")
+		)
+		(pin "B58"
+			(uuid "bc322be1-9116-46f3-877e-99809c2065b7")
+		)
+		(pin "B60"
+			(uuid "74dfa00a-de50-4ddf-b65d-28309c59c623")
+		)
+		(pin "C03"
+			(uuid "71dc0945-8d8e-457e-b3d8-d9630db18c61")
+		)
+		(pin "C01"
+			(uuid "0ade3828-fc5a-41d1-ae9f-e06dd1b6b0f6")
+		)
+		(pin "B41"
+			(uuid "e3a5b977-178f-440c-b0b9-5b1c99038796")
+		)
+		(pin "B47"
+			(uuid "f248813d-891a-4e51-a8bd-ea11bc494db3")
+		)
+		(pin "B44"
+			(uuid "576edfbc-2137-4ecd-9c13-43b8dbef324c")
+		)
+		(pin "B52"
+			(uuid "bd3ebe95-d8cf-4459-aa7e-cab240c3994b")
+		)
+		(pin "B55"
+			(uuid "7e45a9f5-1278-4b1f-a7c0-bb86deda40a1")
+		)
+		(pin "B57"
+			(uuid "15616b8b-20d2-48a9-b20c-5583d65c18d8")
+		)
+		(pin "B50"
+			(uuid "8b0d37e0-08e2-42e2-b611-08919a805b99")
+		)
+		(pin "B51"
+			(uuid "ec350043-5473-4885-9990-944082583acd")
+		)
+		(pin "B46"
+			(uuid "3614104c-bffa-43cd-9e43-04ef1f14909f")
+		)
+		(pin "B56"
+			(uuid "e49992d8-441d-4360-8c9a-366b6e40a316")
+		)
+		(pin "C05"
+			(uuid "737f58f5-e484-435b-8d20-a539259e7548")
+		)
+		(pin "C09"
+			(uuid "d2653ac3-d3e8-435c-84c7-d064eea34f4c")
+		)
+		(pin "C26"
+			(uuid "20aa9b65-5e16-4371-8a94-78fdee36e7bf")
+		)
+		(pin "C30"
+			(uuid "8cd57106-e640-466a-a82d-fb72e7b1ef46")
+		)
+		(pin "C13"
+			(uuid "63b50ffb-82bc-498d-be7c-50a014094858")
+		)
+		(pin "C19"
+			(uuid "192ad5e7-25a5-412a-9077-5fa52ad6ca14")
+		)
+		(pin "C08"
+			(uuid "290bf56a-4f71-48c4-8f2d-af64acc782a6")
+		)
+		(pin "C17"
+			(uuid "b22198f2-259b-4a42-9ffc-00cf9164028a")
+		)
+		(pin "C11"
+			(uuid "7332970c-a7ff-4386-9624-b63122e57b38")
+		)
+		(pin "C20"
+			(uuid "f252ec90-21b6-4022-a5ad-2e0ac6293b9c")
+		)
+		(pin "C23"
+			(uuid "584ab72b-e81e-4917-b49a-8f4ed0bf2afd")
+		)
+		(pin "C24"
+			(uuid "4426b730-92ef-450a-bf11-b6d34e4f4521")
+		)
+		(pin "C27"
+			(uuid "0cb9a73e-f8f9-4849-b439-4ff6f32d8380")
+		)
+		(pin "C22"
+			(uuid "98e68a4e-dcee-4089-8b8a-7815a28e6713")
+		)
+		(pin "C12"
+			(uuid "f6b345fa-3889-40f6-a546-bce1d5d3b02a")
+		)
+		(pin "C07"
+			(uuid "73c36327-4c06-48c1-9a5d-486c79b4932f")
+		)
+		(pin "C10"
+			(uuid "821f258a-33c3-4ab7-bd4a-737cf706cc3e")
+		)
+		(pin "C25"
+			(uuid "9f5e9e01-ada8-46ae-9296-e76c9fee52e1")
+		)
+		(pin "C14"
+			(uuid "cea27e60-b480-43a2-a729-52b8a08ecdb7")
+		)
+		(pin "C15"
+			(uuid "32c5b9b5-391b-46f7-be49-0b64bd500bf9")
+		)
+		(pin "C21"
+			(uuid "58c0a0c5-111d-4293-b4ca-971ab1744ad4")
+		)
+		(pin "C16"
+			(uuid "3acc3057-e122-4b25-abe9-ccf7fbfe3879")
+		)
+		(pin "C18"
+			(uuid "83b24e87-13ce-4ee9-9b56-21b3bf723a98")
+		)
+		(pin "C28"
+			(uuid "9e7c2336-4615-42d6-b7aa-f0bad3fffd9a")
+		)
+		(pin "C29"
+			(uuid "f301c996-f280-4bfd-bf7e-09114bbea0bb")
+		)
+		(pin "C47"
+			(uuid "1d0fdfc4-f217-4619-85ff-bbd18c410df8")
+		)
+		(pin "C53"
+			(uuid "0b7f7e1f-437b-426a-be1f-2740dd90f472")
+		)
+		(pin "C55"
+			(uuid "66054061-5437-41b8-82e5-2aff476af127")
+		)
+		(pin "C41"
+			(uuid "11101790-1919-4cbd-b48a-d2ed5772cf08")
+		)
+		(pin "C52"
+			(uuid "072ba73e-f80b-4d28-a9bb-c4295983b1d9")
+		)
+		(pin "C34"
+			(uuid "e005791c-57bc-47b1-9212-79e2b0452059")
+		)
+		(pin "C37"
+			(uuid "db4e2c3b-ac08-4fdc-a063-d8a95c7ca263")
+		)
+		(pin "D02"
+			(uuid "ec58dccd-6e2d-4211-88b9-d80e89faf1d2")
+		)
+		(pin "C39"
+			(uuid "d449b1d3-4b23-4d1d-ba7d-a531f37fd44e")
+		)
+		(pin "C48"
+			(uuid "52114915-4eaf-4adf-b1ac-ab11d79d7166")
+		)
+		(pin "C50"
+			(uuid "ed81bdf6-26b5-4202-b353-0a8d177e6ff0")
+		)
+		(pin "C60"
+			(uuid "14de99ce-d8c9-47a2-92d0-b5d0302594d1")
+		)
+		(pin "C51"
+			(uuid "87aa4b79-bbaf-46fc-96b6-8de7afc8087c")
+		)
+		(pin "C35"
+			(uuid "97821e0a-9ee4-4de7-91d7-dd4434bd0ee4")
+		)
+		(pin "C38"
+			(uuid "fb5f26e4-7da1-4690-8f21-7fbfbad51009")
+		)
+		(pin "C33"
+			(uuid "52fe2f74-7c39-4ee7-a1de-caa1a1795a7f")
+		)
+		(pin "C32"
+			(uuid "ade3ee77-2d8b-43b6-b47c-c7db3d029398")
+		)
+		(pin "C40"
+			(uuid "eb3c1d0d-b4c8-4fa2-bd20-a4df54a32004")
+		)
+		(pin "C31"
+			(uuid "962772c8-ed53-4cd3-bce5-1c811c9a60da")
+		)
+		(pin "C36"
+			(uuid "99fc20a1-118f-4ae8-918a-28c2e6adf601")
+		)
+		(pin "C42"
+			(uuid "604b4245-89e5-4a4b-af6c-dcd1b27c4d0f")
+		)
+		(pin "C43"
+			(uuid "7ec140e0-bb09-42fe-9ac5-3cd12411f6d7")
+		)
+		(pin "C44"
+			(uuid "572b6bf6-cb90-4088-a225-564c42d50b0e")
+		)
+		(pin "C45"
+			(uuid "139af17c-b94d-487f-afb1-f61f3dc3b696")
+		)
+		(pin "C46"
+			(uuid "af5ff0a2-c5c7-40a7-855d-1045fda2ae0e")
+		)
+		(pin "C49"
+			(uuid "46d3de89-c8be-4889-91fd-b37f442e181b")
+		)
+		(pin "C54"
+			(uuid "215c26b0-9cf7-4a80-8a00-7064363d83a9")
+		)
+		(pin "C56"
+			(uuid "3427abdf-829e-48c4-a4a7-f72eb332e537")
+		)
+		(pin "C58"
+			(uuid "737f50f6-029e-4ed3-841d-5857cd600853")
+		)
+		(pin "C57"
+			(uuid "03754a63-c757-4d52-9bc7-5194be23e7fd")
+		)
+		(pin "C59"
+			(uuid "8123f080-2e66-45d8-85f7-1f980f2b0e8e")
+		)
+		(pin "D01"
+			(uuid "9ac7baf7-881a-4480-9233-b586b7737ac3")
+		)
+		(pin "D04"
+			(uuid "fc8e693f-7760-4b5d-b36e-1d6dd779be95")
+		)
+		(pin "D05"
+			(uuid "99366515-c63b-4142-877a-d9c414922639")
+		)
+		(pin "D06"
+			(uuid "a1f11d37-214e-4ab0-8062-8e15e3986f2e")
+		)
+		(pin "D03"
+			(uuid "88ab0da1-0bdd-4178-8611-0e42d11c1427")
+		)
+		(pin "D16"
+			(uuid "bc57df50-25f2-4220-b83c-82abc1945bd7")
+		)
+		(pin "D21"
+			(uuid "1752dfa3-39d4-4af6-b3ee-09afd81806da")
+		)
+		(pin "D25"
+			(uuid "bc71e92e-d229-4249-a9b4-1edeb408d9e0")
+		)
+		(pin "D13"
+			(uuid "5424f9e2-8a1f-469b-8d3d-a6eb5b52c73c")
+		)
+		(pin "D09"
+			(uuid "1b30d313-e2d9-4cc7-b0ab-3b8643a1e8d7")
+		)
+		(pin "D26"
+			(uuid "fe5bc172-3370-44e7-b18d-95ad3b501c97")
+		)
+		(pin "D19"
+			(uuid "b67ba0f4-6054-4590-8569-e3b37b7ed301")
+		)
+		(pin "D30"
+			(uuid "92346dd8-9e95-4ace-86d2-39eb1c4dd97c")
+		)
+		(pin "D08"
+			(uuid "41c4d183-ccb7-4c08-acfd-db8bf82de108")
+		)
+		(pin "D37"
+			(uuid "c20c7e34-432a-4565-946d-bae670929d99")
+		)
+		(pin "D39"
+			(uuid "0bdabb94-a63f-42e4-b008-f03ca68f0f6c")
+		)
+		(pin "D42"
+			(uuid "b42449be-c0a4-4e14-879c-389fbce85f0b")
+		)
+		(pin "D40"
+			(uuid "71f898f0-5f85-4d5d-bc0c-64f57e42b835")
+		)
+		(pin "D07"
+			(uuid "cba5402c-24e1-4bbe-bf43-38b9471aff3c")
+		)
+		(pin "D15"
+			(uuid "ae1b6fdb-c34b-40e4-bc3c-bba6f690d423")
+		)
+		(pin "D11"
+			(uuid "805cc46b-b207-4ff7-a5f4-d0e2ede6c1a5")
+		)
+		(pin "D18"
+			(uuid "38c6e0ff-3ebb-437a-9967-c6d80d530259")
+		)
+		(pin "D23"
+			(uuid "c23e93f2-b298-4729-a2c3-424fdf3a2eb7")
+		)
+		(pin "D17"
+			(uuid "ca76a40c-b9f4-4cf3-b4be-71d6ec35b89f")
+		)
+		(pin "D29"
+			(uuid "e2eece6f-c9d5-40c8-b0d9-b7c34cba7917")
+		)
+		(pin "D31"
+			(uuid "d8d287a8-421b-495f-a57e-4978005675d8")
+		)
+		(pin "D10"
+			(uuid "66cfd5bd-d7e9-4481-8fb8-34c9c0ef59b4")
+		)
+		(pin "D12"
+			(uuid "4278dd4e-8da2-4444-8824-5c50f45c5c0e")
+		)
+		(pin "D24"
+			(uuid "8913a1c0-ef52-4500-a848-4dbbaa9c6df3")
+		)
+		(pin "D14"
+			(uuid "fa561392-2e0b-48a0-b5f4-405bca11a7f6")
+		)
+		(pin "D20"
+			(uuid "99512dce-25c7-4734-ae21-9a509f685edb")
+		)
+		(pin "D22"
+			(uuid "8cb0d5c0-8c4f-4710-9244-a280685463eb")
+		)
+		(pin "D32"
+			(uuid "af20a3b9-14c5-4ee4-a7c6-0558ff0e31d3")
+		)
+		(pin "D33"
+			(uuid "a4d512e3-ace3-4fe1-9bdc-2f32a8cbc796")
+		)
+		(pin "D28"
+			(uuid "eaed4547-f879-4c37-8708-5bdd0f1e0620")
+		)
+		(pin "D34"
+			(uuid "0bec9c80-5b75-4c27-b6ef-b1508a59d14d")
+		)
+		(pin "D27"
+			(uuid "f84297d6-9bea-4e10-a490-1dfaed54008e")
+		)
+		(pin "D35"
+			(uuid "1affeac9-fd1b-4a9f-a85e-1707a7e873b6")
+		)
+		(pin "D36"
+			(uuid "0d968eb6-fc04-47c4-8079-6e5cf50bb993")
+		)
+		(pin "D38"
+			(uuid "7ffb54cb-04fc-422f-88d1-ca6e176f6f77")
+		)
+		(pin "D41"
+			(uuid "a0bb3727-1536-46a7-a83c-0102ba914c50")
+		)
+		(pin "D56"
+			(uuid "86e05f36-3eb4-4b9f-a304-bffef58c2c5c")
+		)
+		(pin "D52"
+			(uuid "eb12f067-8aa5-41d9-a705-ee600f73613b")
+		)
+		(pin "D60"
+			(uuid "a721137b-dd51-487e-9dbb-811e3f4e3a53")
+		)
+		(pin "D49"
+			(uuid "91a79fe7-ab3b-40b0-9f46-b08aa99f7f90")
+		)
+		(pin "D47"
+			(uuid "dc5589b1-507c-40c5-a1ae-ecc3c6cedadd")
+		)
+		(pin "D44"
+			(uuid "a6b7886d-1a59-42e2-93ab-3165cd2a1189")
+		)
+		(pin "D48"
+			(uuid "a613deef-91da-4354-bf6b-836030385d6e")
+		)
+		(pin "D43"
+			(uuid "e3624928-07b3-433c-8717-440da30b0e39")
+		)
+		(pin "D53"
+			(uuid "dc7a632e-b190-4d0e-9e3e-f0173d98b029")
+		)
+		(pin "D59"
+			(uuid "86dbe089-0450-4dd0-b03b-cd48ef711977")
+		)
+		(pin "D45"
+			(uuid "7d620bea-2709-4bcc-960a-e4fa4f926e17")
+		)
+		(pin "D51"
+			(uuid "61c03aa2-cbb3-47bc-88a0-8369c122893e")
+		)
+		(pin "D54"
+			(uuid "fe59aa6e-2629-4199-978b-d59d5d24593e")
+		)
+		(pin "D46"
+			(uuid "20506b14-e359-4500-9082-7c2dd3b971ac")
+		)
+		(pin "D55"
+			(uuid "28bf483a-ac58-42c9-b4e0-8e315195a55f")
+		)
+		(pin "D50"
+			(uuid "bc4aae8c-f652-4bdd-b1d1-a9bcaaba1904")
+		)
+		(pin "D58"
+			(uuid "a97cce22-c95f-4ac4-ab2f-31d87b5878a1")
+		)
+		(pin "D57"
+			(uuid "6028a98e-c27b-4f6e-b16d-ce949c352fa2")
+		)
+		(instances
+			(project ""
+				(path "/98821545-a77c-443b-b937-4da783620b59/edc8c7a4-1237-4177-86c8-1a08d2fb740a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AMD6_60_01_5_L_4_2_A_TR_BOTTOM:ADM6-60-01.5-L-4-2-A-TR_BOTTOM")
+		(at 152.4 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f616120d-0b42-4f6d-a4fe-7abc150fa8ea")
+		(property "Reference" "J3"
+			(at 152.4 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM6-60-01.5-L-4-2-A-TR_BOTTOM"
+			(at 152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADM6-60-01.5-L-4-2-A-TR:SAMTEC_ADM6-60-01.5-L-4-2-A-TR"
+			(at 152.4 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 152.654 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 143.002 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.1mm"
+			(at 158.75 17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 153.162 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A07"
+			(uuid "13670727-3806-4bb2-aab0-d5544c57a8d8")
+		)
+		(pin "A10"
+			(uuid "14a46b5a-7f8b-46a0-bbff-35fa8557b866")
+		)
+		(pin "A15"
+			(uuid "94e963fb-1cb5-46e7-ab6a-5faeb009b717")
+		)
+		(pin "A23"
+			(uuid "20878abc-56d9-4b29-b204-481cf193cded")
+		)
+		(pin "A26"
+			(uuid "491226dc-b7cc-4f3d-8765-d1291d4c3698")
+		)
+		(pin "A03"
+			(uuid "51297b9b-cf9c-4f28-9042-b1b5bf0d2679")
+		)
+		(pin "A29"
+			(uuid "ee51c378-f089-4ea4-b9c4-4a5f0a16c761")
+		)
+		(pin "A16"
+			(uuid "e77a52f8-d6c0-456b-b61c-5227668cac61")
+		)
+		(pin "A04"
+			(uuid "ff010560-c86b-40d9-b7b2-a9cc9ba553bf")
+		)
+		(pin "A02"
+			(uuid "32a47070-9c26-4765-b0ab-e91f8371b6e1")
+		)
+		(pin "A05"
+			(uuid "5814bc4d-27be-445a-95b3-0b0385f6169e")
+		)
+		(pin "A11"
+			(uuid "ba973269-28da-4e65-933f-4398a5baef8a")
+		)
+		(pin "A09"
+			(uuid "4ed8698c-44ac-4227-900e-f396c72bed02")
+		)
+		(pin "A17"
+			(uuid "65ff1b9b-6ee4-40a1-8b95-9892edf548c8")
+		)
+		(pin "A25"
+			(uuid "e07ac24e-35e8-48f5-851f-0be08c77839b")
+		)
+		(pin "A06"
+			(uuid "9c945b8d-82c1-4990-a958-42bd08506437")
+		)
+		(pin "A08"
+			(uuid "cecd9b91-3255-416f-80da-ee6c7ffbcbcd")
+		)
+		(pin "A12"
+			(uuid "b567475c-6d03-44f9-a4f9-72f37bcf4cca")
+		)
+		(pin "A14"
+			(uuid "0898a79d-8a6c-4b23-ab1d-8c45cfe0c0c1")
+		)
+		(pin "A19"
+			(uuid "8ded1160-9ca1-4fef-80d2-b37249fbfa1b")
+		)
+		(pin "A01"
+			(uuid "db599725-27d8-4e1e-b152-33bc9c86faac")
+		)
+		(pin "A18"
+			(uuid "708708dd-db20-408a-a8b6-b2e003f447c2")
+		)
+		(pin "A20"
+			(uuid "cc861fe1-93e6-47d5-8bca-65761963da1a")
+		)
+		(pin "A22"
+			(uuid "261f8279-7979-4558-91de-e80c3c54a29e")
+		)
+		(pin "A13"
+			(uuid "f0586e7a-c78a-423c-8149-29cadeb6b328")
+		)
+		(pin "A21"
+			(uuid "480e4123-49bb-4cbb-be86-1281e4f01314")
+		)
+		(pin "A24"
+			(uuid "9e531864-5969-4ddb-831d-6099235ced9c")
+		)
+		(pin "A27"
+			(uuid "b5e3bfcd-7017-4b71-8985-95f64cfe5101")
+		)
+		(pin "A28"
+			(uuid "56d38059-def9-42bb-8b35-9c7c14d6f66b")
+		)
+		(pin "A47"
+			(uuid "c8d364d6-b668-4061-920f-eec682e88842")
+		)
+		(pin "A33"
+			(uuid "8afdc44f-3210-4c62-b444-04241ae39aaa")
+		)
+		(pin "A34"
+			(uuid "db21b3fe-c250-454e-8d93-53d0feadf92e")
+		)
+		(pin "A38"
+			(uuid "b640f956-e6ce-4b8a-9090-1bb853e65e78")
+		)
+		(pin "A30"
+			(uuid "91d1f462-06db-4313-b2e1-c9361972c805")
+		)
+		(pin "A32"
+			(uuid "e5983f6c-4857-4ae5-8001-3c27d2271517")
+		)
+		(pin "A40"
+			(uuid "ff9c79a2-12af-413e-a482-11f9ce5996c9")
+		)
+		(pin "A41"
+			(uuid "93ca4928-4346-4139-9dbb-4c029f8745bf")
+		)
+		(pin "A31"
+			(uuid "2edf8e55-dc6f-47c9-93ea-db7fc693e8f5")
+		)
+		(pin "A45"
+			(uuid "5fc80729-6fca-4f72-b833-c7449c563dee")
+		)
+		(pin "A37"
+			(uuid "e8183ed0-0f57-4593-858c-86b31c117fb2")
+		)
+		(pin "A49"
+			(uuid "aa756751-bccd-41e0-a3cf-27107a114572")
+		)
+		(pin "A51"
+			(uuid "c2d6350f-8731-41e2-a501-a01ea8400260")
+		)
+		(pin "A52"
+			(uuid "6de2b1b0-75b6-4dea-8ec4-fe66aaeba0eb")
+		)
+		(pin "A57"
+			(uuid "6fadb714-9868-41af-a38d-ef200bdefb4f")
+		)
+		(pin "A43"
+			(uuid "7c51bb9c-00ec-4d9c-af0a-77c8ae02fe36")
+		)
+		(pin "A36"
+			(uuid "896e93d8-f6a7-4f33-9ea4-bf8d10937e7d")
+		)
+		(pin "A48"
+			(uuid "ab028dd5-e22d-4530-95b9-e14932639624")
+		)
+		(pin "A55"
+			(uuid "a24b18a9-4479-47a2-bb01-5bd6ca5f16f5")
+		)
+		(pin "A58"
+			(uuid "93332260-4508-4bc2-b9aa-6b7cdf3ef8e9")
+		)
+		(pin "A42"
+			(uuid "28e206d2-13a2-48e6-b0bd-f2676f723488")
+		)
+		(pin "A39"
+			(uuid "25224494-6574-4cef-8006-e8cf00ffa33c")
+		)
+		(pin "A44"
+			(uuid "e05d75c6-5b0c-4031-97ee-b2cd470e3c3b")
+		)
+		(pin "A35"
+			(uuid "30049a46-0434-40e8-8c1d-6d3e7f7d4c70")
+		)
+		(pin "A46"
+			(uuid "2a384f3a-9427-4cef-8e17-add4e14ccb97")
+		)
+		(pin "A50"
+			(uuid "79a5863c-aff7-41d3-b2df-a9ca34dbdff8")
+		)
+		(pin "A54"
+			(uuid "b8758cb6-7b9f-40e4-91bf-462536777cb1")
+		)
+		(pin "A59"
+			(uuid "4077ff7c-c216-46d1-a8db-87ca994c7280")
+		)
+		(pin "HDC23"
+			(uuid "bac5eae3-9d17-44f4-b9f3-c24cd1f29eab")
+		)
+		(pin "B02"
+			(uuid "db5861c2-c3d9-4b6f-a4e6-1e5110b368b9")
+		)
+		(pin "A56"
+			(uuid "f7d19ad6-1c6a-4469-8461-36afdcfacc3b")
+		)
+		(pin "A53"
+			(uuid "9376776c-a240-4348-9fad-8e5255d99353")
+		)
+		(pin "B01"
+			(uuid "d17da1a0-2586-42ae-8ec6-7ae08d944f99")
+		)
+		(pin "B22"
+			(uuid "6e020a3d-c09f-4536-b349-c44ee6ec5e22")
+		)
+		(pin "B07"
+			(uuid "2553a9e7-dd29-4b92-a4c2-1e3307efafb9")
+		)
+		(pin "B21"
+			(uuid "c5a20253-db33-4f4a-9c82-2b02f429f77d")
+		)
+		(pin "B14"
+			(uuid "5a1d983c-6c9b-419e-b168-e2aa28591170")
+		)
+		(pin "B05"
+			(uuid "b27405a9-4733-42e4-91ff-387f08c7b791")
+		)
+		(pin "B18"
+			(uuid "3f6ebc35-2aa3-46e5-b26d-987d7290ad01")
+		)
+		(pin "B06"
+			(uuid "013691ab-9ea5-4680-8a3c-5dba62ed86c0")
+		)
+		(pin "B20"
+			(uuid "9e30edd9-32ad-4bdf-bcc9-35d6cc31c4c4")
+		)
+		(pin "B12"
+			(uuid "7354bf28-7c85-4f17-8413-60f69cb333dc")
+		)
+		(pin "B26"
+			(uuid "c1f901f9-aca2-4afb-b72d-ce74babe54f5")
+		)
+		(pin "B35"
+			(uuid "e1d9f6ea-6b60-4eba-8e32-1aba0cd34b72")
+		)
+		(pin "B31"
+			(uuid "8003560f-fde0-4af7-b06f-ac60b0ff3a28")
+		)
+		(pin "B38"
+			(uuid "566b2187-e2df-44e8-a583-32e238af3c13")
+		)
+		(pin "B40"
+			(uuid "6987b73f-e545-4a46-b311-d3215469b02b")
+		)
+		(pin "B03"
+			(uuid "2b5a206c-b531-44af-a81d-a1b3389cc7bb")
+		)
+		(pin "B09"
+			(uuid "567cb92c-f8e8-4393-804f-6735a7986be7")
+		)
+		(pin "B13"
+			(uuid "5055ac5e-6305-4d1b-86f4-e888caae6d84")
+		)
+		(pin "B08"
+			(uuid "399cc915-57f0-4a3e-98ee-2693a7389d0c")
+		)
+		(pin "B11"
+			(uuid "bfec0d22-543c-458c-b54e-023e48d8a3a1")
+		)
+		(pin "B10"
+			(uuid "c5b73bd1-528f-417f-bcde-83f44180b9f9")
+		)
+		(pin "B15"
+			(uuid "b6521a24-3184-4ec9-803d-eddf14dd6f00")
+		)
+		(pin "B16"
+			(uuid "225291cc-7cfd-4512-b934-07b5b08c5df1")
+		)
+		(pin "B17"
+			(uuid "59759561-101f-4744-8405-71a46dabf426")
+		)
+		(pin "B19"
+			(uuid "5f727916-2895-4384-b951-35dc8f6f5012")
+		)
+		(pin "B04"
+			(uuid "a5b83c83-8cd1-4139-b850-a620bfc32e13")
+		)
+		(pin "B23"
+			(uuid "3263ef7c-23db-44fa-b0e7-2d4a971cc81b")
+		)
+		(pin "B24"
+			(uuid "5ff0abef-1361-4049-a0eb-036aec44f334")
+		)
+		(pin "B25"
+			(uuid "c9980f2c-419d-47b5-8819-b8a9f7f5c86e")
+		)
+		(pin "B27"
+			(uuid "1735d707-224e-4711-aaf3-c53d682c6b32")
+		)
+		(pin "B28"
+			(uuid "63331635-d270-4f27-a93d-b97394dcd0a6")
+		)
+		(pin "B29"
+			(uuid "e77816b9-6728-408e-89a2-5e6632ef7d90")
+		)
+		(pin "B30"
+			(uuid "21b6a53a-5be4-4d42-a767-f2fdc0fa9a91")
+		)
+		(pin "B32"
+			(uuid "29420200-f48f-4b9a-baff-3c8fb1b56dcc")
+		)
+		(pin "B33"
+			(uuid "a439b388-77b8-443d-9522-e0befdbeabc2")
+		)
+		(pin "B34"
+			(uuid "ca8be21a-bd57-455d-9dc1-fb1fd88fb288")
+		)
+		(pin "B36"
+			(uuid "78f12132-500e-457e-84b9-46169704e9ba")
+		)
+		(pin "B37"
+			(uuid "ebb35234-9cd9-4863-97d0-0fc9ebd38763")
+		)
+		(pin "B39"
+			(uuid "00e345cc-1505-4496-a6ab-888c102cd531")
+		)
+		(pin "B59"
+			(uuid "a0bd4e87-6850-42ff-ac4f-c2bbdaafc669")
+		)
+		(pin "B54"
+			(uuid "41ae6e3e-d7f3-4202-97c4-d7f447dee971")
+		)
+		(pin "B45"
+			(uuid "f5e4ec25-96ac-4170-bbce-eebd33bd80d3")
+		)
+		(pin "B49"
+			(uuid "93cde22d-1629-4212-98a9-fb09b6bd18a5")
+		)
+		(pin "B42"
+			(uuid "c5b239db-543e-4a92-9b0c-a09cde5f4c69")
+		)
+		(pin "C02"
+			(uuid "122c85e9-e304-4293-bfbc-f3b488ed2730")
+		)
+		(pin "C04"
+			(uuid "cd1442a2-2773-4aeb-9bba-2c14c25aad8a")
+		)
+		(pin "C06"
+			(uuid "967f7b2b-f8f8-4602-a701-c707901fbac2")
+		)
+		(pin "B53"
+			(uuid "3ba84ba9-5bf7-440f-bcf9-e8fe9884f2be")
+		)
+		(pin "B43"
+			(uuid "76fc4e84-2aab-4686-963a-3341984a74a3")
+		)
+		(pin "B48"
+			(uuid "171ad515-2bf5-4d3a-852f-fc0dd4cd3c4d")
+		)
+		(pin "B58"
+			(uuid "bc322be1-9116-46f3-877e-99809c2065b7")
+		)
+		(pin "B60"
+			(uuid "74dfa00a-de50-4ddf-b65d-28309c59c623")
+		)
+		(pin "C03"
+			(uuid "71dc0945-8d8e-457e-b3d8-d9630db18c61")
+		)
+		(pin "C01"
+			(uuid "0ade3828-fc5a-41d1-ae9f-e06dd1b6b0f6")
+		)
+		(pin "B41"
+			(uuid "e3a5b977-178f-440c-b0b9-5b1c99038796")
+		)
+		(pin "B47"
+			(uuid "f248813d-891a-4e51-a8bd-ea11bc494db3")
+		)
+		(pin "B44"
+			(uuid "576edfbc-2137-4ecd-9c13-43b8dbef324c")
+		)
+		(pin "B52"
+			(uuid "bd3ebe95-d8cf-4459-aa7e-cab240c3994b")
+		)
+		(pin "B55"
+			(uuid "7e45a9f5-1278-4b1f-a7c0-bb86deda40a1")
+		)
+		(pin "B57"
+			(uuid "15616b8b-20d2-48a9-b20c-5583d65c18d8")
+		)
+		(pin "B50"
+			(uuid "8b0d37e0-08e2-42e2-b611-08919a805b99")
+		)
+		(pin "B51"
+			(uuid "ec350043-5473-4885-9990-944082583acd")
+		)
+		(pin "B46"
+			(uuid "3614104c-bffa-43cd-9e43-04ef1f14909f")
+		)
+		(pin "B56"
+			(uuid "e49992d8-441d-4360-8c9a-366b6e40a316")
+		)
+		(pin "C05"
+			(uuid "737f58f5-e484-435b-8d20-a539259e7548")
+		)
+		(pin "C09"
+			(uuid "d2653ac3-d3e8-435c-84c7-d064eea34f4c")
+		)
+		(pin "C26"
+			(uuid "20aa9b65-5e16-4371-8a94-78fdee36e7bf")
+		)
+		(pin "C30"
+			(uuid "8cd57106-e640-466a-a82d-fb72e7b1ef46")
+		)
+		(pin "C13"
+			(uuid "63b50ffb-82bc-498d-be7c-50a014094858")
+		)
+		(pin "C19"
+			(uuid "192ad5e7-25a5-412a-9077-5fa52ad6ca14")
+		)
+		(pin "C08"
+			(uuid "290bf56a-4f71-48c4-8f2d-af64acc782a6")
+		)
+		(pin "C17"
+			(uuid "b22198f2-259b-4a42-9ffc-00cf9164028a")
+		)
+		(pin "C11"
+			(uuid "7332970c-a7ff-4386-9624-b63122e57b38")
+		)
+		(pin "C20"
+			(uuid "f252ec90-21b6-4022-a5ad-2e0ac6293b9c")
+		)
+		(pin "C23"
+			(uuid "584ab72b-e81e-4917-b49a-8f4ed0bf2afd")
+		)
+		(pin "C24"
+			(uuid "4426b730-92ef-450a-bf11-b6d34e4f4521")
+		)
+		(pin "C27"
+			(uuid "0cb9a73e-f8f9-4849-b439-4ff6f32d8380")
+		)
+		(pin "C22"
+			(uuid "98e68a4e-dcee-4089-8b8a-7815a28e6713")
+		)
+		(pin "C12"
+			(uuid "f6b345fa-3889-40f6-a546-bce1d5d3b02a")
+		)
+		(pin "C07"
+			(uuid "73c36327-4c06-48c1-9a5d-486c79b4932f")
+		)
+		(pin "C10"
+			(uuid "821f258a-33c3-4ab7-bd4a-737cf706cc3e")
+		)
+		(pin "C25"
+			(uuid "9f5e9e01-ada8-46ae-9296-e76c9fee52e1")
+		)
+		(pin "C14"
+			(uuid "cea27e60-b480-43a2-a729-52b8a08ecdb7")
+		)
+		(pin "C15"
+			(uuid "32c5b9b5-391b-46f7-be49-0b64bd500bf9")
+		)
+		(pin "C21"
+			(uuid "58c0a0c5-111d-4293-b4ca-971ab1744ad4")
+		)
+		(pin "C16"
+			(uuid "3acc3057-e122-4b25-abe9-ccf7fbfe3879")
+		)
+		(pin "C18"
+			(uuid "83b24e87-13ce-4ee9-9b56-21b3bf723a98")
+		)
+		(pin "C28"
+			(uuid "9e7c2336-4615-42d6-b7aa-f0bad3fffd9a")
+		)
+		(pin "C29"
+			(uuid "f301c996-f280-4bfd-bf7e-09114bbea0bb")
+		)
+		(pin "C47"
+			(uuid "1d0fdfc4-f217-4619-85ff-bbd18c410df8")
+		)
+		(pin "C53"
+			(uuid "0b7f7e1f-437b-426a-be1f-2740dd90f472")
+		)
+		(pin "C55"
+			(uuid "66054061-5437-41b8-82e5-2aff476af127")
+		)
+		(pin "C41"
+			(uuid "11101790-1919-4cbd-b48a-d2ed5772cf08")
+		)
+		(pin "C52"
+			(uuid "072ba73e-f80b-4d28-a9bb-c4295983b1d9")
+		)
+		(pin "C34"
+			(uuid "e005791c-57bc-47b1-9212-79e2b0452059")
+		)
+		(pin "C37"
+			(uuid "db4e2c3b-ac08-4fdc-a063-d8a95c7ca263")
+		)
+		(pin "D02"
+			(uuid "ec58dccd-6e2d-4211-88b9-d80e89faf1d2")
+		)
+		(pin "C39"
+			(uuid "d449b1d3-4b23-4d1d-ba7d-a531f37fd44e")
+		)
+		(pin "C48"
+			(uuid "52114915-4eaf-4adf-b1ac-ab11d79d7166")
+		)
+		(pin "C50"
+			(uuid "ed81bdf6-26b5-4202-b353-0a8d177e6ff0")
+		)
+		(pin "C60"
+			(uuid "14de99ce-d8c9-47a2-92d0-b5d0302594d1")
+		)
+		(pin "C51"
+			(uuid "87aa4b79-bbaf-46fc-96b6-8de7afc8087c")
+		)
+		(pin "C35"
+			(uuid "97821e0a-9ee4-4de7-91d7-dd4434bd0ee4")
+		)
+		(pin "C38"
+			(uuid "fb5f26e4-7da1-4690-8f21-7fbfbad51009")
+		)
+		(pin "C33"
+			(uuid "52fe2f74-7c39-4ee7-a1de-caa1a1795a7f")
+		)
+		(pin "C32"
+			(uuid "ade3ee77-2d8b-43b6-b47c-c7db3d029398")
+		)
+		(pin "C40"
+			(uuid "eb3c1d0d-b4c8-4fa2-bd20-a4df54a32004")
+		)
+		(pin "C31"
+			(uuid "962772c8-ed53-4cd3-bce5-1c811c9a60da")
+		)
+		(pin "C36"
+			(uuid "99fc20a1-118f-4ae8-918a-28c2e6adf601")
+		)
+		(pin "C42"
+			(uuid "604b4245-89e5-4a4b-af6c-dcd1b27c4d0f")
+		)
+		(pin "C43"
+			(uuid "7ec140e0-bb09-42fe-9ac5-3cd12411f6d7")
+		)
+		(pin "C44"
+			(uuid "572b6bf6-cb90-4088-a225-564c42d50b0e")
+		)
+		(pin "C45"
+			(uuid "139af17c-b94d-487f-afb1-f61f3dc3b696")
+		)
+		(pin "C46"
+			(uuid "af5ff0a2-c5c7-40a7-855d-1045fda2ae0e")
+		)
+		(pin "C49"
+			(uuid "46d3de89-c8be-4889-91fd-b37f442e181b")
+		)
+		(pin "C54"
+			(uuid "215c26b0-9cf7-4a80-8a00-7064363d83a9")
+		)
+		(pin "C56"
+			(uuid "3427abdf-829e-48c4-a4a7-f72eb332e537")
+		)
+		(pin "C58"
+			(uuid "737f50f6-029e-4ed3-841d-5857cd600853")
+		)
+		(pin "C57"
+			(uuid "03754a63-c757-4d52-9bc7-5194be23e7fd")
+		)
+		(pin "C59"
+			(uuid "8123f080-2e66-45d8-85f7-1f980f2b0e8e")
+		)
+		(pin "D01"
+			(uuid "9ac7baf7-881a-4480-9233-b586b7737ac3")
+		)
+		(pin "D04"
+			(uuid "fc8e693f-7760-4b5d-b36e-1d6dd779be95")
+		)
+		(pin "D05"
+			(uuid "99366515-c63b-4142-877a-d9c414922639")
+		)
+		(pin "D06"
+			(uuid "a1f11d37-214e-4ab0-8062-8e15e3986f2e")
+		)
+		(pin "D03"
+			(uuid "88ab0da1-0bdd-4178-8611-0e42d11c1427")
+		)
+		(pin "D16"
+			(uuid "bc57df50-25f2-4220-b83c-82abc1945bd7")
+		)
+		(pin "D21"
+			(uuid "1752dfa3-39d4-4af6-b3ee-09afd81806da")
+		)
+		(pin "D25"
+			(uuid "bc71e92e-d229-4249-a9b4-1edeb408d9e0")
+		)
+		(pin "D13"
+			(uuid "5424f9e2-8a1f-469b-8d3d-a6eb5b52c73c")
+		)
+		(pin "D09"
+			(uuid "1b30d313-e2d9-4cc7-b0ab-3b8643a1e8d7")
+		)
+		(pin "D26"
+			(uuid "fe5bc172-3370-44e7-b18d-95ad3b501c97")
+		)
+		(pin "D19"
+			(uuid "b67ba0f4-6054-4590-8569-e3b37b7ed301")
+		)
+		(pin "D30"
+			(uuid "92346dd8-9e95-4ace-86d2-39eb1c4dd97c")
+		)
+		(pin "D08"
+			(uuid "41c4d183-ccb7-4c08-acfd-db8bf82de108")
+		)
+		(pin "D37"
+			(uuid "c20c7e34-432a-4565-946d-bae670929d99")
+		)
+		(pin "D39"
+			(uuid "0bdabb94-a63f-42e4-b008-f03ca68f0f6c")
+		)
+		(pin "D42"
+			(uuid "b42449be-c0a4-4e14-879c-389fbce85f0b")
+		)
+		(pin "D40"
+			(uuid "71f898f0-5f85-4d5d-bc0c-64f57e42b835")
+		)
+		(pin "D07"
+			(uuid "cba5402c-24e1-4bbe-bf43-38b9471aff3c")
+		)
+		(pin "D15"
+			(uuid "ae1b6fdb-c34b-40e4-bc3c-bba6f690d423")
+		)
+		(pin "D11"
+			(uuid "805cc46b-b207-4ff7-a5f4-d0e2ede6c1a5")
+		)
+		(pin "D18"
+			(uuid "38c6e0ff-3ebb-437a-9967-c6d80d530259")
+		)
+		(pin "D23"
+			(uuid "c23e93f2-b298-4729-a2c3-424fdf3a2eb7")
+		)
+		(pin "D17"
+			(uuid "ca76a40c-b9f4-4cf3-b4be-71d6ec35b89f")
+		)
+		(pin "D29"
+			(uuid "e2eece6f-c9d5-40c8-b0d9-b7c34cba7917")
+		)
+		(pin "D31"
+			(uuid "d8d287a8-421b-495f-a57e-4978005675d8")
+		)
+		(pin "D10"
+			(uuid "66cfd5bd-d7e9-4481-8fb8-34c9c0ef59b4")
+		)
+		(pin "D12"
+			(uuid "4278dd4e-8da2-4444-8824-5c50f45c5c0e")
+		)
+		(pin "D24"
+			(uuid "8913a1c0-ef52-4500-a848-4dbbaa9c6df3")
+		)
+		(pin "D14"
+			(uuid "fa561392-2e0b-48a0-b5f4-405bca11a7f6")
+		)
+		(pin "D20"
+			(uuid "99512dce-25c7-4734-ae21-9a509f685edb")
+		)
+		(pin "D22"
+			(uuid "8cb0d5c0-8c4f-4710-9244-a280685463eb")
+		)
+		(pin "D32"
+			(uuid "af20a3b9-14c5-4ee4-a7c6-0558ff0e31d3")
+		)
+		(pin "D33"
+			(uuid "a4d512e3-ace3-4fe1-9bdc-2f32a8cbc796")
+		)
+		(pin "D28"
+			(uuid "eaed4547-f879-4c37-8708-5bdd0f1e0620")
+		)
+		(pin "D34"
+			(uuid "0bec9c80-5b75-4c27-b6ef-b1508a59d14d")
+		)
+		(pin "D27"
+			(uuid "f84297d6-9bea-4e10-a490-1dfaed54008e")
+		)
+		(pin "D35"
+			(uuid "1affeac9-fd1b-4a9f-a85e-1707a7e873b6")
+		)
+		(pin "D36"
+			(uuid "0d968eb6-fc04-47c4-8079-6e5cf50bb993")
+		)
+		(pin "D38"
+			(uuid "7ffb54cb-04fc-422f-88d1-ca6e176f6f77")
+		)
+		(pin "D41"
+			(uuid "a0bb3727-1536-46a7-a83c-0102ba914c50")
+		)
+		(pin "D56"
+			(uuid "86e05f36-3eb4-4b9f-a304-bffef58c2c5c")
+		)
+		(pin "D52"
+			(uuid "eb12f067-8aa5-41d9-a705-ee600f73613b")
+		)
+		(pin "D60"
+			(uuid "a721137b-dd51-487e-9dbb-811e3f4e3a53")
+		)
+		(pin "D49"
+			(uuid "91a79fe7-ab3b-40b0-9f46-b08aa99f7f90")
+		)
+		(pin "D47"
+			(uuid "dc5589b1-507c-40c5-a1ae-ecc3c6cedadd")
+		)
+		(pin "D44"
+			(uuid "a6b7886d-1a59-42e2-93ab-3165cd2a1189")
+		)
+		(pin "D48"
+			(uuid "a613deef-91da-4354-bf6b-836030385d6e")
+		)
+		(pin "D43"
+			(uuid "e3624928-07b3-433c-8717-440da30b0e39")
+		)
+		(pin "D53"
+			(uuid "dc7a632e-b190-4d0e-9e3e-f0173d98b029")
+		)
+		(pin "D59"
+			(uuid "86dbe089-0450-4dd0-b03b-cd48ef711977")
+		)
+		(pin "D45"
+			(uuid "7d620bea-2709-4bcc-960a-e4fa4f926e17")
+		)
+		(pin "D51"
+			(uuid "61c03aa2-cbb3-47bc-88a0-8369c122893e")
+		)
+		(pin "D54"
+			(uuid "fe59aa6e-2629-4199-978b-d59d5d24593e")
+		)
+		(pin "D46"
+			(uuid "20506b14-e359-4500-9082-7c2dd3b971ac")
+		)
+		(pin "D55"
+			(uuid "28bf483a-ac58-42c9-b4e0-8e315195a55f")
+		)
+		(pin "D50"
+			(uuid "bc4aae8c-f652-4bdd-b1d1-a9bcaaba1904")
+		)
+		(pin "D58"
+			(uuid "a97cce22-c95f-4ac4-ab2f-31d87b5878a1")
+		)
+		(pin "D57"
+			(uuid "6028a98e-c27b-4f6e-b16d-ce949c352fa2")
+		)
+		(instances
+			(project ""
+				(path "/98821545-a77c-443b-b937-4da783620b59/edc8c7a4-1237-4177-86c8-1a08d2fb740a"
+					(reference "J3")
+					(unit 2)
+				)
+			)
+		)
+	)
 )
