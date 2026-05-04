@@ -61,20 +61,18 @@
 				)
 			)
 		)
-		(symbol "PSEC6_Package_0_1"
+		(symbol "PSEC6_Package_1_1"
 			(rectangle
 				(start -16.51 41.91)
 				(end 97.79 -52.07)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "PSEC6_Package_1_1"
 			(pin input line
 				(at -16.51 22.86 0)
 				(length 2.54)
