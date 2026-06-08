@@ -1,0 +1,213 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "165f2ae6-d522-4adf-a6c4-bb137b209d33")
+	(paper "A3")
+	(lib_symbols)
+	(bus_alias ""
+		(members)
+	)
+	(bus_alias "GND"
+		(members "B60" "B55" "B51" "B47" "B43" "B42" "B41" "B38" "B35" "B32" "B29"
+			"B26" "B23" "B20" "B17" "B14" "B11" "B08" "B07" "B04" "B03" "A57" "A53"
+			"A49" "A45" "A43" "A40" "A37" "A34" "A31" "A28" "A25" "A22" "A19" "A16"
+			"A13" "A10" "A09" "A06" "A05" "A02" "A01"
+		)
+	)
+	(sheet
+		(at 162.56 66.04)
+		(size 33.02 120.65)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e271294-afb4-40f4-a456-ad11d287e722")
+		(property "Sheetname" "SOM240_2(1.5)"
+			(at 162.56 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.SOM240_2(1.5).kicad_sch"
+			(at 162.56 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 105.41)
+		(size 134.62 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19b90b9d-f883-4aab-98c7-289a06f42d58")
+		(property "Sheetname" "DUT_CTRL"
+			(at 246.38 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DUT_CTRL.kicad_sch"
+			(at 246.38 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 68.58)
+		(size 52.07 115.57)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f6d7a03-cfad-4370-8d2b-49ab19e248d8")
+		(property "Sheetname" "SOM240_1(1.5)"
+			(at 97.79 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.SOM240_1(1.5).kicad_sch"
+			(at 97.79 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 229.87)
+		(size 95.25 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f623f6b-7b26-44dc-a234-242a13760f59")
+		(property "Sheetname" "power"
+			(at 165.1 229.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 165.1 266.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 227.33)
+		(size 109.22 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba7b9281-d70b-432c-9c7d-bfda745e0250")
+		(property "Sheetname" "power2"
+			(at 49.53 226.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power2.kicad_sch"
+			(at 49.53 271.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

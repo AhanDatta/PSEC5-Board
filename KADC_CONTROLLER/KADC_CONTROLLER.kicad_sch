@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "98821545-a77c-443b-b937-4da783620b59")
 	(paper "A3")
 	(title_block
@@ -43,11 +43,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5a847ecb-5991-4225-bc3e-29640693b04f")
 		(property "Sheetname" "kria_top"
 			(at 12.446 55.4224 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,6 +59,8 @@
 		)
 		(property "Sheetfile" "kria_top.kicad_sch"
 			(at 12.446 121.7426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,11 +89,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e2f4f2b0-7053-490c-b866-02e21f949d3f")
 		(property "Sheetname" "power_1"
 			(at 12.954 19.8624 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,6 +105,8 @@
 		)
 		(property "Sheetfile" "power_1.kicad_sch"
 			(at 12.954 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127,11 +135,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "edc8c7a4-1237-4177-86c8-1a08d2fb740a")
 		(property "Sheetname" "kria_bottom"
 			(at 12.954 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,6 +151,8 @@
 		)
 		(property "Sheetfile" "kria_bottom.kicad_sch"
 			(at 12.954 192.1006 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,11 +181,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ff253093-9217-4939-ba89-d1f3f4a3b590")
 		(property "Sheetname" "power_2"
 			(at 55.88 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,6 +197,8 @@
 		)
 		(property "Sheetfile" "power_2.kicad_sch"
 			(at 55.88 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
