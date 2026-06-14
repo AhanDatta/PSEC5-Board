@@ -1880,6 +1880,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 294.64 182.88)
+		(end 320.04 226.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "70884466-6d4e-4aa4-a18a-33782f6666c1")
+	)
+	(text "Into ADC Buffer"
+		(exclude_from_sim no)
+		(at 307.594 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23b6a07a-3af1-465a-bb7e-c04c3802e078")
+	)
 	(wire
 		(pts
 			(xy 255.27 201.93) (xy 302.26 201.93)
@@ -2527,6 +2549,192 @@
 		)
 	)
 	(sheet
+		(at 279.4 25.4)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02a4a59a-7625-4236-9b12-d5c6260f4fe7")
+		(property "Sheetname" "RC_filters"
+			(at 279.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RC_filters.kicad_sch"
+			(at 279.4 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Disc_Thresh1_RC" output
+			(at 355.6 27.94 0)
+			(uuid "f4cbab21-4e92-488b-a1c6-f299d04cff35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh2_RC" output
+			(at 355.6 31.75 0)
+			(uuid "9519d25d-0cd3-43da-adcd-0ec98ba1fcb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh3_RC" output
+			(at 355.6 35.56 0)
+			(uuid "c0694b11-4c2e-4d05-a2a1-6b2eedb5feee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh4_RC" output
+			(at 355.6 39.37 0)
+			(uuid "a9942fb3-abba-4bc8-a919-7bf553b9b56a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh5_RC" output
+			(at 355.6 43.18 0)
+			(uuid "08f7fe33-f22b-4b0b-ab49-415bd87b97af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh6_RC" output
+			(at 355.6 46.99 0)
+			(uuid "958324e1-eed8-414a-a433-026758a365ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh7_RC" output
+			(at 355.6 50.8 0)
+			(uuid "5dc1c12a-d14d-4cc5-b058-b5ece8edd855")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Disc_Thresh8_RC" output
+			(at 355.6 54.61 0)
+			(uuid "e9a9bbbb-17f0-4925-b22e-d32a268e9808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPIBIAS_RC" output
+			(at 349.25 76.2 270)
+			(uuid "4375b041-a36a-4e36-8bb3-d2db5c6acbd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISCBIAS_RC" output
+			(at 345.44 76.2 270)
+			(uuid "3c276e44-5b96-4500-96f0-988d2b3e543c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIVIBIAS_RC" output
+			(at 341.63 76.2 270)
+			(uuid "1d71c8f1-6f91-4dcb-badd-42ec1e3b0d02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "READBIAS1_RC" output
+			(at 337.82 76.2 270)
+			(uuid "3b6f0890-76b0-4aeb-87fd-8420c7165109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "READBIAS2_RC" output
+			(at 334.01 76.2 270)
+			(uuid "91380745-1471-45fa-9fa2-efdf9f54fd5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WBUFBIAS_RC" output
+			(at 330.2 76.2 270)
+			(uuid "9518fd3c-f889-4def-a860-240c4652f05f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 101.6)
 		(size 76.2 50.8)
 		(exclude_from_sim no)
@@ -2639,7 +2847,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 25.4)
+		(at 158.75 24.13)
 		(size 76.2 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2655,7 +2863,7 @@
 		)
 		(uuid "b2f20edd-60e3-47ea-87a3-52c034411424")
 		(property "Sheetname" "PLL"
-			(at 177.8 24.6884 0)
+			(at 158.75 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2666,7 +2874,7 @@
 			)
 		)
 		(property "Sheetfile" "PLL.kicad_sch"
-			(at 177.8 76.7846 0)
+			(at 158.75 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2731,7 +2939,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 101.6)
+		(at 160.02 91.44)
 		(size 76.2 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2747,7 +2955,7 @@
 		)
 		(uuid "e0045bb1-f1aa-4eab-a295-6be34bdb3c6d")
 		(property "Sheetname" "SAMTEC"
-			(at 177.8 100.8884 0)
+			(at 160.02 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2758,7 +2966,7 @@
 			)
 		)
 		(property "Sheetfile" "SAMTEC.kicad_sch"
-			(at 177.8 152.9846 0)
+			(at 160.02 142.8246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
