@@ -479,7 +479,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -519,13 +519,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -705,7 +706,7 @@
         "uuid": "165f2ae6-d522-4adf-a6c4-bb137b209d33"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR122",
     "variants": []
   },
   "sheets": [

@@ -2019,10 +2019,6 @@
 		(uuid "1121db91-6b90-42bb-aaed-6ef5ff45b0b8")
 	)
 	(no_connect
-		(at 219.71 34.29)
-		(uuid "13189a78-45f5-407b-9a53-469c5156424f")
-	)
-	(no_connect
 		(at 229.87 59.69)
 		(uuid "1422d362-6ce3-4361-9495-437b35ebffd0")
 	)
@@ -2061,10 +2057,6 @@
 	(no_connect
 		(at 176.53 59.69)
 		(uuid "2e422431-6ddb-4974-83a6-2f27096ab28a")
-	)
-	(no_connect
-		(at 222.25 34.29)
-		(uuid "2e447a18-ebd0-4c71-ba39-7552e747835d")
 	)
 	(no_connect
 		(at 76.2 35.56)
@@ -2139,12 +2131,20 @@
 		(uuid "8ccdafb1-f2cc-4829-af23-9e9120e8dc8d")
 	)
 	(no_connect
+		(at 224.79 123.19)
+		(uuid "905d4187-ecae-4b12-bf94-2868cd4fe793")
+	)
+	(no_connect
 		(at 227.33 59.69)
 		(uuid "932b7de5-2059-4c89-a683-804382994eb4")
 	)
 	(no_connect
 		(at 140.97 147.32)
 		(uuid "9e1cb9eb-4eee-49ed-b87b-c5b3d3cac722")
+	)
+	(no_connect
+		(at 227.33 123.19)
+		(uuid "a02e8b1d-95e3-49f9-8e78-de8697cbc3c1")
 	)
 	(no_connect
 		(at 133.35 147.32)
@@ -2245,6 +2245,10 @@
 	(no_connect
 		(at 181.61 59.69)
 		(uuid "f2a69abb-6821-414b-b5ef-6f9a12d0354b")
+	)
+	(no_connect
+		(at 234.95 123.19)
+		(uuid "f718a4be-55c5-4c7f-bed6-c4d7c18bee0b")
 	)
 	(no_connect
 		(at 189.23 123.19)
@@ -2506,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 31.75) (xy 219.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9bd512-9726-469a-9b3e-0fd32f7f02c1")
+	)
+	(wire
+		(pts
 			(xy 92.71 149.86) (xy 95.25 149.86)
 		)
 		(stroke
@@ -2743,6 +2757,16 @@
 			(type default)
 		)
 		(uuid "4dff57d5-1d90-4fe6-aa2f-bd62ca835e91")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 222.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e57b47f-f5ef-4933-a4e1-8f9a380e686b")
 	)
 	(wire
 		(pts
@@ -3176,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 118.11) (xy 227.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ada4876f-6410-456f-b666-271550dc8cc3")
-	)
-	(wire
-		(pts
 			(xy 77.47 151.13) (xy 77.47 153.67)
 		)
 		(stroke
@@ -3576,16 +3590,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 118.11) (xy 224.79 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bf673e-ec3a-4564-802d-bc5e9ce46b1b")
-	)
-	(wire
-		(pts
 			(xy 214.63 59.69) (xy 214.63 62.23)
 		)
 		(stroke
@@ -3806,7 +3810,7 @@
 	)
 	(global_label "CP_IBIAS"
 		(shape input)
-		(at 227.33 118.11 90)
+		(at 222.25 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3816,7 +3820,7 @@
 		)
 		(uuid "0a87b481-b5e8-45da-8cc0-3e45c4089ca5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 106.8395 90)
+			(at 222.25 20.4795 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5538,7 @@
 	)
 	(global_label "DIVIDER_IBIAS"
 		(shape input)
-		(at 224.79 118.11 90)
+		(at 219.71 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5544,7 +5548,7 @@
 		)
 		(uuid "e0829785-0d63-4f52-8c27-2670ca5cbcaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.79 102.1223 90)
+			(at 219.71 15.7623 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

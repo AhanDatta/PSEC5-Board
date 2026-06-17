@@ -6894,10 +6894,6 @@
 		(uuid "48dd63b3-ead4-4a71-a68d-4d8969225b2f")
 	)
 	(no_connect
-		(at 252.73 137.16)
-		(uuid "4b97945b-b2b9-47f5-a847-b9ef6a79c6b3")
-	)
-	(no_connect
 		(at 215.9 175.26)
 		(uuid "4e13547c-c78e-4e9d-b8fa-aa94a1b8928c")
 	)
@@ -7008,10 +7004,6 @@
 	(no_connect
 		(at 252.73 149.86)
 		(uuid "76157204-21c6-46f0-9bbe-33102d0b2a6d")
-	)
-	(no_connect
-		(at 252.73 134.62)
-		(uuid "777fffa5-973f-454f-a7d4-7091f8f75328")
 	)
 	(no_connect
 		(at 215.9 73.66)
@@ -7282,10 +7274,6 @@
 		(uuid "ed4510a0-1fa8-4d31-9236-b5fc6013abd7")
 	)
 	(no_connect
-		(at 252.73 139.7)
-		(uuid "f0ada1f8-5a73-483f-a4df-13bbc8ae2618")
-	)
-	(no_connect
 		(at 80.01 40.64)
 		(uuid "f1814765-0cdb-4dac-b8a5-43deba40a30e")
 	)
@@ -7408,6 +7396,16 @@
 			(type default)
 		)
 		(uuid "082b84f1-b9dc-4f15-81fd-2402334f5f8b")
+	)
+	(wire
+		(pts
+			(xy 252.73 137.16) (xy 262.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0969a29a-7c19-49d9-bc34-96158dac97a2")
 	)
 	(wire
 		(pts
@@ -9341,6 +9339,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 139.7) (xy 262.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a983fb30-e4a0-4492-aaf6-9fce01ecdacb")
+	)
+	(wire
+		(pts
 			(xy 69.85 66.04) (xy 80.01 66.04)
 		)
 		(stroke
@@ -9428,6 +9436,16 @@
 			(type default)
 		)
 		(uuid "b3c7c060-3159-412f-be4f-563c3392f723")
+	)
+	(wire
+		(pts
+			(xy 252.73 134.62) (xy 262.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57db063-786a-45ba-92f0-17237eadf2ab")
 	)
 	(wire
 		(pts
@@ -11065,6 +11083,30 @@
 			)
 		)
 	)
+	(global_label "SDA_rheostat"
+		(shape bidirectional)
+		(at 262.89 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c6cb39d-16cf-48fa-afb8-ed69f2bd63a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.3235 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "1V8_Banks"
 		(shape input)
 		(at 39.37 128.27 180)
@@ -12385,6 +12427,30 @@
 			)
 		)
 	)
+	(global_label "ADDR_rheostat"
+		(shape bidirectional)
+		(at 262.89 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d694560-ebfa-4364-96d1-2d133e3a495d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.654 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "HPB04_N"
 		(shape bidirectional)
 		(at 264.16 63.5 0)
@@ -12686,6 +12752,31 @@
 		(uuid "c4f5f2e3-46cb-4cc4-9df8-99c1cd79a809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 407.5936 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL_rheostat"
+		(shape bidirectional)
+		(at 262.89 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "c5e2a0d1-f769-4be5-8aa2-0af76972bb14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.263 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
