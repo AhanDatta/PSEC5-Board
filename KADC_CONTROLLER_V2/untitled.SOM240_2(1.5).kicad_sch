@@ -6866,6 +6866,10 @@
 		(uuid "4237dfea-ff47-4dde-a064-cb4e8545995e")
 	)
 	(no_connect
+		(at 215.9 160.02)
+		(uuid "42f9dc43-99a5-43f6-8f36-1f7704845410")
+	)
+	(no_connect
 		(at 394.97 95.25)
 		(uuid "4556327b-da15-4a92-b661-28d4276f742e")
 	)
@@ -7274,6 +7278,10 @@
 		(uuid "ed4510a0-1fa8-4d31-9236-b5fc6013abd7")
 	)
 	(no_connect
+		(at 215.9 162.56)
+		(uuid "ee35f3ce-92f8-4e5a-99c3-e7234165e745")
+	)
+	(no_connect
 		(at 80.01 40.64)
 		(uuid "f1814765-0cdb-4dac-b8a5-43deba40a30e")
 	)
@@ -7616,16 +7624,6 @@
 			(type default)
 		)
 		(uuid "1f1437cc-a764-46b5-98bb-4eec37d1169d")
-	)
-	(wire
-		(pts
-			(xy 198.12 160.02) (xy 215.9 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f605af6-ec34-490d-a28d-e68a88cb6b31")
 	)
 	(wire
 		(pts
@@ -9616,16 +9614,6 @@
 			(type default)
 		)
 		(uuid "c22e0ff9-61d4-4de0-b8ee-3753a8476524")
-	)
-	(wire
-		(pts
-			(xy 198.12 162.56) (xy 215.9 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2eefd1c-22a3-4d82-9feb-5e69bf12759a")
 	)
 	(wire
 		(pts
@@ -12068,7 +12056,7 @@
 		)
 	)
 	(global_label "CSB"
-		(shape bidirectional)
+		(shape output)
 		(at 199.39 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12079,7 +12067,7 @@
 		)
 		(uuid "73626c46-b4a1-487a-9488-98c587a6e4d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.544 142.24 0)
+			(at 192.6553 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12140,7 +12128,7 @@
 		)
 	)
 	(global_label "REFCLK"
-		(shape input)
+		(shape output)
 		(at 199.39 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12475,30 +12463,6 @@
 			)
 		)
 	)
-	(global_label "DIVIDER_IBIAS"
-		(shape input)
-		(at 198.12 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e50f662-36ed-4365-8759-fb7f0c48b3fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.1323 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "HPC09_N"
 		(shape bidirectional)
 		(at 264.16 53.34 0)
@@ -12809,30 +12773,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "CP_IBIAS"
-		(shape input)
-		(at 198.12 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbf9fdb7-59da-4163-b07a-15ba826b108d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8495 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
