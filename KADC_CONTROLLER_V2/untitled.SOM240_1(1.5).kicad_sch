@@ -5968,6 +5968,16 @@
 		)
 		(uuid "4e788669-1ea2-4ee9-8825-7b0336d5d50f")
 	)
+	(text "Kria Fan Control"
+		(exclude_from_sim no)
+		(at 201.93 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5941fb39-1d10-4dd8-be45-71fb57b51c6d")
+	)
 	(text "From Kria"
 		(exclude_from_sim no)
 		(at 358.902 29.972 0)
@@ -6729,10 +6739,6 @@
 	(no_connect
 		(at 214.63 88.9)
 		(uuid "b7bf2586-d45f-46d6-8b7c-8c92910afe9e")
-	)
-	(no_connect
-		(at 214.63 81.28)
-		(uuid "b8b496f4-1631-4430-a6de-95fcd3fd4883")
 	)
 	(no_connect
 		(at 214.63 162.56)
@@ -7791,6 +7797,16 @@
 			(type default)
 		)
 		(uuid "4592f880-1670-4080-a622-4b01e4eca681")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 214.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47722ff2-25ba-4223-81c2-9e50a27690a6")
 	)
 	(wire
 		(pts
@@ -12535,6 +12551,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "HDA20"
+		(shape output)
+		(at 193.04 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8a1f360-fa48-4cbb-ae03-73b649afec4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.9467 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

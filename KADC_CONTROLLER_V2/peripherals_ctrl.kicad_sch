@@ -2322,10 +2322,6 @@
 		(color 0 0 0 0)
 		(uuid "ff144f26-3781-4343-b349-211cfe2bb3c1")
 	)
-	(no_connect
-		(at 99.06 124.46)
-		(uuid "9e512ada-f54e-4845-a9c8-6cc6ce19e235")
-	)
 	(wire
 		(pts
 			(xy 53.34 180.34) (xy 59.69 180.34)
@@ -5308,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 166.37) (xy 187.96 166.37)
+			(xy 200.66 166.37) (xy 187.96 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6377,12 +6373,12 @@
 		(uuid "7530cddc-0079-467c-bf91-331edc57a708")
 	)
 	(label "DRVDD"
-		(at 193.04 166.37 0)
+		(at 200.66 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "759a49aa-c53e-4ba7-9606-ec6635cf6146")
 	)

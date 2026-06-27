@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "ADM6-60-01.5-L-4-2-A-TR_BOTTOM"
 		(pin_names
 			(offset 1.016)
@@ -9,8 +9,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -10.16 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20,6 +24,8 @@
 		)
 		(property "Value" "ADM6-60-01.5-L-4-2-A-TR_BOTTOM"
 			(at -10.16 -80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29,70 +35,84 @@
 		)
 		(property "Footprint" "ADM6-60-01.5-L-4-2-A-TR:SAMTEC_ADM6-60-01.5-L-4-2-A-TR"
 			(at 0 86.868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "7"
 			(at 0.254 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
 			(at -9.398 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.1mm"
 			(at 6.35 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0.762 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "ADM6-60-01.5-L-4-2-A-TR_BOTTOM_1_0"
@@ -1162,24 +1182,6 @@
 					)
 				)
 				(number "A59"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -21.59 -76.2 0)
-				(length 5.08)
-				(name "A60"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "HDC23"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2260,6 +2262,24 @@
 					)
 				)
 				(number "B60"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -21.59 -76.2 0)
+				(length 5.08)
+				(name "A60"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "HDC23"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3363,7 +3383,7 @@
 			(pin passive line
 				(at 21.59 73.66 180)
 				(length 5.08)
-				(name "D01"
+				(name "GTH_DP1_C2M_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3381,7 +3401,7 @@
 			(pin passive line
 				(at 21.59 71.12 180)
 				(length 5.08)
-				(name "D02"
+				(name "GTH_DP1_C2M_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3399,7 +3419,7 @@
 			(pin passive line
 				(at 21.59 68.58 180)
 				(length 5.08)
-				(name "D03"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3417,7 +3437,7 @@
 			(pin passive line
 				(at 21.59 66.04 180)
 				(length 5.08)
-				(name "D04"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3435,7 +3455,7 @@
 			(pin passive line
 				(at 21.59 63.5 180)
 				(length 5.08)
-				(name "D05"
+				(name "GTH_DP3_C2M_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3453,7 +3473,7 @@
 			(pin passive line
 				(at 21.59 60.96 180)
 				(length 5.08)
-				(name "D06"
+				(name "GTH_DP3_C2M_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3471,7 +3491,7 @@
 			(pin passive line
 				(at 21.59 58.42 180)
 				(length 5.08)
-				(name "D07"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3489,7 +3509,7 @@
 			(pin passive line
 				(at 21.59 55.88 180)
 				(length 5.08)
-				(name "D08"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3507,7 +3527,7 @@
 			(pin passive line
 				(at 21.59 53.34 180)
 				(length 5.08)
-				(name "D09"
+				(name "GTH_DP0_M2C_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3525,7 +3545,7 @@
 			(pin passive line
 				(at 21.59 50.8 180)
 				(length 5.08)
-				(name "D10"
+				(name "GTH_DP0_M2C_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3543,7 +3563,7 @@
 			(pin passive line
 				(at 21.59 48.26 180)
 				(length 5.08)
-				(name "D11"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3561,7 +3581,7 @@
 			(pin passive line
 				(at 21.59 45.72 180)
 				(length 5.08)
-				(name "D12"
+				(name "HPB01_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3579,7 +3599,7 @@
 			(pin passive line
 				(at 21.59 43.18 180)
 				(length 5.08)
-				(name "D13"
+				(name "HPB01_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3597,7 +3617,7 @@
 			(pin passive line
 				(at 21.59 40.64 180)
 				(length 5.08)
-				(name "D14"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3615,7 +3635,7 @@
 			(pin passive line
 				(at 21.59 38.1 180)
 				(length 5.08)
-				(name "D15"
+				(name "HPB00_CC_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3633,7 +3653,7 @@
 			(pin passive line
 				(at 21.59 35.56 180)
 				(length 5.08)
-				(name "D16"
+				(name "HPB00_CC_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3651,7 +3671,7 @@
 			(pin passive line
 				(at 21.59 33.02 180)
 				(length 5.08)
-				(name "D17"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3669,7 +3689,7 @@
 			(pin passive line
 				(at 21.59 30.48 180)
 				(length 5.08)
-				(name "D18"
+				(name "HPB_CLK0_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3687,7 +3707,7 @@
 			(pin passive line
 				(at 21.59 27.94 180)
 				(length 5.08)
-				(name "D19"
+				(name "HPB_CLK0_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3705,7 +3725,7 @@
 			(pin passive line
 				(at 21.59 25.4 180)
 				(length 5.08)
-				(name "D20"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3723,7 +3743,7 @@
 			(pin passive line
 				(at 21.59 22.86 180)
 				(length 5.08)
-				(name "D21"
+				(name "HPB04_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3741,7 +3761,7 @@
 			(pin passive line
 				(at 21.59 20.32 180)
 				(length 5.08)
-				(name "D22"
+				(name "HPB04_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3759,7 +3779,7 @@
 			(pin passive line
 				(at 21.59 17.78 180)
 				(length 5.08)
-				(name "D23"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3777,7 +3797,7 @@
 			(pin passive line
 				(at 21.59 15.24 180)
 				(length 5.08)
-				(name "D24"
+				(name "HPB17_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3795,7 +3815,7 @@
 			(pin passive line
 				(at 21.59 12.7 180)
 				(length 5.08)
-				(name "D25"
+				(name "HPB17_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3813,7 +3833,7 @@
 			(pin passive line
 				(at 21.59 10.16 180)
 				(length 5.08)
-				(name "D26"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3831,7 +3851,7 @@
 			(pin passive line
 				(at 21.59 7.62 180)
 				(length 5.08)
-				(name "D27"
+				(name "HPC09_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3849,7 +3869,7 @@
 			(pin passive line
 				(at 21.59 5.08 180)
 				(length 5.08)
-				(name "D28"
+				(name "HPC09_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3867,7 +3887,7 @@
 			(pin passive line
 				(at 21.59 2.54 180)
 				(length 5.08)
-				(name "D29"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3885,7 +3905,7 @@
 			(pin passive line
 				(at 21.59 0 180)
 				(length 5.08)
-				(name "D30"
+				(name "HPC01_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3903,7 +3923,7 @@
 			(pin passive line
 				(at 21.59 -2.54 180)
 				(length 5.08)
-				(name "D31"
+				(name "HPC01_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3921,7 +3941,7 @@
 			(pin passive line
 				(at 21.59 -5.08 180)
 				(length 5.08)
-				(name "D32"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3939,7 +3959,7 @@
 			(pin passive line
 				(at 21.59 -7.62 180)
 				(length 5.08)
-				(name "D33"
+				(name "HPC00_CC_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3957,7 +3977,7 @@
 			(pin passive line
 				(at 21.59 -10.16 180)
 				(length 5.08)
-				(name "D34"
+				(name "HPC00_CC_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3975,7 +3995,7 @@
 			(pin passive line
 				(at 21.59 -12.7 180)
 				(length 5.08)
-				(name "D35"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3993,7 +4013,7 @@
 			(pin passive line
 				(at 21.59 -15.24 180)
 				(length 5.08)
-				(name "D36"
+				(name "HPC02_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4011,7 +4031,7 @@
 			(pin passive line
 				(at 21.59 -17.78 180)
 				(length 5.08)
-				(name "D37"
+				(name "HPC02_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4029,7 +4049,7 @@
 			(pin passive line
 				(at 21.59 -20.32 180)
 				(length 5.08)
-				(name "D38"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4047,7 +4067,7 @@
 			(pin passive line
 				(at 21.59 -22.86 180)
 				(length 5.08)
-				(name "D39"
+				(name "HPC04_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4065,7 +4085,7 @@
 			(pin passive line
 				(at 21.59 -25.4 180)
 				(length 5.08)
-				(name "D40"
+				(name "HPC04_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4083,7 +4103,7 @@
 			(pin passive line
 				(at 21.59 -27.94 180)
 				(length 5.08)
-				(name "D41"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4101,7 +4121,7 @@
 			(pin passive line
 				(at 21.59 -30.48 180)
 				(length 5.08)
-				(name "D42"
+				(name "VCCO_HPC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4119,7 +4139,7 @@
 			(pin passive line
 				(at 21.59 -33.02 180)
 				(length 5.08)
-				(name "D43"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4137,7 +4157,7 @@
 			(pin passive line
 				(at 21.59 -35.56 180)
 				(length 5.08)
-				(name "D44"
+				(name "HDB0_CC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4155,7 +4175,7 @@
 			(pin passive line
 				(at 21.59 -38.1 180)
 				(length 5.08)
-				(name "D45"
+				(name "HDB01"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4173,7 +4193,7 @@
 			(pin passive line
 				(at 21.59 -40.64 180)
 				(length 5.08)
-				(name "D46"
+				(name "HDB02"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4191,7 +4211,7 @@
 			(pin passive line
 				(at 21.59 -43.18 180)
 				(length 5.08)
-				(name "D47"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4209,7 +4229,7 @@
 			(pin passive line
 				(at 21.59 -45.72 180)
 				(length 5.08)
-				(name "D48"
+				(name "HDB03"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4227,7 +4247,7 @@
 			(pin passive line
 				(at 21.59 -48.26 180)
 				(length 5.08)
-				(name "D49"
+				(name "HDB04"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4245,7 +4265,7 @@
 			(pin passive line
 				(at 21.59 -50.8 180)
 				(length 5.08)
-				(name "D50"
+				(name "HDB05"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4263,7 +4283,7 @@
 			(pin passive line
 				(at 21.59 -53.34 180)
 				(length 5.08)
-				(name "D51"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4281,7 +4301,7 @@
 			(pin passive line
 				(at 21.59 -55.88 180)
 				(length 5.08)
-				(name "D52"
+				(name "HDC00_CC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4299,7 +4319,7 @@
 			(pin passive line
 				(at 21.59 -58.42 180)
 				(length 5.08)
-				(name "D53"
+				(name "HDC01"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4317,7 +4337,7 @@
 			(pin passive line
 				(at 21.59 -60.96 180)
 				(length 5.08)
-				(name "D54"
+				(name "HDC02"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4335,7 +4355,7 @@
 			(pin passive line
 				(at 21.59 -63.5 180)
 				(length 5.08)
-				(name "D55"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4353,7 +4373,7 @@
 			(pin passive line
 				(at 21.59 -66.04 180)
 				(length 5.08)
-				(name "D56"
+				(name "HDC03"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4371,7 +4391,7 @@
 			(pin passive line
 				(at 21.59 -68.58 180)
 				(length 5.08)
-				(name "D57"
+				(name "HDC04"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4389,7 +4409,7 @@
 			(pin passive line
 				(at 21.59 -71.12 180)
 				(length 5.08)
-				(name "D58"
+				(name "HDC05"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4407,7 +4427,7 @@
 			(pin passive line
 				(at 21.59 -73.66 180)
 				(length 5.08)
-				(name "D59"
+				(name "VCCO_HDC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4425,7 +4445,7 @@
 			(pin passive line
 				(at 21.59 -76.2 180)
 				(length 5.08)
-				(name "D60"
+				(name "VCCO_HDC"
 					(effects
 						(font
 							(size 1.016 1.016)

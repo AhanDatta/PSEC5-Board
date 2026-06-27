@@ -2246,10 +2246,6 @@
 		(at 80.01 48.26)
 		(uuid "39aba6d1-31ab-49a0-9ff1-c16b6e2b5c8a")
 	)
-	(no_connect
-		(at 80.01 53.34)
-		(uuid "7fa64f67-cee1-4875-a116-9963e4215edb")
-	)
 	(polyline
 		(pts
 			(xy 17.78 127) (xy 116.84 127)
@@ -2449,6 +2445,16 @@
 			(type default)
 		)
 		(uuid "7bc3aa81-7ff3-4987-866a-8ff391c36e79")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a50c8ea-709b-4acd-84ba-e68dc2dcb703")
 	)
 	(polyline
 		(pts

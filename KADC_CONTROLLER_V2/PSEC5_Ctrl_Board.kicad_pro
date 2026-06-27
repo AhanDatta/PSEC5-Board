@@ -706,7 +706,7 @@
         "uuid": "165f2ae6-d522-4adf-a6c4-bb137b209d33"
       }
     ],
-    "used_designators": "#PWR122,R125",
+    "used_designators": "R58,R66,R68,R110-111,R130-138,J3,J6,C60,C108,C120-122,C129-148,L1,#PWR65,#PWR67,#PWR123-128,#PWR144-157,U6,U26-29,CR1,Q1-2,TP23-24,TP34-35,FB1-2,MOSFET1",
     "variants": []
   },
   "sheets": [
@@ -729,6 +729,14 @@
     [
       "0e271294-afb4-40f4-a456-ad11d287e722",
       "SOM240_2(1.5)"
+    ],
+    [
+      "f466d282-efd5-4faf-90cd-789f7773e037",
+      "sys_pwr"
+    ],
+    [
+      "7a3358b3-a86f-4e1d-b89e-fa0e1389377a",
+      "pl_pwr"
     ],
     [
       "9bd9ffce-acff-4ff9-8380-cb9ceb30e6db",
