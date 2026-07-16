@@ -2478,16 +2478,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 22.86) (xy 80.01 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2df10f-7bc9-43f4-afd3-abde0555d78a")
-	)
-	(wire
-		(pts
 			(xy 50.8 27.94) (xy 80.01 27.94)
 		)
 		(stroke
@@ -2568,6 +2558,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 22.86) (xy 80.01 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f8b93e-9668-488f-b387-17234aa3f819")
+	)
+	(wire
+		(pts
 			(xy 48.26 33.02) (xy 80.01 33.02)
 		)
 		(stroke
@@ -2596,9 +2596,9 @@
 		)
 		(uuid "fbc05170-0bad-4915-8921-e64dee3d04b5")
 	)
-	(global_label "1V8_Banks"
+	(global_label "PS_1V8"
 		(shape input)
-		(at 62.23 22.86 180)
+		(at 54.61 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2608,7 +2608,7 @@
 		)
 		(uuid "5403fa7f-68b7-43d4-9155-794eb6d5a6c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.1454 22.86 0)
+			(at 44.6701 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

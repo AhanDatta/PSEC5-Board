@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -77,6 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -95,6 +98,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -114,9 +118,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -706,7 +713,7 @@
         "uuid": "165f2ae6-d522-4adf-a6c4-bb137b209d33"
       }
     ],
-    "used_designators": "R58,R66,R68,R110-111,R130-138,J3,J6,C60,C108,C120-122,C129-148,L1,#PWR65,#PWR67,#PWR123-128,#PWR144-157,U6,U26-29,CR1,Q1-2,TP23-24,TP34-35,FB1-2,MOSFET1",
+    "used_designators": "U1,U54-57,C5,C17,C21,C46,C48-58,#PWR50,#PWR64,#PWR69,#PWR76-78,#PWR80-86,#PWR88,#PWR91-92,#PWR94,#PWR250-254,J11,R22-24,R26-28,R74,R76,R78,R84,R100",
     "variants": []
   },
   "sheets": [
@@ -741,6 +748,14 @@
     [
       "9bd9ffce-acff-4ff9-8380-cb9ceb30e6db",
       "adcdac1"
+    ],
+    [
+      "8fe5b1b9-ced8-42bc-a674-ead32ce92914",
+      "i2c"
+    ],
+    [
+      "f2af42a0-2633-4743-b160-f57f4c42b00d",
+      "DisplayPort"
     ],
     [
       "277fb02f-a6ab-4b05-94e6-c516155fbdc1",
