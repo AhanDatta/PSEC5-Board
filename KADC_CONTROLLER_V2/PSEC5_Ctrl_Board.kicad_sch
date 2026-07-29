@@ -1758,6 +1758,52 @@
 		)
 	)
 	(sheet
+		(at 127 22.86)
+		(size 58.42 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "97558a2f-82d4-4672-9778-6e1f23d72091")
+		(property "Sheetname" "ClockAndReset"
+			(at 127 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ClockAndReset.kicad_sch"
+			(at 127 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 49.53 227.33)
 		(size 109.22 43.18)
 		(exclude_from_sim no)
