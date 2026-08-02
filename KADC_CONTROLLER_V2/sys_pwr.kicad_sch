@@ -4538,6 +4538,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 558.8 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1377bae4-49e9-460d-8af4-2ded7fe9b803")
+	)
 	(text "12V Plug"
 		(exclude_from_sim no)
 		(at 145.288 88.392 0)
@@ -4559,6 +4569,16 @@
 			)
 		)
 		(uuid "3109b189-7876-4960-a544-d216c0a42e74")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 558.8 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57e50771-da9f-4e6e-8865-31d4703fab2e")
 	)
 	(text "3.3 Auxiliary Regulator"
 		(exclude_from_sim no)
@@ -4987,12 +5007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcb9be79-3bf7-4770-9bcc-e02132d35a63")
-	)
-	(junction
-		(at 223.52 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd8dcd56-2543-46bb-b64e-9354012d163a")
 	)
 	(junction
 		(at 488.95 104.14)
@@ -6415,16 +6429,6 @@
 			(type default)
 		)
 		(uuid "a4e6ed68-b285-423e-87ad-d9ce60a073be")
-	)
-	(wire
-		(pts
-			(xy 212.09 208.28) (xy 223.52 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72b1d2f-8859-41b6-8c8b-270e3a5269df")
 	)
 	(wire
 		(pts

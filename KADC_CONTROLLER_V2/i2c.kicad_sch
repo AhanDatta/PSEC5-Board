@@ -1785,30 +1785,6 @@
 			)
 		)
 	)
-	(global_label "USB_HUB_SMDAT"
-		(shape output)
-		(at 278.13 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cc408c0-00d1-48d7-861b-b805e486c0f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.7785 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2C_SCK_LS"
 		(shape output)
 		(at 523.24 67.31 0)
@@ -1932,80 +1908,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCK"
-		(shape input)
-		(at 241.3 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "9bd0250f-c135-4ce9-b5bf-92ddc1055c8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.0866 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C_SCK_LS"
-		(shape output)
-		(at 273.05 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "a965b4f9-e45c-4576-be6b-765ef70514db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.0418 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB_HUB_SMCLK"
-		(shape output)
-		(at 278.13 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c125c48f-f97f-4a9a-83ad-30fa459e4869")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.0204 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB_HUB_SMDAT"
 		(shape output)
 		(at 533.4 82.55 0)
@@ -2079,32 +1981,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 241.3 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "cfbfdead-22af-4000-bfd0-f6d29ac1f910")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.3812 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PS_3V3"
 		(shape input)
 		(at 487.68 36.83 90)
@@ -2118,31 +1994,6 @@
 		(uuid "d564d025-1717-4f00-9316-c63e7c080f1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 487.68 26.8901 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C_SDA_LS"
-		(shape output)
-		(at 278.13 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "da251d39-eb80-46d2-9d89-d119f214cdf9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.9404 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

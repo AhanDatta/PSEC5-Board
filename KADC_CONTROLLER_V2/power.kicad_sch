@@ -1124,6 +1124,19 @@
 		)
 		(uuid "0256cc86-9d0d-4f41-bd12-bb18129dc40b")
 	)
+	(text "Analog Power Rails for DUT"
+		(exclude_from_sim no)
+		(at 97.282 20.066 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "031311c6-a73a-4c22-b5a4-fae35282e9f3")
+	)
 	(text "Vmin = 1.735V\nVtyp = 1.798V\nVmax = 1.874V"
 		(exclude_from_sim no)
 		(at 141.986 185.674 0)
@@ -2708,7 +2721,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_5V"
+	(global_label "VDD_BUCK_4V"
 		(shape input)
 		(at 152.4 48.26 180)
 		(fields_autoplaced yes)
@@ -2780,7 +2793,7 @@
 			)
 		)
 	)
-	(global_label "VDD_BUCK_5V"
+	(global_label "VDD_BUCK_4V"
 		(shape input)
 		(at 151.13 107.95 180)
 		(fields_autoplaced yes)
@@ -3578,7 +3591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D6R90_CNK"
+		(property "Footprint" "D6R90F2LFS:D6R90_CNK"
 			(at 171.45 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4800,7 +4813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D6R90_CNK"
+		(property "Footprint" "D6R90F2LFS:D6R90_CNK"
 			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5205,7 +5218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D6R90_CNK"
+		(property "Footprint" "D6R90F2LFS:D6R90_CNK"
 			(at 168.91 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6181,7 +6194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D6R90_CNK"
+		(property "Footprint" "D6R90F2LFS:D6R90_CNK"
 			(at 20.32 189.23 0)
 			(hide yes)
 			(show_name no)
