@@ -3148,10 +3148,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PJ_202AH:PJ-202AH"
-			(body_styles demorgan)
+		(symbol "PJ-202BH:PJ-202BH"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3159,26 +3158,40 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -8.89 6.35 0)
+				(at -7.6243 5.0829 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "PJ-202AH"
-				(at 0 0 0)
+			(property "Value" "PJ-202BH"
+				(at -7.6344 -5.0896 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CONN3_PJ-202_CUD"
+			(property "Footprint" "PJ-202BH:CUI_PJ-202BH"
+				(at 5.588 12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3186,19 +3199,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "PJ-202AH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
@@ -3213,18 +3213,8 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PJ-202AH"
-				(at 0 0 0)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 4.572 14.478 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3232,10 +3222,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "CONN3_PJ-202_CUD"
-				(at 0 0 0)
+			(property "PART_REV" "1.02"
+				(at 2.032 7.112 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3243,27 +3234,28 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "PJ-202AH_1_1"
-				(polyline
-					(pts
-						(xy -17.78 2.54) (xy -17.78 -7.62)
+			(property "MANUFACTURER" "CUI INC"
+				(at 2.286 9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
 				)
+			)
+			(symbol "PJ-202BH_0_0"
 				(polyline
 					(pts
-						(xy -17.78 -7.62) (xy -5.08 -7.62)
+						(xy -5.715 3.81) (xy -1.27 3.81)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3271,11 +3263,11 @@
 					)
 				)
 				(arc
-					(start -12.7 -0.635)
-					(mid -13.3322 0)
-					(end -12.7 0.635)
+					(start -5.715 1.27)
+					(mid -6.9794 2.54)
+					(end -5.715 3.81)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3284,10 +3276,10 @@
 				)
 				(polyline
 					(pts
-						(xy -12.065 -5.08) (xy -11.43 -4.445)
+						(xy -3.81 -1.27) (xy -4.445 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3296,10 +3288,10 @@
 				)
 				(polyline
 					(pts
-						(xy -10.795 -5.08) (xy -11.43 -4.445)
+						(xy -3.175 -2.54) (xy -3.81 -1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3308,10 +3300,10 @@
 				)
 				(polyline
 					(pts
-						(xy -8.89 -3.81) (xy -8.255 -5.08)
+						(xy -1.27 4.445) (xy -1.27 3.81)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3320,10 +3312,10 @@
 				)
 				(polyline
 					(pts
-						(xy -8.255 0.635) (xy -12.7 0.635)
+						(xy -1.27 3.81) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3332,10 +3324,10 @@
 				)
 				(polyline
 					(pts
-						(xy -8.255 -0.635) (xy -12.7 -0.635)
+						(xy -1.27 1.27) (xy -5.715 1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3344,10 +3336,10 @@
 				)
 				(polyline
 					(pts
-						(xy -8.255 -1.27) (xy -8.255 1.27)
+						(xy -1.27 1.27) (xy -1.27 0.635)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3356,10 +3348,10 @@
 				)
 				(polyline
 					(pts
-						(xy -8.255 -1.27) (xy -6.985 -1.27)
+						(xy -1.27 0.635) (xy 0 0.635)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3368,10 +3360,10 @@
 				)
 				(polyline
 					(pts
-						(xy -8.255 -2.54) (xy -8.255 -5.08)
+						(xy 0 4.445) (xy -1.27 4.445)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3380,10 +3372,10 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -3.81) (xy -8.255 -5.08)
+						(xy 0 0.635) (xy 0 4.445)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3392,10 +3384,10 @@
 				)
 				(polyline
 					(pts
-						(xy -6.985 1.27) (xy -8.255 1.27)
+						(xy 0 0) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3404,10 +3396,10 @@
 				)
 				(polyline
 					(pts
-						(xy -6.985 1.27) (xy -6.985 -1.27)
+						(xy 0 -2.54) (xy -3.175 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -3416,326 +3408,66 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -17.78 2.54)
+						(xy 0 -2.54) (xy -0.508 -1.27) (xy 0.508 -1.27) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -6.985 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -8.255 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -10.795 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 180)
+				(pin passive line
+					(at 5.08 2.54 180)
 					(length 5.08)
-					(name "1"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 180)
+				(pin passive line
+					(at 5.08 -2.54 180)
 					(length 5.08)
-					(name "2"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 180)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 5.08)
-					(name "3"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PJ-202AH_1_2"
-				(polyline
-					(pts
-						(xy -12.7 2.54) (xy -12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -7.62) (xy -5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 0) (xy -8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 0) (xy -8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -2.54) (xy -8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -2.54) (xy -8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -5.08) (xy -8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -5.08) (xy -8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4602,6 +4334,16 @@
 		)
 		(uuid "68f95c38-fb1c-4440-a390-7dc79b28896d")
 	)
+	(text "HCJ2512ZT0R00"
+		(exclude_from_sim no)
+		(at 292.608 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b1a2cbd-bfce-4a24-91e0-e698f791a881")
+	)
 	(text "12V Fan Header"
 		(exclude_from_sim no)
 		(at 468.884 25.654 0)
@@ -4623,6 +4365,16 @@
 			)
 		)
 		(uuid "b1f731f4-cc8b-448d-ba7a-79157e3f0048")
+	)
+	(text "2512 - 0 Ohm Resistor\nInto Kria. Remove and install\nAmmeter for current monitoring \nof SOM"
+		(exclude_from_sim no)
+		(at 291.846 206.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf28091c-3bc1-4ea4-8c71-cc823f48f4fa")
 	)
 	(text "SOM 5V Current Monitor"
 		(exclude_from_sim no)
@@ -4757,6 +4509,12 @@
 		(uuid "3692159c-4917-4e5a-b806-9b2ce0e40088")
 	)
 	(junction
+		(at 303.53 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cfa3949-98f7-419b-83c1-784c2670fc90")
+	)
+	(junction
 		(at 261.62 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4881,6 +4639,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cd32e64-bb18-49c1-90d9-c08be4409b9f")
+	)
+	(junction
+		(at 276.86 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fc05bce-0efe-4c80-af2f-e203595eab1c")
 	)
 	(junction
 		(at 107.95 205.74)
@@ -5089,6 +4853,16 @@
 			(type default)
 		)
 		(uuid "03d1f542-e027-47a4-9493-59639058d3c5")
+	)
+	(wire
+		(pts
+			(xy 294.64 198.12) (xy 303.53 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042f79de-3ff3-479f-8cac-bc2f6ad0b139")
 	)
 	(wire
 		(pts
@@ -5489,6 +5263,16 @@
 			(type default)
 		)
 		(uuid "30bcd7c7-1040-4f7b-8a75-15ec77d20c06")
+	)
+	(wire
+		(pts
+			(xy 303.53 198.12) (xy 314.96 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3362ed28-3090-430c-a7cb-b89eca6f2de9")
 	)
 	(wire
 		(pts
@@ -6109,6 +5893,16 @@
 			(type default)
 		)
 		(uuid "7f4bd089-0cab-4e8d-b28a-1bedbc6bfc55")
+	)
+	(wire
+		(pts
+			(xy 276.86 198.12) (xy 289.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811b6ea4-f3ab-4749-9d76-8cd04add2a9a")
 	)
 	(wire
 		(pts
@@ -7407,6 +7201,30 @@
 		(uuid "a8a78702-2a90-46cc-9dac-62f6ef98cbeb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.86 186.1843 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "5V0_SOM"
+		(shape output)
+		(at 314.96 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac3c1fbf-d9a9-48dd-8ffe-46fa01db1194")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.4118 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,6 +8603,126 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
 					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJ-202BH:PJ-202BH")
+		(at 29.21 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5ff4a1-11c6-4430-98b3-b2c6ba51c78f")
+		(property "Reference" "J8"
+			(at 25.9743 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-202BH"
+			(at 25.9743 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PJ-202BH:CUI_PJ-202BH"
+			(at 34.798 99.568 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 33.782 97.282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PART_REV" "1.02"
+			(at 31.242 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI INC"
+			(at 31.496 101.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "49088472-bbca-4777-9043-530b2d078e0e")
+		)
+		(pin "2"
+			(uuid "d5261cd6-9f16-4296-b4c7-224fbdabbdee")
+		)
+		(pin "1"
+			(uuid "b39d9a5a-d075-45fb-849b-be21b1b5aa08")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11945,6 +11883,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 292.1 198.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95f28270-e56f-4454-bda0-176132090eed")
+		(property "Reference" "R141"
+			(at 292.354 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 292.354 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HCJ2512ZT0R00:RES_HCJ2512_STP"
+			(at 292.1 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 292.1 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f699aa9-5f11-4ed4-afc4-08a4b2d1297e")
+		)
+		(pin "1"
+			(uuid "1d59a24a-7fe9-464e-baa7-218a1fe0d8ae")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 114.3 0)
 		(unit 1)
@@ -12136,91 +12153,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PJ_202AH:PJ-202AH")
-		(at 34.29 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6ae1f3c-5507-428c-ac16-3962d2c02104")
-		(property "Reference" "J3"
-			(at 22.86 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PJ-202AH"
-			(at 22.86 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN3_PJ-202_CUD"
-			(at 34.29 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "PJ-202AH"
-			(at 34.29 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1ca56a7-cfe8-4b47-a8a4-cea76236d18d")
-		)
-		(pin "3"
-			(uuid "464f2d8d-49f6-43ad-8d30-88f9682f59f2")
-		)
-		(pin "2"
-			(uuid "f0252985-5543-4549-8b9e-2955a239ada6")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13620,6 +13552,85 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
 					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 303.53 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0ac7df8-f958-4ab4-bacf-fd8679a7d917")
+		(property "Reference" "TP36"
+			(at 306.07 193.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V0_SOM"
+			(at 306.07 196.0879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 308.61 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 303.53 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48f61f11-1268-4692-807e-06c8757f0f5f")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
+					(reference "TP36")
 					(unit 1)
 				)
 			)

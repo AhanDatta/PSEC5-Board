@@ -12707,6 +12707,30 @@
 			)
 		)
 	)
+	(global_label "5V0_SOM"
+		(shape input)
+		(at 142.24 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d4f0b3b-c516-4dea-bb56-99516db27d07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.6918 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape output)
 		(at 190.5 88.9 180)
@@ -12924,54 +12948,6 @@
 			)
 		)
 	)
-	(global_label "5V0_IN"
-		(shape input)
-		(at 200.66 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65d667eb-dc56-45a5-b0dd-9b50d05333f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.2643 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "5V0_IN"
-		(shape input)
-		(at 265.43 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e2b4d5f-5d46-4197-ac9a-4acdaa202969")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.8257 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PS_SRST"
 		(shape input)
 		(at 193.04 60.96 180)
@@ -12996,9 +12972,9 @@
 			)
 		)
 	)
-	(global_label "5V0_IN"
+	(global_label "5V0_SOM"
 		(shape input)
-		(at 142.24 171.45 0)
+		(at 265.43 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13006,9 +12982,9 @@
 			)
 			(justify left)
 		)
-		(uuid "72612356-dd2a-4382-97c0-a5e31d2110e2")
+		(uuid "794e5cf5-a93a-441f-ae5e-baa2a9784286")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6357 171.45 0)
+			(at 276.8818 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13068,6 +13044,30 @@
 			)
 		)
 	)
+	(global_label "5V0_SOM"
+		(shape input)
+		(at 200.66 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c748c88-5697-48a9-8fbf-60f6acb30137")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2082 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GTR_REFCLK2_C2M_N"
 		(shape input)
 		(at 265.43 157.48 0)
@@ -13089,30 +13089,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "5V0_IN"
-		(shape input)
-		(at 58.42 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a727d0a2-fd7d-4799-a524-616534c4d5d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.0243 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -13322,6 +13298,30 @@
 		(uuid "e6e97dc9-9fed-417f-a1bf-326b5fb203db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7134 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "5V0_SOM"
+		(shape input)
+		(at 58.42 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f778f3a4-2d40-4ec8-86b8-20e63e36ee8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9682 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
