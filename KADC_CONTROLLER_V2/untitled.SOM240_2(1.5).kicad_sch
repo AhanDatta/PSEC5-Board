@@ -10613,7 +10613,7 @@
 		)
 		(uuid "ff47189d-8518-4249-a672-cf034acf50f5")
 	)
-	(global_label "1V8_Banks"
+	(global_label "PL_1V8"
 		(shape input)
 		(at 289.56 172.72 0)
 		(fields_autoplaced yes)
@@ -10625,7 +10625,7 @@
 		)
 		(uuid "001f0b2f-cc33-443c-a1df-5a15587940d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.6446 172.72 0)
+			(at 299.3185 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11525,9 +11525,9 @@
 			)
 		)
 	)
-	(global_label "2V5_IO"
+	(global_label "PL_2V5"
 		(shape input)
-		(at 152.4 167.64 0)
+		(at 152.4 167.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11537,7 +11537,7 @@
 		)
 		(uuid "525fae7a-2117-4009-816f-3d7741707abd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7957 167.64 0)
+			(at 152.4 157.8815 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
