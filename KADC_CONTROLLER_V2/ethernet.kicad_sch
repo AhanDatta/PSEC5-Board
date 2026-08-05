@@ -1801,12 +1801,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1814,7 +1812,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1824,8 +1822,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1846,18 +1844,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1868,40 +1855,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1912,7 +1866,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2056,7 +2021,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2079,11 +2044,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2098,10 +2063,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2117,9 +2082,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3401,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 325.12) (xy 452.12 327.66)
+			(xy 449.58 325.12) (xy 449.58 327.66)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 304.8) (xy 452.12 307.34)
+			(xy 449.58 304.8) (xy 449.58 307.34)
 		)
 		(stroke
 			(width 0)
@@ -4931,7 +4896,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 304.8) (xy 452.12 304.8)
+			(xy 458.47 304.8) (xy 449.58 304.8)
 		)
 		(stroke
 			(width 0)
@@ -5191,7 +5156,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 285.75) (xy 452.12 285.75)
+			(xy 458.47 285.75) (xy 449.58 285.75)
 		)
 		(stroke
 			(width 0)
@@ -5521,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 285.75) (xy 452.12 288.29)
+			(xy 449.58 285.75) (xy 449.58 288.29)
 		)
 		(stroke
 			(width 0)
@@ -5621,7 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 325.12) (xy 452.12 325.12)
+			(xy 458.47 325.12) (xy 449.58 325.12)
 		)
 		(stroke
 			(width 0)
@@ -7074,6 +7039,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 463.55 302.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10455ead-6f84-48e4-8f8f-3f8d1541a330")
+		(property "Reference" "Q17"
+			(at 463.55 311.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS806NEH6327XTSA1"
+			(at 463.55 308.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 466.09 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 463.55 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 463.55 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c852edd5-ab52-4fcc-a9e7-944722c80965")
+		)
+		(pin "1"
+			(uuid "611b3a5c-6607-43ae-a12d-5a7a4228e93d")
+		)
+		(pin "2"
+			(uuid "6d5f3d03-54be-4f9a-9597-ddf90b6d375a")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 335.28 222.25 0)
 		(unit 1)
@@ -7306,121 +7353,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
 					(reference "C222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 463.55 302.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15faa15a-f62c-4f1e-b217-d39212129246")
-		(property "Reference" "Q7"
-			(at 463.55 311.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN2310U-7"
-			(at 463.55 308.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 466.09 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 450.85 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 463.55 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 446.405 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 444.5 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 448.31 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ffaeb9b8-6365-40bf-9051-a02a824d88d2")
-		)
-		(pin "3"
-			(uuid "cdb35d09-238a-4cd8-9354-562b2f8785c9")
-		)
-		(pin "1"
-			(uuid "2af355a1-4fa3-4d91-901b-ddf92ec26d1e")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -8389,121 +8321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 463.55 322.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37c7e183-3a4c-4367-bd55-1ca55aea0ad5")
-		(property "Reference" "Q9"
-			(at 463.55 331.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN2310U-7"
-			(at 463.55 328.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 466.09 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 450.85 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 463.55 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 446.405 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 444.5 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 448.31 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "06a4b1e0-67b0-4da1-9f1a-0df0d891532a")
-		)
-		(pin "3"
-			(uuid "e636af6e-5bc0-4529-90f3-0aa9d7f8e34d")
-		)
-		(pin "1"
-			(uuid "d3c46ffb-8261-4f4c-abf3-2a0e879d5ad9")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 367.03 172.72 0)
 		(unit 1)
@@ -9315,7 +9132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 452.12 327.66 0)
+		(at 449.58 327.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9326,7 +9143,7 @@
 		(fields_autoplaced yes)
 		(uuid "6557a673-083e-47fd-a541-6f699bf08c37")
 		(property "Reference" "#PWR0248"
-			(at 452.12 334.01 0)
+			(at 449.58 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,7 +9154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 332.74 0)
+			(at 449.58 332.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9347,7 +9164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 327.66 0)
+			(at 449.58 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,7 +9175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 327.66 0)
+			(at 449.58 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,7 +9186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 327.66 0)
+			(at 449.58 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,7 +10134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L829-1J1T-43_BEL"
+		(property "Footprint" "L829_1J1T_43:L829-1J1T-43_BEL"
 			(at 471.424 207.518 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGZ0048B"
+		(property "Footprint" "DP83867CRRGZR:RGZ0048B"
 			(at 266.954 205.994 0)
 			(hide yes)
 			(show_name no)
@@ -10630,6 +10447,88 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
 					(reference "U53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 463.55 283.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e32ac36-88a0-4fe9-8ab0-5fc9629c637f")
+		(property "Reference" "Q16"
+			(at 463.55 292.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS806NEH6327XTSA1"
+			(at 463.55 289.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 466.09 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 463.55 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 463.55 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f593462c-8811-461c-9ca8-20772c5f7eda")
+		)
+		(pin "1"
+			(uuid "07176337-21e2-4464-b829-c4b67842b1ec")
+		)
+		(pin "2"
+			(uuid "6e97fb13-6106-49b3-b0b8-64cf4ff4be44")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -10875,121 +10774,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
 					(reference "C200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 463.55 283.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "96227aed-1ea2-48d2-8b30-49193b690442")
-		(property "Reference" "Q5"
-			(at 463.55 292.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN2310U-7"
-			(at 463.55 289.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 466.09 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 450.85 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 463.55 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 446.405 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 444.5 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 448.31 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cb46d43d-b0be-4a9d-819b-d06e3d92cdf5")
-		)
-		(pin "3"
-			(uuid "612caae8-9985-4c5b-8dbd-5086bfc83ec5")
-		)
-		(pin "1"
-			(uuid "0f903a38-71cd-410b-b857-03614c0c4afd")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -12210,6 +11994,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 463.55 322.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1ebe8e7-58f4-405e-a627-4bb0cdcb49d4")
+		(property "Reference" "Q18"
+			(at 463.55 331.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS806NEH6327XTSA1"
+			(at 463.55 328.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 466.09 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 463.55 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 463.55 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7feef922-4886-4881-86c6-b8b901d0b8b7")
+		)
+		(pin "1"
+			(uuid "8a8a18b7-e008-4b21-b85e-f1e7cf75d1b3")
+		)
+		(pin "2"
+			(uuid "0a772efb-8dbc-43c5-adc2-b8357dda0833")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/6e9ff0d5-3c45-486c-9945-94fa6223df4a"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 302.26 193.04 0)
 		(unit 1)
@@ -12293,7 +12159,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 452.12 288.29 0)
+		(at 449.58 288.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12304,7 +12170,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5f53aae-318a-4858-b5a2-cd958cf2fbc8")
 		(property "Reference" "#PWR0246"
-			(at 452.12 294.64 0)
+			(at 449.58 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12315,7 +12181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 293.37 0)
+			(at 449.58 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12325,7 +12191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 288.29 0)
+			(at 449.58 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12336,7 +12202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 288.29 0)
+			(at 449.58 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12347,7 +12213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 288.29 0)
+			(at 449.58 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13253,7 +13119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 452.12 307.34 0)
+		(at 449.58 307.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13264,7 +13130,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4b0b9bc-4d99-4dcc-b4e0-4152946f85c7")
 		(property "Reference" "#PWR0247"
-			(at 452.12 313.69 0)
+			(at 449.58 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13275,7 +13141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 312.42 0)
+			(at 449.58 312.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13285,7 +13151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 307.34 0)
+			(at 449.58 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13296,7 +13162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 307.34 0)
+			(at 449.58 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13307,7 +13173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 307.34 0)
+			(at 449.58 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
