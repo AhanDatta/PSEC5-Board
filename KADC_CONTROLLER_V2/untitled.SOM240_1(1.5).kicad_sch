@@ -5779,6 +5779,16 @@
 		)
 		(uuid "8a05b192-3569-47db-a953-61a6fa6724f2")
 	)
+	(text "K26 BOOT MODE SELECT\n\nS1-1 = PS_MODE3\nS1-2 = PS_MODE2\nS1-3 = PS_MODE1\nS1-4 = PS_MODE0\n\nSWITCH ON  = LOGIC 0 / CONNECTED TO GND\nSWITCH OFF = LOGIC 1 / SOM INTERNAL 1.8V PULL-UP\n\nDEFAULT KV260/QSPI32: 0010 = ON, ON, OFF, ON\nPS JTAG BOOT:         0000 = ON, ON, ON, ON\nPRODUCTION eMMC:      0110 = ON, OFF, OFF, ON\nDIRECT SD1 3.0:       1110 = OFF, OFF, OFF, ON\nDIRECT SD1 2.0:       0101 = ON, OFF, ON, OFF\n\nSET SWITCHES ONLY WHILE POWER IS OFF OR PS_POR_B IS ASSERTED.\nRESERVED MODE SETTINGS MUST NOT BE USED."
+		(exclude_from_sim no)
+		(at -30.226 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0cf67d4-84ed-4b96-b07c-b718d68194dc")
+	)
 	(text "JTAG"
 		(exclude_from_sim no)
 		(at 40.386 192.024 0)
