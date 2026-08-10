@@ -2423,12 +2423,6 @@
 		(uuid "6b0fc760-5e56-423a-9a20-00e04de91d38")
 	)
 	(junction
-		(at 270.51 397.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c197775-4b33-4429-9a0a-22ba2293e879")
-	)
-	(junction
 		(at 570.23 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2493,12 +2487,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96ed1099-8171-49b3-bd02-484b6b856458")
-	)
-	(junction
-		(at 467.36 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9710ab83-d311-4039-a703-cdeaf50df3e2")
 	)
 	(junction
 		(at 551.18 43.18)
@@ -2727,12 +2715,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e68f4d5d-7f06-4bd4-b67e-6efd9639903d")
-	)
-	(junction
-		(at 467.36 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e697f347-541d-4de3-9d66-8d9c0d8b5462")
 	)
 	(junction
 		(at 355.6 229.87)
@@ -3010,16 +2992,6 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 43.18) (xy 467.36 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f1128b7-799d-4c8f-9a67-f4a5ae9f75d7")
-	)
-	(wire
-		(pts
 			(xy 21.59 62.23) (xy 21.59 76.2)
 		)
 		(stroke
@@ -3067,16 +3039,6 @@
 			(type default)
 		)
 		(uuid "1321d76f-148b-4981-b9d3-d34e14ba492d")
-	)
-	(wire
-		(pts
-			(xy 467.36 86.36) (xy 492.76 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1322d7b3-8185-4101-8738-ed521cb2d63e")
 	)
 	(wire
 		(pts
@@ -3740,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 43.18) (xy 483.87 43.18)
+			(xy 457.2 43.18) (xy 483.87 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3957,16 +3919,6 @@
 			(type default)
 		)
 		(uuid "5e88e83b-d519-4d53-9652-01e3a3626985")
-	)
-	(wire
-		(pts
-			(xy 270.51 392.43) (xy 270.51 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fd29a76-e88d-4ebc-9f40-9ae5d2926857")
 	)
 	(wire
 		(pts
@@ -4340,16 +4292,6 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 72.39) (xy 467.36 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be90aa8-d59a-4c59-9fee-96ad48a0b9e4")
-	)
-	(wire
-		(pts
 			(xy 370.84 229.87) (xy 370.84 234.95)
 		)
 		(stroke
@@ -4370,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 86.36) (xy 467.36 86.36)
+			(xy 450.85 86.36) (xy 492.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5100,16 +5042,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 397.51) (xy 293.37 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af82c342-e5ab-43fc-8825-6fbb04219652")
-	)
-	(wire
-		(pts
 			(xy 354.33 302.26) (xy 361.95 302.26)
 		)
 		(stroke
@@ -5207,16 +5139,6 @@
 			(type default)
 		)
 		(uuid "b6740224-7479-466c-bf78-a97f5099f45f")
-	)
-	(wire
-		(pts
-			(xy 270.51 383.54) (xy 270.51 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68f1a74-9a0c-444c-b386-996dedba1277")
 	)
 	(wire
 		(pts
@@ -5710,16 +5632,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 397.51) (xy 270.51 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95f2891-bc6b-40e9-8cba-69ec315b471c")
-	)
-	(wire
-		(pts
 			(xy 383.54 44.45) (xy 383.54 46.99)
 		)
 		(stroke
@@ -5897,16 +5809,6 @@
 			(type default)
 		)
 		(uuid "e787745c-3ad2-4d52-890a-c21d41047a04")
-	)
-	(wire
-		(pts
-			(xy 457.2 43.18) (xy 467.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b1310e-3ca3-40de-9d23-56fa6df8c921")
 	)
 	(wire
 		(pts
@@ -6496,30 +6398,6 @@
 	)
 	(global_label "PS_3V3"
 		(shape input)
-		(at 270.51 383.54 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cf9f0a3-a418-43a1-8f15-7aa79f481232")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 373.6001 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PS_3V3"
-		(shape input)
 		(at 307.34 265.43 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6539,30 +6417,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "ETH_PGOOD"
-		(shape output)
-		(at 289.56 351.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "126eb138-8753-43ec-b514-0c255aa88a84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.6891 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -6587,30 +6441,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "ETH_PGOOD"
-		(shape input)
-		(at 265.43 397.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f3c2a92-73a1-4958-9dc2-e060cfcccbfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.5591 397.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7022,30 +6852,6 @@
 			)
 		)
 	)
-	(global_label "ETH_PGOOD"
-		(shape output)
-		(at 293.37 287.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67e40d77-f146-408f-8e4e-224ac3f7b6a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4991 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "5V0_IN"
 		(shape input)
 		(at 22.86 148.59 90)
@@ -7286,6 +7092,30 @@
 			)
 		)
 	)
+	(global_label "CC_PS_PGOOD"
+		(shape output)
+		(at 289.56 351.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce29910c-6438-481e-a7b3-d06c84483be1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.1491 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VCCOEN_PL_M2C"
 		(shape input)
 		(at 49.53 171.45 180)
@@ -7379,6 +7209,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "CC_PS_PGOOD"
+		(shape output)
+		(at 293.37 287.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e703daa5-65c4-41bb-b39e-1661214aa2ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9591 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7726,85 +7580,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7a3358b3-a86f-4e1d-b89e-fa0e1389377a"
 					(reference "#PWR0195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 270.51 389.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01c6692e-202a-4730-9a19-97256e5198ef")
-		(property "Reference" "R210"
-			(at 274.574 389.128 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 273.812 391.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 270.51 389.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 389.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 270.51 389.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1a8a9ba0-ef9c-4929-aa7e-ba2845d5da8a")
-		)
-		(pin "1"
-			(uuid "b5c05a19-2ee3-4925-ae0f-38c2809e7e29")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7a3358b3-a86f-4e1d-b89e-fa0e1389377a"
-					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -11704,85 +11479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 467.36 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c6b8000-5bbe-4a12-a743-94b9169d4eb1")
-		(property "Reference" "R156"
-			(at 471.424 69.088 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 470.662 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 467.36 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 467.36 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 467.36 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bc523306-50ad-4c2c-8d2e-9c18b1208179")
-		)
-		(pin "1"
-			(uuid "c0a9faa9-f84d-45b6-b419-9452456e44d5")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7a3358b3-a86f-4e1d-b89e-fa0e1389377a"
-					(reference "R156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 560.07 63.5 0)
 		(unit 1)
@@ -14458,85 +14154,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7a3358b3-a86f-4e1d-b89e-fa0e1389377a"
 					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 293.37 397.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d349dccf-3f20-4a62-a782-383d1ba83430")
-		(property "Reference" "TP37"
-			(at 295.91 392.9379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ETH_PGOOD"
-			(at 295.91 395.4779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
-			(at 298.45 397.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 397.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 293.37 397.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42d86e12-3bd2-48d3-875d-892a7f96c9ac")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/7a3358b3-a86f-4e1d-b89e-fa0e1389377a"
-					(reference "TP37")
 					(unit 1)
 				)
 			)

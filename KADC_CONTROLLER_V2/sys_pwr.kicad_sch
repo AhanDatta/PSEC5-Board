@@ -4365,6 +4365,16 @@
 		)
 		(uuid "ceeefd42-1458-4897-82ee-29736c12b7df")
 	)
+	(text "Keep TP40 near PWROFF\nAs manual ground to pull low"
+		(exclude_from_sim no)
+		(at 24.13 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed0eb83e-9f67-4feb-8aeb-ef5c27129850")
+	)
 	(junction
 		(at 67.31 276.86)
 		(diameter 0)
@@ -5160,6 +5170,16 @@
 			(type default)
 		)
 		(uuid "22b94b4c-eb34-4c4e-bef1-bac2a16a5556")
+	)
+	(wire
+		(pts
+			(xy 21.59 128.27) (xy 57.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240909af-eddb-4b03-a7ea-dcfe81849105")
 	)
 	(wire
 		(pts
@@ -6383,6 +6403,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 128.27) (xy 13.97 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6d363f-48c9-48eb-b6ba-2bc6e248ac1a")
+	)
+	(wire
+		(pts
 			(xy 173.99 119.38) (xy 171.45 119.38)
 		)
 		(stroke
@@ -6823,16 +6853,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 128.27) (xy 52.07 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9adc20-e9aa-4cde-b7a9-5983bb539783")
-	)
-	(wire
-		(pts
 			(xy 212.09 198.12) (xy 223.52 198.12)
 		)
 		(stroke
@@ -7261,7 +7281,7 @@
 	)
 	(global_label "PWROFF_C2M_B"
 		(shape bidirectional)
-		(at 52.07 128.27 0)
+		(at 57.15 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7271,7 +7291,7 @@
 		)
 		(uuid "3b2a7633-9a5b-4cdb-ac0a-3ff71e4384c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.8017 128.27 0)
+			(at 75.8817 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11702,6 +11722,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 21.59 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bce54fa-1728-4ad8-80b1-efcc7748ef63")
+		(property "Reference" "TP37"
+			(at 24.13 123.6979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWROFF_C2M_B"
+			(at 24.13 126.2379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 26.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 21.59 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "169a3853-c505-4f84-b5a1-9254d9e92544")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 127 0)
 		(unit 1)
@@ -14299,6 +14398,162 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
 					(reference "R135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1cfc279-d54c-43a0-b829-c0bd4f05d2d7")
+		(property "Reference" "#PWR0132"
+			(at 13.97 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d074c013-8645-4337-a6f8-4ad75c207204")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 13.97 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f25f4993-263c-473a-9ee9-a3aae9f2b56d")
+		(property "Reference" "TP40"
+			(at 14.732 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 14.732 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 19.05 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 13.97 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cdc5f2c-5b29-4040-8fe6-8e28b08fd720")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/f466d282-efd5-4faf-90cd-789f7773e037"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
