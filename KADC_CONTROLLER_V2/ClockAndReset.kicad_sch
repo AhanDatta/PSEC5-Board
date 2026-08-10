@@ -2555,6 +2555,12 @@
 		(uuid "97586bb7-97f7-4bde-88f3-a9a89c3f95a7")
 	)
 	(junction
+		(at 525.78 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a52aece8-d02b-45f8-9742-f0d086752bd7")
+	)
+	(junction
 		(at 530.86 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2577,12 +2583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0f47eb9-7878-408e-9110-a44f84f95552")
-	)
-	(junction
-		(at 525.78 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d48ef0f2-b123-4108-b2e2-be7fbe5aa619")
 	)
 	(junction
 		(at 152.4 25.4)
@@ -2784,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 172.72) (xy 525.78 176.53)
+			(xy 525.78 168.91) (xy 525.78 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4200,9 +4200,9 @@
 			)
 		)
 	)
-	(global_label "UTIL_3V3"
+	(global_label "5V0_IN"
 		(shape input)
-		(at 525.78 172.72 90)
+		(at 525.78 168.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4212,7 +4212,7 @@
 		)
 		(uuid "56381a24-cfa5-404f-8083-10c46de512ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 525.78 161.3286 90)
+			(at 525.78 159.5143 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8210,7 +8210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X90-33N-D"
+		(property "Footprint" "SI5332BD08940-GM1:QFN50P500X500X90-33N-D"
 			(at 161.29 166.04 0)
 			(hide yes)
 			(show_name no)
