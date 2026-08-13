@@ -294,10 +294,12 @@
 						)
 					)
 				)
+			)
+			(symbol "5025700893_1_1"
 				(pin unspecified line
-					(at 0 -24.13 0)
+					(at 41.91 -22.86 180)
 					(length 7.62)
-					(name "DETECT_LEVER"
+					(name "GNDTAB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -313,9 +315,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -27.94 0)
+					(at 41.91 -20.32 180)
 					(length 7.62)
-					(name "DETECT_SWITCH"
+					(name "GNDTAB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -323,6 +325,78 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -17.78 180)
+					(length 7.62)
+					(name "GNDTAB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -15.24 180)
+					(length 7.62)
+					(name "GNDTAB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -24.13 0)
+					(length 7.62)
+					(name "DETECT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -12.7 180)
+					(length 7.62)
+					(name "GNDTAB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6674,6 +6748,12 @@
 		(uuid "4385979e-7301-4912-a197-307b18d8bd0e")
 	)
 	(junction
+		(at 433.07 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "447b81e2-f148-488b-8279-b9e8a2210d43")
+	)
+	(junction
 		(at 256.54 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6690,6 +6770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "559918e3-f6fd-4530-9fb9-b5a1cd96f506")
+	)
+	(junction
+		(at 433.07 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69482e93-605c-4a2c-82f6-4dee9f23f5cb")
 	)
 	(junction
 		(at 171.45 104.14)
@@ -6752,6 +6838,12 @@
 		(uuid "b69d652e-d5b9-4d2c-ade5-86a7c8e603ca")
 	)
 	(junction
+		(at 433.07 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87c5d43-59e5-467c-83d3-0f49d5de422e")
+	)
+	(junction
 		(at 346.71 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6774,6 +6866,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0dc8e0-39eb-4fc8-aafd-4743b57dd2df")
+	)
+	(junction
+		(at 433.07 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e3ed19-3e68-46b1-80bd-c09a97043e97")
 	)
 	(junction
 		(at 102.87 90.17)
@@ -6833,6 +6931,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 256.54) (xy 433.07 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071ab720-dca9-4453-886d-b0fb53ecce17")
+	)
+	(wire
+		(pts
 			(xy 209.55 24.13) (xy 245.11 24.13)
 		)
 		(stroke
@@ -6840,6 +6948,16 @@
 			(type default)
 		)
 		(uuid "09759a7d-b590-4303-b3c2-ac4a72988f92")
+	)
+	(wire
+		(pts
+			(xy 433.07 256.54) (xy 433.07 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b31f6a-5761-48f8-bdfe-a1687e6a4fc2")
 	)
 	(wire
 		(pts
@@ -6900,6 +7018,16 @@
 			(type default)
 		)
 		(uuid "1759480b-9ae7-4c9b-9402-9d04a3b28563")
+	)
+	(wire
+		(pts
+			(xy 433.07 254) (xy 433.07 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178ba5ac-fd32-4b2c-8c4d-da22ba3adada")
 	)
 	(wire
 		(pts
@@ -7043,6 +7171,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 246.38) (xy 433.07 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd53224-cbfe-483f-ba07-9c7a3b1cb33b")
+	)
+	(wire
+		(pts
 			(xy 223.52 250.19) (xy 260.35 250.19)
 		)
 		(stroke
@@ -7173,6 +7311,26 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 246.38) (xy 433.07 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a8d5db-14d8-4b57-b126-ad84780f328c")
+	)
+	(wire
+		(pts
+			(xy 421.64 254) (xy 433.07 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fbcfa9-78ed-45d1-975d-0de2850b0a8d")
+	)
+	(wire
+		(pts
 			(xy 209.55 19.05) (xy 245.11 19.05)
 		)
 		(stroke
@@ -7283,6 +7441,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 248.92) (xy 433.07 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58583057-17b4-4432-be4f-41a4d8f851b1")
+	)
+	(wire
+		(pts
 			(xy 317.5 241.3) (xy 317.5 240.03)
 		)
 		(stroke
@@ -7380,16 +7548,6 @@
 			(type default)
 		)
 		(uuid "6677cf55-10a9-4e52-b66c-c7e5456221e6")
-	)
-	(wire
-		(pts
-			(xy 379.73 261.62) (xy 356.87 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68af426d-1d75-48a8-812e-955d7cf6e112")
 	)
 	(wire
 		(pts
@@ -7693,6 +7851,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 251.46) (xy 433.07 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f7fb0c-0d0f-4de0-9f60-2ead808ca764")
+	)
+	(wire
+		(pts
 			(xy 162.56 55.88) (xy 162.56 60.96)
 		)
 		(stroke
@@ -7730,16 +7898,6 @@
 			(type default)
 		)
 		(uuid "99d97333-8cfd-4ae0-8401-354028a1bf46")
-	)
-	(wire
-		(pts
-			(xy 356.87 261.62) (xy 356.87 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc98cc9-752f-43fd-af74-d3626d7ab787")
 	)
 	(wire
 		(pts
@@ -8123,6 +8281,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 248.92) (xy 433.07 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3523897-b558-4787-818d-dca79c10a57f")
+	)
+	(wire
+		(pts
 			(xy 215.9 215.9) (xy 215.9 218.44)
 		)
 		(stroke
@@ -8180,6 +8348,16 @@
 			(type default)
 		)
 		(uuid "d8dc4e30-07c0-4ec7-bfaf-e8fe97a74e3d")
+	)
+	(wire
+		(pts
+			(xy 433.07 251.46) (xy 433.07 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92ef102-9d72-40a4-82de-5089e05d76cc")
 	)
 	(wire
 		(pts
@@ -10199,84 +10377,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 356.87 271.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "199bba33-c72e-4b65-b198-a683ff2a1d2a")
-		(property "Reference" "#PWR0214"
-			(at 356.87 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.87 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9294fdfd-42e7-457d-a12c-53c9fc7b7b97")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
-					(reference "#PWR0214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 411.48 279.4 0)
 		(unit 1)
 		(body_style 1)
@@ -11075,6 +11175,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5025700893:5025700893")
+		(at 379.73 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67d6940b-de19-4b6c-a5a2-d2b316764829")
+		(property "Reference" "J9"
+			(at 400.685 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "5025700893"
+			(at 400.685 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "502570-0893_MOL"
+			(at 410.718 220.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5025700893?display=pdf"
+			(at 409.702 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "dbba9e0c-3bb4-4995-a51d-98aa136baa7c")
+		)
+		(pin "10"
+			(uuid "acd270f7-9c00-4d70-ba19-6e786b34ddda")
+		)
+		(pin "1"
+			(uuid "ad613d69-5ca0-47c3-abf2-0a3310899c54")
+		)
+		(pin "3"
+			(uuid "b5aa0f8d-dbc6-4e62-88a8-83242328b3c0")
+		)
+		(pin "7"
+			(uuid "fdc4debd-fec2-4f9a-bd6e-1f3b07425155")
+		)
+		(pin "4"
+			(uuid "41280e9d-ddcc-4382-83d2-0e728dca388b")
+		)
+		(pin "6"
+			(uuid "438abae3-7d4d-480d-a090-280b8c6c888b")
+		)
+		(pin "12"
+			(uuid "e53e6acf-60f8-45af-8dbb-7d7f13a53743")
+		)
+		(pin "11"
+			(uuid "a259c924-6493-469c-a5aa-da9ec61ca677")
+		)
+		(pin "13"
+			(uuid "299b6527-3311-4b75-a96d-efba0c4bbbf8")
+		)
+		(pin "2"
+			(uuid "8761a46d-cf73-4b11-a79f-99c7d6bae63d")
+		)
+		(pin "8"
+			(uuid "0e2bd9e8-3005-425b-889e-fe45c1a4a431")
+		)
+		(pin "9"
+			(uuid "b54f8fb5-822e-46b4-bf6d-08a3bd7e3aa7")
+		)
+		(pin "14"
+			(uuid "2bbc38d4-c51a-4872-874e-99f62d41ea77")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 107.95 0)
 		(unit 1)
@@ -11391,114 +11609,6 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
 					(reference "C253")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5025700893:5025700893")
-		(at 379.73 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e236a3b-0406-4db7-894b-ff981f9b3161")
-		(property "Reference" "J9"
-			(at 415.29 245.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5025700893"
-			(at 415.29 247.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "5025700893:502570-0893_MOL"
-			(at 410.718 220.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5025700893?display=pdf"
-			(at 409.702 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 379.73 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "25178689-c795-409d-b587-926d26908df5")
-		)
-		(pin "4"
-			(uuid "6dcec7aa-d398-41fa-a34d-1ef27b668a9d")
-		)
-		(pin "1"
-			(uuid "6e81bbd7-27e1-4f6f-98a1-177a0f77bd82")
-		)
-		(pin "5"
-			(uuid "400bfba6-4028-4def-84dd-57cd4b19ccdd")
-		)
-		(pin "2"
-			(uuid "634e3af3-be6d-471a-9b48-3269478a43f3")
-		)
-		(pin "3"
-			(uuid "b95eb689-2010-4c02-af99-e8d670660895")
-		)
-		(pin "6"
-			(uuid "82091388-2d1b-4dfa-8e35-bc82b97d3dca")
-		)
-		(pin "8"
-			(uuid "cc9e81ea-5091-4042-8c29-95f268b64cc3")
-		)
-		(pin "9"
-			(uuid "5132fa50-4077-41fb-94aa-35563ea4e355")
-		)
-		(pin "10"
-			(uuid "86f9389a-c580-4ce0-a062-536ca6e02e96")
-		)
-		(instances
-			(project "PSEC5_Ctrl_Board"
-				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13134,6 +13244,84 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 433.07 279.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7018744-4caa-43db-b2d6-2a17a4228883")
+		(property "Reference" "#PWR0136"
+			(at 433.07 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 433.07 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 433.07 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 433.07 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0112c11-efdb-497e-b7bc-5b70873b8d65")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)

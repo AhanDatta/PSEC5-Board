@@ -291,10 +291,12 @@
 					)
 				)
 			)
+		)
+		(symbol "5025700893_1_1"
 			(pin unspecified line
-				(at 0 -24.13 0)
+				(at 41.91 -22.86 180)
 				(length 7.62)
-				(name "DETECT_LEVER"
+				(name "GNDTAB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -310,9 +312,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -27.94 0)
+				(at 41.91 -20.32 180)
 				(length 7.62)
-				(name "DETECT_SWITCH"
+				(name "GNDTAB2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -320,6 +322,78 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -17.78 180)
+				(length 7.62)
+				(name "GNDTAB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -15.24 180)
+				(length 7.62)
+				(name "GNDTAB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -24.13 0)
+				(length 7.62)
+				(name "DETECT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -12.7 180)
+				(length 7.62)
+				(name "GNDTAB14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
