@@ -1160,6 +1160,16 @@
 		)
 		(uuid "21f9979c-f4b3-4146-94c8-99cec8312d90")
 	)
+	(text "DNP for initial startup\nUse 0R for future firmware\nprogramming of USB hub"
+		(exclude_from_sim no)
+		(at 523.494 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68ecc888-7bd9-4efe-a47f-4df19fcc975b")
+	)
 	(text "TIE TP44 to TP45\nVia a Jumper to write to EEPROM"
 		(exclude_from_sim no)
 		(at 184.912 90.17 0)
@@ -2513,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 526.034 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 526.034 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
