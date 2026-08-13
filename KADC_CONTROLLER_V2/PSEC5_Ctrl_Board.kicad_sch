@@ -564,16 +564,16 @@
 		(uuid "34d8e369-240b-44c4-ba26-a6a25e2ffd56")
 	)
 	(junction
+		(at 370.84 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f43ba9-3ef4-47fd-b09b-53830fb3a0c7")
+	)
+	(junction
 		(at 370.84 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c08898e-80c2-4a5a-815b-13459934ff55")
-	)
-	(junction
-		(at 370.84 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69f8efc0-7e2c-458c-870d-c2502dab3e60")
 	)
 	(junction
 		(at 370.84 158.75)
@@ -947,7 +947,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1096b8d2-8764-43f0-bceb-1536f5a46c79")
 		(property "Reference" "A6"
 			(at 383.54 189.2299 0)
@@ -961,8 +960,7 @@
 			)
 		)
 		(property "Value" "9774050960R"
-			(at 392.43 166.37 0)
-			(hide yes)
+			(at 389.382 189.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1377,7 +1375,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39cd0261-0857-4c83-98f5-412233b200ff")
 		(property "Reference" "A2"
 			(at 383.54 158.7499 0)
@@ -1391,8 +1388,7 @@
 			)
 		)
 		(property "Value" "9774050960R"
-			(at 392.43 135.89 0)
-			(hide yes)
+			(at 389.382 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2187,7 +2183,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4fad76a-4921-4f95-9785-dc2e742b10d9")
 		(property "Reference" "A1"
 			(at 383.54 151.1299 0)
@@ -2201,8 +2196,7 @@
 			)
 		)
 		(property "Value" "9774050960R"
-			(at 392.43 128.27 0)
-			(hide yes)
+			(at 389.382 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2389,7 +2383,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e11906cf-bb29-463f-a850-f73c92db9167")
 		(property "Reference" "A3"
 			(at 383.54 166.3699 0)
@@ -2402,9 +2395,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9774050960R"
-			(at 392.43 143.51 0)
-			(hide yes)
+		(property "Value" "DNP"
+			(at 387.096 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2591,7 +2583,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed8a5a97-0596-4489-ba66-c0fd9f589e80")
 		(property "Reference" "A5"
 			(at 383.54 181.6099 0)
@@ -2605,8 +2596,7 @@
 			)
 		)
 		(property "Value" "9774050960R"
-			(at 392.43 158.75 0)
-			(hide yes)
+			(at 389.636 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2869,7 +2859,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f99fc65f-02bd-4507-aebd-b3ad9a4260b3")
 		(property "Reference" "A4"
 			(at 383.54 173.9899 0)
@@ -2882,9 +2871,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9774050960R"
-			(at 392.43 151.13 0)
-			(hide yes)
+		(property "Value" "DNP"
+			(at 386.842 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
