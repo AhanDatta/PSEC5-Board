@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI5332BD08940_GM1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Skyworks", "SI5332BD08940-GM1" (!) = "", "QFN50P500X500X90-33N-D", "Quad Flat No-Lead", "", "", "", "", "Clock Generators & Support Products Low jitter, 6-output, any-frequency (< 200 MHz), any output clock generator (INT+FRAC)", "https://www.mouser.in/datasheet/2/472/si5332_datasheet-2507478.pdf", "0.9 mm"
+END_PART
+
+END.
