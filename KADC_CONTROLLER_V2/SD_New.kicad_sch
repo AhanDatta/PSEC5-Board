@@ -6742,6 +6742,12 @@
 		(uuid "37970c55-0164-410c-86ba-d5347131d7f4")
 	)
 	(junction
+		(at 213.36 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b09290b-b983-4da8-a7d3-0778550055ed")
+	)
+	(junction
 		(at 283.21 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7461,16 +7467,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 116.84) (xy 179.07 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59b890fb-4824-4e22-a74f-fb97678386d0")
-	)
-	(wire
-		(pts
 			(xy 113.03 237.49) (xy 113.03 232.41)
 		)
 		(stroke
@@ -7478,6 +7474,16 @@
 			(type default)
 		)
 		(uuid "5a0a9d29-5b38-4545-8bc4-84e7f0fc957b")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 219.71 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a93b707-33c3-4dfd-bdf4-f97a6c1a1199")
 	)
 	(wire
 		(pts
@@ -7528,6 +7534,16 @@
 			(type default)
 		)
 		(uuid "63294363-687e-4e19-894f-7b14db4bade6")
+	)
+	(wire
+		(pts
+			(xy 162.56 118.11) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "642015f9-17cf-4144-87c3-4883b6060bd4")
 	)
 	(wire
 		(pts
@@ -7638,6 +7654,16 @@
 			(type default)
 		)
 		(uuid "74075b7e-c913-4218-8da4-15ec81f0810f")
+	)
+	(wire
+		(pts
+			(xy 213.36 115.57) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e57a3d-1957-414a-9620-4d34b4f3f4ec")
 	)
 	(wire
 		(pts
@@ -8081,6 +8107,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 118.11) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b592dc0f-16e1-4c7e-bcb3-eeeebed8d23b")
+	)
+	(wire
+		(pts
 			(xy 330.2 257.81) (xy 379.73 257.81)
 		)
 		(stroke
@@ -8308,6 +8344,16 @@
 			(type default)
 		)
 		(uuid "d3cd1815-d86d-4779-84e5-d82a58ccc0b4")
+	)
+	(wire
+		(pts
+			(xy 213.36 104.14) (xy 213.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4663740-f236-4550-a3cd-fa633d435518")
 	)
 	(wire
 		(pts
@@ -8561,7 +8607,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 162.56 116.84)
+			(xy 162.56 91.44) (xy 162.56 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9125,6 +9171,30 @@
 			)
 		)
 	)
+	(global_label "PS_3V3"
+		(shape input)
+		(at 213.36 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f5c0198-6d8b-46d1-b1a8-6d8629d500a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 94.2001 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SD_CLKA_BB"
 		(shape input)
 		(at 156.21 259.08 0)
@@ -9319,7 +9389,7 @@
 	)
 	(global_label "SD_VDD"
 		(shape output)
-		(at 179.07 116.84 0)
+		(at 219.71 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9329,7 +9399,7 @@
 		)
 		(uuid "a6871c1f-b2ce-4bd1-bd00-baa9d279ba4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.1309 116.84 0)
+			(at 229.7709 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,6 +11522,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 213.36 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "712ee9ef-7c12-40c0-8fde-a726d3222933")
+		(property "Reference" "R222"
+			(at 219.71 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 218.694 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db40eddd-d6a9-438a-806e-237f8f9ec8fb")
+		)
+		(pin "1"
+			(uuid "9cc23658-3e95-43c7-9053-e3f56fd4314f")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
+					(reference "R222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 115.57 90.17 0)
 		(unit 1)
@@ -13322,6 +13473,87 @@
 			(project "PSEC5_Ctrl_Board"
 				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 204.47 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee1cccc3-b087-4058-ab2f-b5005a54962b")
+		(property "Reference" "R221"
+			(at 207.264 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 205.7399 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 204.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 204.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "026e9e5e-1711-4573-8684-c806cb214395")
+		)
+		(pin "1"
+			(uuid "bcb834a3-d3b7-41c7-ba25-90ab71d781d3")
+		)
+		(instances
+			(project "PSEC5_Ctrl_Board"
+				(path "/165f2ae6-d522-4adf-a6c4-bb137b209d33/1f6d7a03-cfad-4370-8d2b-49ab19e248d8/15f57d5c-54b3-4ba8-a361-8040b738c0f2"
+					(reference "R221")
 					(unit 1)
 				)
 			)
