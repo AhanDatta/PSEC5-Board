@@ -3076,6 +3076,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PI4ULS3V4857GEAEX:PI4ULS3V4857GEAEX"
 			(pin_names
 				(offset 0.254)
@@ -3721,12 +3820,6 @@
 		(uuid "aaef06e4-5922-456a-97b4-7eb690241a31")
 	)
 	(junction
-		(at 101.6 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02a47835-4052-4fec-8d91-6a5522c03340")
-	)
-	(junction
 		(at 307.34 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3745,18 +3838,6 @@
 		(uuid "35775ebb-bbdb-4ba1-842e-92475d96af04")
 	)
 	(junction
-		(at 101.6 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "493cccea-5509-4f12-82ed-c359c92126e7")
-	)
-	(junction
-		(at 101.6 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c36fc71-0313-400c-8956-cba7ed2bb22f")
-	)
-	(junction
 		(at 203.2 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3769,10 +3850,28 @@
 		(uuid "5c53d598-ef57-4d02-8c12-93df96ac05a4")
 	)
 	(junction
+		(at 101.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63219935-4047-4610-86df-c790a8ac5c3f")
+	)
+	(junction
 		(at 276.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65cf1ee7-7c3a-481b-aebd-9c60736acaf1")
+	)
+	(junction
+		(at 101.6 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669914c0-ec62-4a63-8abe-ec7fe6b41fda")
+	)
+	(junction
+		(at 101.6 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "700df33d-0233-4a9f-ada7-9a2f00de0a94")
 	)
 	(junction
 		(at 290.83 88.9)
@@ -3811,10 +3910,10 @@
 		(uuid "efc1f89a-4368-4fd4-b3db-9b8ae7baaaeb")
 	)
 	(junction
-		(at 101.6 110.49)
+		(at 101.6 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd768de5-d8d0-4505-bb88-381484458e2c")
+		(uuid "f7200724-22cc-4346-a40b-3477db39a97b")
 	)
 	(no_connect
 		(at 220.98 71.12)
@@ -3862,6 +3961,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 110.49) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fdc468-28ca-498a-9e2e-7e71030b63b3")
+	)
+	(wire
+		(pts
 			(xy 382.27 77.47) (xy 393.7 77.47)
 		)
 		(stroke
@@ -3902,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 110.49) (xy 101.6 121.92)
+			(xy 101.6 107.95) (xy 101.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3929,16 +4038,6 @@
 			(type default)
 		)
 		(uuid "186ee675-8100-4d25-a0cf-60cbfb294366")
-	)
-	(wire
-		(pts
-			(xy 93.98 92.71) (xy 116.84 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a859caf-448c-4df2-a512-ef2354b92248")
 	)
 	(wire
 		(pts
@@ -3992,6 +4091,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5a2bda-86b6-42a9-b79a-cc723abe4149")
+	)
+	(wire
+		(pts
 			(xy 68.58 50.8) (xy 68.58 53.34)
 		)
 		(stroke
@@ -4019,6 +4128,16 @@
 			(type default)
 		)
 		(uuid "331043da-f6fa-47e2-8078-f5854edb62de")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358f1ca4-4d4e-472b-b0c2-6b9790e6767b")
 	)
 	(wire
 		(pts
@@ -4112,16 +4231,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 110.49) (xy 93.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e681d12-0d44-4895-b410-9c47371073d4")
-	)
-	(wire
-		(pts
 			(xy 266.7 82.55) (xy 340.36 82.55)
 		)
 		(stroke
@@ -4162,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 101.6 74.93)
+			(xy 93.98 74.93) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4262,6 +4371,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7a0c25-837e-4525-8bb2-c3d94d4ce66b")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7218f44c-41ef-44af-b8dd-15fc52960a90")
+	)
+	(wire
+		(pts
 			(xy 209.55 46.99) (xy 209.55 49.53)
 		)
 		(stroke
@@ -4269,16 +4398,6 @@
 			(type default)
 		)
 		(uuid "755ac317-3dff-49bc-9a7b-2f590313489b")
-	)
-	(wire
-		(pts
-			(xy 101.6 107.95) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7852e68a-4221-4c74-85fd-8e5e6dcd516e")
 	)
 	(wire
 		(pts
@@ -4339,16 +4458,6 @@
 			(type default)
 		)
 		(uuid "83b126b9-4e73-41a6-ad22-d9d1f3b732f5")
-	)
-	(wire
-		(pts
-			(xy 101.6 74.93) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "841196a5-3955-463b-8b20-9314efe26437")
 	)
 	(wire
 		(pts
@@ -4522,13 +4631,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 101.6 80.01)
+			(xy 93.98 80.01) (xy 111.76 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aeafe018-5e51-46d1-9668-52dc76f4ec42")
+	)
+	(wire
+		(pts
+			(xy 101.6 102.87) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53aa939-6894-4f91-8e3f-38a5b11fa754")
 	)
 	(wire
 		(pts
@@ -4542,33 +4661,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 80.01) (xy 101.6 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6568d6b-6347-454d-a8bd-7c970fb2f75b")
-	)
-	(wire
-		(pts
-			(xy 93.98 87.63) (xy 116.84 87.63)
+			(xy 93.98 87.63) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b835387c-6a5e-4798-b1e4-fcc633af8e17")
-	)
-	(wire
-		(pts
-			(xy 101.6 85.09) (xy 101.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d36eb4-784a-4e54-b70c-511a3ecdce99")
 	)
 	(wire
 		(pts
@@ -4589,16 +4688,6 @@
 			(type default)
 		)
 		(uuid "bfb10f6e-7f6c-41af-8431-d548e82ee5ed")
-	)
-	(wire
-		(pts
-			(xy 93.98 102.87) (xy 116.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c11a282b-f1c8-497a-9e51-6746bb3563d4")
 	)
 	(wire
 		(pts
@@ -4682,6 +4771,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 97.79) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbf5d25-5199-47e0-980c-c30ade0bd65e")
+	)
+	(wire
+		(pts
 			(xy 68.58 68.58) (xy 68.58 72.39)
 		)
 		(stroke
@@ -4712,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 101.6 85.09)
+			(xy 93.98 85.09) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4742,13 +4841,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 116.84 97.79)
+			(xy 101.6 107.95) (xy 101.6 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef60254f-a296-444b-97d1-5bd7150bec65")
+		(uuid "f58cf1a4-aee0-401a-9e5a-7c409d9886dd")
 	)
 	(global_label "SD_DAT0A_BB"
 		(shape output)
@@ -4774,9 +4873,9 @@
 			)
 		)
 	)
-	(global_label "SD_CMDA_BB"
+	(global_label "SD_DAT0A_BB"
 		(shape input)
-		(at 116.84 87.63 0)
+		(at 111.76 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4784,9 +4883,9 @@
 			)
 			(justify left)
 		)
-		(uuid "16888cec-ebf3-4d68-959b-d8cb2c28fe94")
+		(uuid "07a89243-5b65-4da7-8e93-2e5cede5da0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8599 87.63 0)
+			(at 127.3242 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4819,30 +4918,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SD_DAT0A_BB"
-		(shape input)
-		(at 116.84 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cc3ca02-a68b-4d45-b4e7-56088d308c70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4968,7 +5043,7 @@
 	)
 	(global_label "SD_DAT2A_BB"
 		(shape input)
-		(at 116.84 97.79 0)
+		(at 118.11 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4976,9 +5051,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5efe0069-25e9-4c75-88cc-fe202257db6e")
+		(uuid "60313472-4621-49db-907b-6b3f81a1ae18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 97.79 0)
+			(at 133.6742 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,30 +5233,6 @@
 			)
 		)
 	)
-	(global_label "SD_SEL_BB"
-		(shape input)
-		(at 116.84 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93a405d0-e617-4863-bf7d-36ce078362d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1665 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SD_CLKA_BB"
 		(shape output)
 		(at 184.15 81.28 180)
@@ -5302,30 +5353,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT1A_BB"
-		(shape input)
-		(at 116.84 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ccf255ba-1729-4d0b-970c-9e483f1a3b56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SD_VDD"
 		(shape output)
 		(at 111.76 67.31 0)
@@ -5374,6 +5401,30 @@
 			)
 		)
 	)
+	(global_label "SD_DAT1A_BB"
+		(shape input)
+		(at 111.76 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea68afcd-db45-4b90-8daf-788103802c0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3242 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SD_VDD"
 		(shape input)
 		(at 331.47 64.77 180)
@@ -5395,6 +5446,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SD_SEL_BB"
+		(shape input)
+		(at 111.76 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f18ec4fe-5e6b-4e26-9dae-ef676dec5cd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.0865 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SD_CMDA_BB"
+		(shape input)
+		(at 116.84 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcff8103-d3ac-4d3d-acc0-f9430a9727b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.8599 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5796,6 +5895,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 173.99 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e29e12-b8d8-4a84-9d06-ad0575d3415e")
+		(property "Reference" "H2"
+			(at 176.53 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 173.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 173.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SD_Breakout"
+				(path "/a87817d0-bfc9-4e63-b6f9-bc4a5c339b46"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 173.99 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bb3d4a1-3632-4901-ab2b-f8d7893beeaf")
+		(property "Reference" "H4"
+			(at 176.53 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 173.99 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 173.99 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SD_Breakout"
+				(path "/a87817d0-bfc9-4e63-b6f9-bc4a5c339b46"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 57.15 0)
 		(unit 1)
@@ -5989,7 +6240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN20_6p6X2p9_HIR"
+		(property "Footprint" "DF40C_20DS_0_4V_51:CONN20_6p6X2p9_HIR"
 			(at 84.836 50.546 0)
 			(hide yes)
 			(show_name no)
@@ -6172,6 +6423,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad670018-bf52-4e3a-95e8-344702d3706a")
+		(property "Reference" "H3"
+			(at 156.21 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 153.67 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SD_Breakout"
+				(path "/a87817d0-bfc9-4e63-b6f9-bc4a5c339b46"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5025700893:5025700893")
 		(at 340.36 64.77 0)
 		(unit 1)
@@ -6203,7 +6530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "502570-0893_MOL"
+		(property "Footprint" "5025700893:502570-0893_MOL"
 			(at 371.348 51.308 0)
 			(hide yes)
 			(show_name no)
@@ -6524,6 +6851,82 @@
 			(project "SD_Breakout"
 				(path "/a87817d0-bfc9-4e63-b6f9-bc4a5c339b46"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3093530-f6ae-4e4a-8ce4-ef2bef288f2e")
+		(property "Reference" "H1"
+			(at 156.21 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SD_Breakout"
+				(path "/a87817d0-bfc9-4e63-b6f9-bc4a5c339b46"
+					(reference "H1")
 					(unit 1)
 				)
 			)
